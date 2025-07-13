@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b07e66885102368e",
+        "id": "b3152b969ca5ff72",
         "type": "tabs",
         "children": [
           {
-            "id": "03da96b6908b8baa",
+            "id": "63593924c81bf13c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "TODO.md",
-                "mode": "source",
-                "source": false
+                "aFile": "TODO.md",
+                "bFile": "TODO.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "TODO"
+              "icon": "diff",
+              "title": "Diff: TODO"
             }
           }
         ]
@@ -72,16 +72,6 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Закладки"
-            }
-          },
-          {
-            "id": "bdce49fe320149d6",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
             }
           }
         ]
@@ -152,22 +142,30 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hacker`s ROADMAP/Повышение привилегий на узлах локальной сети.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Повышение привилегий на узлах локальной сети"
+              "title": "Структура"
+            }
+          },
+          {
+            "id": "bdce49fe320149d6",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,14 +178,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "03da96b6908b8baa",
+  "active": "63593924c81bf13c",
   "lastOpenFiles": [
+    "TODO.md",
     "Hacker`s ROADMAP/Повышение привилегий на узлах локальной сети.md",
     "MITM и Атаки на сетевые протоколы/LLMNR ; NBT-NS ; mDNS Spoofing.md",
     "Secure Develop/CSRF-реализация для защиты.md",
     "Secure Develop/Аутентификация (Отдельный микросервис!).md",
     "Hacker`s ROADMAP/Повышение привилегий (Privillage escalation).md",
-    "TODO.md",
     "Secure Develop/Back2Back взаимодействие.md",
     "Атаки на сетевые сервисы.md",
     "Secure Develop",
