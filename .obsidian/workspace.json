@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "1ad64d9c84c8634a",
+    "type": "split",
+    "children": [
+      {
+        "id": "b07e66885102368e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03da96b6908b8baa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TODO"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "163585c01df73766",
+    "type": "split",
+    "children": [
+      {
+        "id": "431e7134ea9ecec3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01bce3d7d79b33c6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "a2758c5d43b74718",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "4bee0aede4d65fd1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          },
+          {
+            "id": "bdce49fe320149d6",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7057b8b67aa692c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "05c513d8c3df664a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec0f5416e553bdea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Hacker`s ROADMAP/Повышение привилегий на узлах локальной сети.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Повышение привилегий на узлах локальной сети"
+            }
+          },
+          {
+            "id": "26b98dcc08588aaa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Hacker`s ROADMAP/Повышение привилегий на узлах локальной сети.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Повышение привилегий на узлах локальной сети"
+            }
+          },
+          {
+            "id": "fe0976a476b7b70c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "8029b85969a5f51a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Hacker`s ROADMAP/Повышение привилегий на узлах локальной сети.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура Повышение привилегий на узлах локальной сети"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "03da96b6908b8baa",
+  "lastOpenFiles": [
+    "Hacker`s ROADMAP/Повышение привилегий на узлах локальной сети.md",
+    "MITM и Атаки на сетевые протоколы/LLMNR ; NBT-NS ; mDNS Spoofing.md",
+    "Secure Develop/CSRF-реализация для защиты.md",
+    "Secure Develop/Аутентификация (Отдельный микросервис!).md",
+    "Hacker`s ROADMAP/Повышение привилегий (Privillage escalation).md",
+    "TODO.md",
+    "Secure Develop/Back2Back взаимодействие.md",
+    "Атаки на сетевые сервисы.md",
+    "Secure Develop",
+    "SOCIAL ENGENEERING.md",
+    "DNS.md",
+    "NMAP.md",
+    "Веб-атаки.md",
+    "CheetSheet.md",
+    "Поиск EMAIL.md",
+    "Hacker`s ROADMAP/Атаки первичного доступа (Initial access).md",
+    "Hacker`s ROADMAP/Выход за рамки DMZ и ограничений сети.md",
+    "Hacker`s ROADMAP/Закрепление доступа (Persistance).md",
+    "Hacker`s ROADMAP/Захват управления инфраструктурой сети.md",
+    "Hacker`s ROADMAP/Проброс трафика в другие сегменты (Pivoting).md",
+    "Hacker`s ROADMAP/Противодействие обнаружению и реагированию.md",
+    "Hacker`s ROADMAP/Разведка в локальной сети.md",
+    "Hacker`s ROADMAP/Разведка во внешней сети (Recon).md",
+    "MITM и Атаки на сетевые протоколы/ARP-Spoofing.md",
+    "MITM и Атаки на сетевые протоколы/DHCPv6 Spoofing ; Rogue RA.md",
+    "MITM и Атаки на сетевые протоколы",
+    "Images/LLMNR or NBT-NS Spoofing.png",
+    "IS/EDR",
+    "IS/NGFW",
+    "IS/IDS-IPS",
+    "IS/SIEM",
+    "IS",
+    "Images/CheatSheet.png",
+    "Images/Получение первичного доступа.png",
+    "Images/Выход из DMZ.png",
+    "Images",
+    "MITRE ATTACK/Тактики",
+    "MITRE ATTACK/TEMP.md",
+    "MITRE ATTACK",
+    "Добро пожаловать.md"
+  ]
+}

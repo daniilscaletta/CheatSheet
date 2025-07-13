@@ -1,0 +1,32 @@
+#cyberkillchain #mitreattack 
+
+> Цель - собрать максимально возможное количество информации о заказчике, компании, людях, инфраструктуре
+
+**Активная разведка**
+1) amass enum -v -src  -ip -d {domain} - обнаружение активных доменов, поддоменов, IP-адресов, а также другой связанной с инфраструктурой информации
+2) subfinder -d {domain} - Обнаружение поддоменов данного домена
+3) [assetfinder](https://github.com/tomnomnom/assetfinder) - пассивный сканер поддоменов
+Инструменты:
+[Tools](https://github.com/jivoi/awesome-osint?tab=readme-ov-file#-dns)
+
+
+
+**Пассивная разведка**
+1) dnsdumpster - поиск информации о домене: нахождение доменов, почтовых серверов и dns серверов
+2) crt.sh - поиск выпущенных сертификатов на доменное имя
+3) censys.io
+4) pentest-tools.com
+5) shodan.io
+
+Инструменты поиска доменов и поддоменов:
+1) whois
+2) [СПАРК]([https://spark-interfax.ru/](https://spark-interfax.ru/))
+3) [RAPE]([https://apps.db.ripe.net/db-web-ui/fulltextsearch](https://apps.db.ripe.net/db-web-ui/fulltextsearch))
+
+----
+Необходимо проверять доменные имена на действительность их существования, а также выявлять аномалии
+
+
+
+
+

