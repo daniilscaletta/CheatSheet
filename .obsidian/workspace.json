@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b3152b969ca5ff72",
+        "id": "0f0f292e677caad7",
         "type": "tabs",
         "children": [
           {
-            "id": "63593924c81bf13c",
+            "id": "bba0ceb620e2f89b",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "TODO.md",
-                "bFile": "TODO.md",
-                "aRef": ""
+                "file": "TODO.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: TODO"
+              "icon": "lucide-file",
+              "title": "TODO"
             }
           }
         ]
@@ -142,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "TODO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура"
+              "title": "Структура TODO"
             }
           },
           {
@@ -165,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,7 +180,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "63593924c81bf13c",
+  "active": "bba0ceb620e2f89b",
   "lastOpenFiles": [
     "TODO.md",
     "Hacker`s ROADMAP/Повышение привилегий на узлах локальной сети.md",

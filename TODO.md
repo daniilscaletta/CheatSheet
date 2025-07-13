@@ -18,7 +18,6 @@
 - [yersinia](https://github.com/tomac/yersinia)
 - [scapy](https://github.com/secdev/scapy/)
 
-
 - [pivoting Practic](https://hackware.ru/?p=9016#10)
 - DNS tunneling, практика, защита
 
