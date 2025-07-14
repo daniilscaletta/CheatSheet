@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO.md",
+                "file": "Hacker`s ROADMAP/Захват управления инфраструктурой сети (Атака на контроллер домена).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODO"
+              "title": "Захват управления инфраструктурой сети (Атака на контроллер домена)"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO.md",
+                "file": "Hacker`s ROADMAP/Захват управления инфраструктурой сети (Атака на контроллер домена).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура TODO"
+              "title": "Структура Захват управления инфраструктурой сети (Атака на контроллер домена)"
             }
           },
           {
@@ -162,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -200,7 +200,7 @@
     "Hacker`s ROADMAP/Атаки первичного доступа (Initial access).md",
     "Hacker`s ROADMAP/Выход за рамки DMZ и ограничений сети.md",
     "Hacker`s ROADMAP/Закрепление доступа (Persistance).md",
-    "Hacker`s ROADMAP/Захват управления инфраструктурой сети.md",
+    "Hacker`s ROADMAP/Захват управления инфраструктурой сети (Атака на контроллер домена).md",
     "Hacker`s ROADMAP/Проброс трафика в другие сегменты (Pivoting).md",
     "Hacker`s ROADMAP/Противодействие обнаружению и реагированию.md",
     "Hacker`s ROADMAP/Разведка в локальной сети.md",
