@@ -4,24 +4,66 @@
     "type": "split",
     "children": [
       {
-        "id": "0f0f292e677caad7",
+        "id": "98f55ec612b168e8",
         "type": "tabs",
         "children": [
           {
-            "id": "bba0ceb620e2f89b",
+            "id": "5bfbe9e56fdeaeb2",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Без названия.base",
+                "viewName": "Таблица"
+              },
+              "icon": "lucide-table",
+              "title": "Без названия"
+            }
+          },
+          {
+            "id": "91b7a7068817a5b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacker`s ROADMAP/Захват управления инфраструктурой сети (Атака на контроллер домена).md",
+                "file": "Атаки на сетевые сервисы.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Захват управления инфраструктурой сети (Атака на контроллер домена)"
+              "title": "Атаки на сетевые сервисы"
+            }
+          },
+          {
+            "id": "fd2a3c0da113e536",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Сетевая подсистема/Важные подсистемы.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Важные подсистемы"
+            }
+          },
+          {
+            "id": "00ce35552bbb4215",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/AD/Общие понятия.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Общие понятия"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hacker`s ROADMAP/Повышение привилегий на узлах локальной сети.md",
+                "file": "Windows/Сетевая подсистема/Важные подсистемы.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +146,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Повышение привилегий на узлах локальной сети"
+              "title": "Обратные ссылки для Важные подсистемы"
             }
           },
           {
@@ -113,12 +155,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hacker`s ROADMAP/Повышение привилегий на узлах локальной сети.md",
+                "file": "Windows/Сетевая подсистема/Важные подсистемы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Повышение привилегий на узлах локальной сети"
+              "title": "Исходящие ссылки из Важные подсистемы"
             }
           },
           {
@@ -142,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hacker`s ROADMAP/Захват управления инфраструктурой сети (Атака на контроллер домена).md",
+                "file": "Windows/Сетевая подсистема/Важные подсистемы.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Захват управления инфраструктурой сети (Атака на контроллер домена)"
+              "title": "Структура Важные подсистемы"
             }
           },
           {
@@ -162,15 +204,15 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 393.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Создать новую базу": false,
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
       "canvas:Создать новый холст": false,
@@ -180,47 +222,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bba0ceb620e2f89b",
+  "active": "bdce49fe320149d6",
   "lastOpenFiles": [
-    "TODO.md",
-    "Hacker`s ROADMAP/Повышение привилегий на узлах локальной сети.md",
-    "MITM и Атаки на сетевые протоколы/LLMNR ; NBT-NS ; mDNS Spoofing.md",
-    "Secure Develop/CSRF-реализация для защиты.md",
-    "Secure Develop/Аутентификация (Отдельный микросервис!).md",
-    "Hacker`s ROADMAP/Повышение привилегий (Privillage escalation).md",
-    "Secure Develop/Back2Back взаимодействие.md",
-    "Атаки на сетевые сервисы.md",
-    "Secure Develop",
-    "SOCIAL ENGENEERING.md",
-    "DNS.md",
-    "NMAP.md",
-    "Веб-атаки.md",
-    "CheetSheet.md",
-    "Поиск EMAIL.md",
-    "Hacker`s ROADMAP/Атаки первичного доступа (Initial access).md",
-    "Hacker`s ROADMAP/Выход за рамки DMZ и ограничений сети.md",
-    "Hacker`s ROADMAP/Закрепление доступа (Persistance).md",
-    "Hacker`s ROADMAP/Захват управления инфраструктурой сети (Атака на контроллер домена).md",
-    "Hacker`s ROADMAP/Проброс трафика в другие сегменты (Pivoting).md",
-    "Hacker`s ROADMAP/Противодействие обнаружению и реагированию.md",
-    "Hacker`s ROADMAP/Разведка в локальной сети.md",
-    "Hacker`s ROADMAP/Разведка во внешней сети (Recon).md",
-    "MITM и Атаки на сетевые протоколы/ARP-Spoofing.md",
+    "Windows/AD/Общие понятия.md",
+    "HACKER_m25_u3_1.png",
     "MITM и Атаки на сетевые протоколы/DHCPv6 Spoofing ; Rogue RA.md",
-    "MITM и Атаки на сетевые протоколы",
+    "MITM и Атаки на сетевые протоколы/LLMNR ; NBT-NS ; mDNS Spoofing.md",
+    "MITM и Атаки на сетевые протоколы/ARP-Spoofing.md",
+    "Веб-атаки.md",
+    "Поиск EMAIL.md",
+    "Windows/Сетевая подсистема/Важные подсистемы.md",
+    "Атаки на сетевые сервисы.md",
+    "HACKER_m25_u2_1.gif",
+    "Windows/Сетевая подсистема",
+    "Windows/AD",
+    "Без названия.canvas",
+    "Без названия.base",
+    "Без названия 2.base",
+    "Без названия 1.base",
+    "NMAP.md",
+    "Windows",
+    "SOCIAL ENGENEERING.md",
+    "TODO.md",
+    "SAST.md",
+    "keemail.com.md",
+    "DNS.md",
+    "CheetSheet.md",
+    "Secure Develop/Аутентификация (Отдельный микросервис!).md",
+    "Hacker`s ROADMAP/9. Захват управления инфраструктурой сети (Атака на контроллер домена).md",
+    "Hacker`s ROADMAP/8. Повышение привилегий на узлах локальной сети.md",
+    "Hacker`s ROADMAP/7. Разведка в локальной сети.md",
+    "Hacker`s ROADMAP/6. Проброс трафика в другие сегменты (Pivoting).md",
+    "Hacker`s ROADMAP/5. Выход за рамки DMZ и ограничений сети.md",
+    "Hacker`s ROADMAP/4.1 Дополнительные способы повышения привилегий.md",
+    "Hacker`s ROADMAP/3. Закрепление доступа (Persistance).md",
+    "Hacker`s ROADMAP/2. Атаки первичного доступа (Initial access).md",
+    "Hacker`s ROADMAP/1. Разведка во внешней сети (Recon).md",
+    "DevOps/Monitoring",
+    "DevOps",
+    "Images/Захват управления инфраструктурой сети.png",
+    "Images/Повышение привилегий в локальной сети.png",
     "Images/LLMNR or NBT-NS Spoofing.png",
-    "IS/EDR",
-    "IS/NGFW",
-    "IS/IDS-IPS",
-    "IS/SIEM",
-    "IS",
     "Images/CheatSheet.png",
+    "Images/Разветка и компрометация внутренней сети.png",
+    "Images/Проброс сетевого трафика.png",
     "Images/Получение первичного доступа.png",
-    "Images/Выход из DMZ.png",
-    "Images",
-    "MITRE ATTACK/Тактики",
-    "MITRE ATTACK/TEMP.md",
-    "MITRE ATTACK",
-    "Добро пожаловать.md"
+    "Images/Повышение привилегий.png",
+    "Secure Develop",
+    "MITM и Атаки на сетевые протоколы"
   ]
 }

