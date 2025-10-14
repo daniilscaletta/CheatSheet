@@ -4,66 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "98f55ec612b168e8",
+        "id": "dae93c089f2b369b",
         "type": "tabs",
         "children": [
           {
-            "id": "5bfbe9e56fdeaeb2",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Без названия.base",
-                "viewName": "Таблица"
-              },
-              "icon": "lucide-table",
-              "title": "Без названия"
-            }
-          },
-          {
-            "id": "91b7a7068817a5b4",
+            "id": "08df70760020095b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Атаки на сетевые сервисы.md",
+                "file": "Books/ХАКИНГ НА ПРИМЕРАХ. Уязвимости, взлом, защита.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Атаки на сетевые сервисы"
-            }
-          },
-          {
-            "id": "fd2a3c0da113e536",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows/Сетевая подсистема/Важные подсистемы.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Важные подсистемы"
-            }
-          },
-          {
-            "id": "00ce35552bbb4215",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows/AD/Общие понятия.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Общие понятия"
+              "title": "ХАКИНГ НА ПРИМЕРАХ. Уязвимости, взлом, защита"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Rubeus",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -120,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 269.50390243530273
   },
   "right": {
     "id": "7057b8b67aa692c8",
@@ -136,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Сетевая подсистема/Важные подсистемы.md",
+                "file": "Books/ХАКИНГ НА ПРИМЕРАХ. Уязвимости, взлом, защита.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Важные подсистемы"
+              "title": "Обратные ссылки для ХАКИНГ НА ПРИМЕРАХ. Уязвимости, взлом, защита"
             }
           },
           {
@@ -155,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Сетевая подсистема/Важные подсистемы.md",
+                "file": "Books/ХАКИНГ НА ПРИМЕРАХ. Уязвимости, взлом, защита.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Важные подсистемы"
+              "title": "Исходящие ссылки из ХАКИНГ НА ПРИМЕРАХ. Уязвимости, взлом, защита"
             }
           },
           {
@@ -184,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Сетевая подсистема/Важные подсистемы.md",
+                "file": "Books/ХАКИНГ НА ПРИМЕРАХ. Уязвимости, взлом, защита.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Важные подсистемы"
+              "title": "Структура ХАКИНГ НА ПРИМЕРАХ. Уязвимости, взлом, защита"
             }
           },
           {
@@ -224,51 +182,52 @@
   },
   "active": "bdce49fe320149d6",
   "lastOpenFiles": [
-    "Windows/AD/Общие понятия.md",
-    "HACKER_m25_u3_1.png",
-    "MITM и Атаки на сетевые протоколы/DHCPv6 Spoofing ; Rogue RA.md",
-    "MITM и Атаки на сетевые протоколы/LLMNR ; NBT-NS ; mDNS Spoofing.md",
-    "MITM и Атаки на сетевые протоколы/ARP-Spoofing.md",
-    "Веб-атаки.md",
-    "Поиск EMAIL.md",
-    "Windows/Сетевая подсистема/Важные подсистемы.md",
-    "Атаки на сетевые сервисы.md",
-    "HACKER_m25_u2_1.gif",
-    "Windows/Сетевая подсистема",
-    "Windows/AD",
-    "Без названия.canvas",
-    "Без названия.base",
-    "Без названия 2.base",
-    "Без названия 1.base",
-    "NMAP.md",
-    "Windows",
-    "SOCIAL ENGENEERING.md",
-    "TODO.md",
-    "SAST.md",
-    "keemail.com.md",
-    "DNS.md",
+    "Windows/AD/3. Горизонтальное перемещение.md",
+    "Windows/AD/Анализ уязвимостей.md",
+    "ФИНАЛ Тюмень.md",
     "CheetSheet.md",
-    "Secure Develop/Аутентификация (Отдельный микросервис!).md",
-    "Hacker`s ROADMAP/9. Захват управления инфраструктурой сети (Атака на контроллер домена).md",
-    "Hacker`s ROADMAP/8. Повышение привилегий на узлах локальной сети.md",
-    "Hacker`s ROADMAP/7. Разведка в локальной сети.md",
-    "Hacker`s ROADMAP/6. Проброс трафика в другие сегменты (Pivoting).md",
-    "Hacker`s ROADMAP/5. Выход за рамки DMZ и ограничений сети.md",
-    "Hacker`s ROADMAP/4.1 Дополнительные способы повышения привилегий.md",
-    "Hacker`s ROADMAP/3. Закрепление доступа (Persistance).md",
-    "Hacker`s ROADMAP/2. Атаки первичного доступа (Initial access).md",
-    "Hacker`s ROADMAP/1. Разведка во внешней сети (Recon).md",
-    "DevOps/Monitoring",
-    "DevOps",
+    "Веб-атаки.md",
+    "Атаки на сетевые сервисы.md",
+    "Windows/AD/Работа с дампами памяти/Mimikatz.md",
+    "Windows/AD/Атаки/Pass-the-Ticket.md",
+    "Pass-the-Hash.md",
+    "Windows/AD/Атаки/Golden (Silver) Ticket.md",
+    "Windows/AD/Атаки/DCSync.md",
+    "Windows/AD/Атаки/Kerberoasting.md",
+    "Windows/AD/Работа с дампами памяти/Механизмы безопасности Windows.md",
+    "Windows/AD/Механизмы аутентификации в Windows.md",
+    "Windows/AD/Общие понятия.md",
+    "Windows/AD/Безопасность в Windows.md",
+    "Images/SAM.png",
+    "Windows/AD/Работа с дампами памяти",
+    "Best Practics/A&D.md",
+    "Поиск EMAIL.md",
+    "TODO.md",
+    "Windows/AD/Известные уязвимости/BlueKeep.md",
+    "Windows/AD/Известные уязвимости/Zerologon.md",
+    "NMAP.md",
+    "Hacker`s ROADMAP/3.1 Разветка системы.md",
+    "DevOps/Monitoring/Zabbix.md",
+    "Windows/AD/4. Закрепление.md",
+    "Windows/AD/1. Разведка.md",
+    "Windows/AD/Известные уязвимости",
+    "Images/LLMNR_NBT-NS Poisoning.png",
+    "Pentest",
+    "CTF",
+    "Best Practics/DevOps",
+    "Best Practics/Docker Compose",
+    "Best Practics",
+    "Development",
+    "Windows/AD/Атаки",
+    "Images/delegirovanie.png",
+    "Books",
+    "Images/HACKER_m25_u2_1.gif",
+    "Images/HACKER_m25_u3_1.png",
+    "Images/init auth.png",
+    "Без названия.canvas",
     "Images/Захват управления инфраструктурой сети.png",
     "Images/Повышение привилегий в локальной сети.png",
     "Images/LLMNR or NBT-NS Spoofing.png",
-    "Images/CheatSheet.png",
-    "Images/Разветка и компрометация внутренней сети.png",
-    "Images/Проброс сетевого трафика.png",
-    "Images/Получение первичного доступа.png",
-    "Images/Повышение привилегий.png",
-    "Secure Develop",
-    "MITM и Атаки на сетевые протоколы"
+    "Images/CheatSheet.png"
   ]
 }

@@ -1,0 +1,41 @@
+
+## **Subfinder**
+
+```bash
+subfinder -d target.com
+```
+
+```bash
+subfinder -d target.com --all
+```
+
+mass
+```bash
+subfinder -dL domains.txt -o all_subs.txt
+```
+
+```bash
+subfinder -d target.com
+```
+
+
+## **ffuf**
+
+```bash
+ffuf -u "http://FUZZ.target.com" -w subdomains.txt
+```
+
+
+## **amass**
+
+```bash
+amass enum -passive -d target.com
+```
+
+```bash
+amass enum -active -d target.com -brute -w wordlist.txt
+```
+
+```bash
+amass enum -d target.com -brute -w wordlist.txt -max-dns-queries 5000
+```

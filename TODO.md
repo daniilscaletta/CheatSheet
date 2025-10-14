@@ -10,13 +10,23 @@
 	- ICMP Redirect
 	- DHCP spoofing
 	- DNS spoofing
-	- kerberoas
+	- kerberos
 	
 - [bettercap](https://www.bettercap.org/legacy/)(https://github.com/bettercap/bettercap)
 - [ettercap](https://github.com/Ettercap/ettercap)
 - aircrack-NG
 - [yersinia](https://github.com/tomac/yersinia)
 - [scapy](https://github.com/secdev/scapy/)
+- Interceptor
+- mitmf
+
+
+
+- Snort
+- Nessus
+- Airflood
+
+
 
 - [pivoting Practic](https://hackware.ru/?p=9016#10)
 - DNS tunneling, практика, защита
@@ -29,12 +39,6 @@
 
 **Cobalt Strike**
 стейджер `windows/meterpreter_reverse_https` (нагрузка без стейджера)
-
-
-вешать домен
-вешать флару
-рега tg
-
 
 
 LINUX:
@@ -123,6 +127,7 @@ ExitPolicy rejectб *:* # no exits allowed
 ////////////////////////////////////////////
 
 
+Proxychain
 
 
 

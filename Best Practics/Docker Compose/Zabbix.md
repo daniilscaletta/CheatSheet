@@ -1,18 +1,4 @@
-#monitoring #DevOps 
 
-Компоненты:
-
-1) Zabbix-server
-2) Zabbix-agent
-3) Zabbix-proxy
-4) БД
-5) Web GUI
-
-Модели мониторинга:
-1) Пассивная:
-	Agent <- **Server**
-2) Активная (Сложнее)
-	**Agent** -> Server
 
 ```yaml
 services:
@@ -132,11 +118,3 @@ networks:
     driver: bridge
 
 ```
-
-Для Успешного подключения агента:
-
-Monitoring -> Hosts -> Name - > Conf(Hosts) ->  DNS name (Как в Docker compose) -> Через 30 сек Available
-
-
-### Установка плагина для мониторинга уязвимостей
-[Репозиторий](https://github.com/SkillfactoryCoding/HACKER-LateralMovement-zabbix.threat.control)
