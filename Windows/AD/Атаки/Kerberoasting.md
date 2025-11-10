@@ -1,6 +1,6 @@
 #AD #windows #attacks #privillage #kerberos
 
-> Kerberoasting – эффективный метод для извлечения служебных учетных записей из Active Directory от имени обычного пользователя и без отсылки пакеты в целевую систему
+> [Kerberoasting](https://www.securitylab.ru/analytics/496049.php) – эффективный метод для извлечения служебных учетных записей из Active Directory от имени обычного пользователя и без отсылки пакетов в целевую систему
 
 ## Порядок действий 
 

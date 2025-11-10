@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "dae93c089f2b369b",
+        "id": "ae406fcbfe604db5",
         "type": "tabs",
         "children": [
           {
-            "id": "08df70760020095b",
+            "id": "6ceef2dbe357280e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/ХАКИНГ НА ПРИМЕРАХ. Уязвимости, взлом, защита.md",
+                "file": "Best Practics/SSH.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ХАКИНГ НА ПРИМЕРАХ. Уязвимости, взлом, защита"
+              "title": "SSH"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Rubeus",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.50390243530273
+    "width": 274.50390243530273
   },
   "right": {
     "id": "7057b8b67aa692c8",
@@ -166,10 +166,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 393.5
+    "width": 393.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "dashboard-navigator:Open dashboard navigator": false,
       "bases:Создать новую базу": false,
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
@@ -177,57 +179,58 @@
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "bdce49fe320149d6",
+  "active": "6ceef2dbe357280e",
   "lastOpenFiles": [
-    "Windows/AD/3. Горизонтальное перемещение.md",
-    "Windows/AD/Анализ уязвимостей.md",
+    "CTF/Git.md",
+    "CTF/SQLi.md",
+    "Books/ХАКИНГ НА ПРИМЕРАХ. Уязвимости, взлом, защита.md",
+    "NMAP.md",
+    "Hacker`s ROADMAP/4. Повышение привилегий (Privillage escalation).md",
+    "Best Practics/A&D.md",
+    "CTF/PrivEsc.md",
+    "Linux Administration.md",
+    "DNS.md",
+    "DHCP.md",
+    "Images/VLAN Hopping.png",
+    "Images/DNS Cache Poisoning.png",
+    "Pentest/Сетевые Атаки/DNS/DNS Cache poisoning.md",
+    "Pentest/Сетевые Атаки/DNS/DNS flooding.md",
+    "Pentest/Сетевые Атаки/DNS/Rogue DNS Server.md",
+    "Pentest/Сетевые Атаки/DNS/Garbage DNS.md",
+    "Pentest/Сетевые Атаки/DHCP/Rogue DHCP.md",
+    "Pentest/Сетевые Атаки/DHCP/DHCP starvation.md",
+    "Pentest/WIFI.md",
+    "Pentest/VLAN.md",
+    "Windows/Бинарные атаки.md",
+    "Best Practics/DevOps/Terraform.md",
+    "Best Practics/DevOps/Ansible.md",
+    "Best Practics/Git.md",
+    "Best Practics/SSH.md",
     "ФИНАЛ Тюмень.md",
-    "CheetSheet.md",
-    "Веб-атаки.md",
-    "Атаки на сетевые сервисы.md",
-    "Windows/AD/Работа с дампами памяти/Mimikatz.md",
-    "Windows/AD/Атаки/Pass-the-Ticket.md",
-    "Pass-the-Hash.md",
-    "Windows/AD/Атаки/Golden (Silver) Ticket.md",
-    "Windows/AD/Атаки/DCSync.md",
-    "Windows/AD/Атаки/Kerberoasting.md",
-    "Windows/AD/Работа с дампами памяти/Механизмы безопасности Windows.md",
-    "Windows/AD/Механизмы аутентификации в Windows.md",
-    "Windows/AD/Общие понятия.md",
-    "Windows/AD/Безопасность в Windows.md",
+    "SAST.md",
+    "PowerShell/Фреймворки для пентеста.md",
+    "PowerShell",
+    "Pentest/Сетевые Атаки/DHCP",
+    "Pentest/Сетевые Атаки/DNS",
+    "Pentest/Атаки на VLAN",
+    "Images/Pasted image 20251015015620.png",
+    "Images/Pasted image 20251015015250.png",
+    "Images/Pasted image 20251015002806.png",
+    "Pentest/Сетевые Атаки",
     "Images/SAM.png",
     "Windows/AD/Работа с дампами памяти",
-    "Best Practics/A&D.md",
-    "Поиск EMAIL.md",
-    "TODO.md",
-    "Windows/AD/Известные уязвимости/BlueKeep.md",
-    "Windows/AD/Известные уязвимости/Zerologon.md",
-    "NMAP.md",
-    "Hacker`s ROADMAP/3.1 Разветка системы.md",
-    "DevOps/Monitoring/Zabbix.md",
-    "Windows/AD/4. Закрепление.md",
-    "Windows/AD/1. Разведка.md",
     "Windows/AD/Известные уязвимости",
     "Images/LLMNR_NBT-NS Poisoning.png",
     "Pentest",
     "CTF",
     "Best Practics/DevOps",
-    "Best Practics/Docker Compose",
-    "Best Practics",
-    "Development",
-    "Windows/AD/Атаки",
     "Images/delegirovanie.png",
-    "Books",
     "Images/HACKER_m25_u2_1.gif",
     "Images/HACKER_m25_u3_1.png",
-    "Images/init auth.png",
-    "Без названия.canvas",
-    "Images/Захват управления инфраструктурой сети.png",
-    "Images/Повышение привилегий в локальной сети.png",
-    "Images/LLMNR or NBT-NS Spoofing.png",
-    "Images/CheatSheet.png"
+    "Без названия.canvas"
   ]
 }
