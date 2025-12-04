@@ -36,7 +36,7 @@ Host internal-server
 Достаточно одной команды ssh internal-server, и соединение пройдёт через bastion автоматически
 
 
-### Port Forwarding
+### Tunneling
 
 Доступ к удаленному через локальный
 localhost:8080 -> server:80

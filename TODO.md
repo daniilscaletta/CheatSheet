@@ -22,6 +22,11 @@
 
 
 
+K8s swarm nginx caddy podman uv taskfile podman postman
+
+
+WIFI ATTACK
+
 - Snort
 - Nessus
 - Airflood
@@ -68,27 +73,6 @@ webAuthn
 	2) trusted types как защита от XSS 
 	3) Как настроить регулярное обновление любой фичи: библы, фреймворка
 	4) back2back передача данных
-
-
-
-
-
-
-написать скрипты на Python
-1) [x] **Port Scanner (асинхронный)** — быстрый TCP/UDP сканер на `asyncio/socket`
-2) [x] **HTTP Header Analyzer** — проверка security-заголовков (CSP, HSTS, X-Frame-Options и т.д.).
-3) [x] **Subdomain Bruteforcer** — перебор поддоменов через словарь и DNS-запросы.
-4) [x] **Directory/File Bruteforcer (Web Fuzzer)** — поиск скрытых директорий/файлов на вебе.
-5) [ ] **Login Brute/Password Spray Script** — перебор логинов/паролей (с прокси и ротацией User-Agent).
-6) [ ] **XSS Payload Injector** — массовая проверка параметров сайта на XSS.
-7) [ ] **Simple Exploit Template** — каркас для написания эксплойтов (запрос + payload + проверка результата).
-8) [ ] **Redis Misconfig Checker** — поиск открытых Redis, проверка версии и дамп ключей.
-9) [ ] **SMB/FTP Anonymous Login Checker** — тест анонимного входа в общие сервисы.
-10) [ ] **ARP Spoofer / MITM Sniffer** — ARP-spoof атака и перехват трафика (`scapy`).
-
-
-
-
 
 
 ////////////////////TOR////////////////////////
