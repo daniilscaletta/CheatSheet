@@ -1,0 +1,34 @@
+#tool #windows #AD
+
+Инструмент из пакета Samba, необходим для **сбора информации о домене и сервере**
+
+### Условия для применения
+
+1) SMB Доступ
+```bash
+445/tcp open  microsoft-ds
+139/tcp open  netbios-ssn
+```
+2) RPC Доступ
+```bash
+135/tcp open  msrpc
+49153/tcp open  msrpc
+49156/tcp open  msrpc
+49157/tcp open  msrpc
+```
+
+### Применение 
+```bash
+rpcclient -U user%password ip
+```
+
+### Эксплуатация 
+
+Основные команды
+- `enumdomusers` - список юзеров
+- `enumdomgroups` - список групп
+- `queryuser` - инфа о юзере
+- `lookupname` - SID юзера
+- `netshareenum` - перечисление шар
+- `netsharegetinfo <share>` - инфа о шаре
+- `srvinfo` - инфа о системе

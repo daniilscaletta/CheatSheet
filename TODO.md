@@ -4,34 +4,32 @@
 - атаки для изучения
 	- STP (RSTP, PVSTP, MSTP) spoofing
 	- NDP spoofing
-	- VLAN hopping
 	- SLAAC Attack
 	- Hijacking HSRP (VRRP, CARP)
 	- ICMP Redirect
-	- DHCP spoofing
-	- DNS spoofing
-	- kerberos
-	
-- [bettercap](https://www.bettercap.org/legacy/)(https://github.com/bettercap/bettercap)
-- [ettercap](https://github.com/Ettercap/ettercap)
-- aircrack-NG
-- [yersinia](https://github.com/tomac/yersinia)
-- [scapy](https://github.com/secdev/scapy/)
-- Interceptor
-- mitmf
 
+- Interceptor-ng
+- mitmf
+- pretender
+- mitm6
+- [mitmproxy](https://github.com/mitmproxy/mitmproxy)
+- krbrelayx
+- ldap relay
+
+- [traitor](https://github.com/liamg/traitor)
+- [newtowner](https://github.com/assetnote/newtowner)
+- [WinPwn](https://github.com/S3cur3Th1sSh1t/WinPwn)
+- [Arachni](https://github.com/Arachni/arachni)
+- [Recon-ng](https://github.com/lanmaster53/recon-ng)
+- [Adalance](https://github.com/lkarlslund/Adalanche/)
 
 
 K8s swarm nginx caddy podman uv taskfile podman postman
 
 
-WIFI ATTACK
-
-- Snort
+- Snort/suricata/...
 - Nessus
 - Airflood
-
-
 
 - [pivoting Practic](https://hackware.ru/?p=9016#10)
 - DNS tunneling, практика, защита

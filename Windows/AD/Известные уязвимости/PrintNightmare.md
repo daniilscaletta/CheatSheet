@@ -1,6 +1,6 @@
 #windows #AD #vulneralabylitiesities
-CVE-2021-34527
 
+`CVE-2021-34527` `CVE-2021-1675`
 #### Возникновения уязвимости
 Ошибка в службе диспетчера печати Windows (Print Spooler)
 

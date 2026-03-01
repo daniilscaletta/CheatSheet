@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "ddabfe4465c54801",
+        "id": "9a11ed14cb78f15f",
         "type": "tabs",
         "children": [
           {
-            "id": "8fd5c81cd1c2027f",
+            "id": "82fd84341f1ac1c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/AD/Атаки/DCSync.md",
+                "file": "Windows/AD/Атаки/Unconstrained Delegation​.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DCSync"
-            }
-          },
-          {
-            "id": "8315e12da39b9dbc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ФИНАЛ Тюмень.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ФИНАЛ Тюмень"
+              "title": "Unconstrained Delegation​"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.50390243530273
+    "width": 382.51103591918945
   },
   "right": {
     "id": "7057b8b67aa692c8",
@@ -157,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/ХАКИНГ НА ПРИМЕРАХ. Уязвимости, взлом, защита.md",
+                "file": "Windows/AD/Атаки/Unconstrained Delegation​.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура ХАКИНГ НА ПРИМЕРАХ. Уязвимости, взлом, защита"
+              "title": "Структура Unconstrained Delegation​"
             }
           },
           {
@@ -181,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 393.5,
-    "collapsed": true
+    "width": 393.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,54 +182,54 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8315e12da39b9dbc",
+  "active": "bdce49fe320149d6",
   "lastOpenFiles": [
-    "Поиск EMAIL.md",
-    "Linux Administration.md",
-    "TODO.md",
-    "Images/DCShadow.png",
+    "Windows/AD/Атаки/Shadow Admins.md",
+    "Windows/AD/Атаки/LLMNR , NBT-NS Poisoning.md",
     "Windows/AD/Атаки/Golden (Silver) Ticket.md",
-    "Images/Golden Ticket.png",
-    "Images/NTLMv2 auth.png",
-    "Images/Overpass-the-hash.png",
-    "Windows/AD/Атаки/DCShadow.md",
+    "Windows/AD/Атаки/DLL Hijacking.md",
     "Windows/AD/Атаки/DCSync.md",
-    "Windows/AD/Общие понятия.md",
-    "Windows/AD/Анализ уязвимостей.md",
-    "Windows/AD/Безопасность в Windows.md",
-    "Windows/AD/Механизмы аутентификации в Windows.md",
-    "Windows/AD/3. Горизонтальное перемещение.md",
-    "Windows/AD/4. Закрепление.md",
-    "Windows/Сетевая подсистема/Важные подсистемы.md",
-    "Windows/Аутентификация/NTLM.md",
-    "Windows/AD/Атаки/Pass-the-Hash.md",
-    "Windows/AD/Атаки/Pass-the-Ticket.md",
-    "Windows/AD/1. Разведка.md",
-    "Windows/AD/Атаки/Kerberoasting.md",
-    "Images/NTLM auth.png",
-    "Windows/Аутентификация",
-    "Books/ХАКИНГ НА ПРИМЕРАХ. Уязвимости, взлом, защита.md",
-    "DevOps/Monitoring/Zabbix.md",
-    "DevOps/Monitoring/PLG.md",
-    "OSINT.md",
-    "DNS.md",
-    "ФИНАЛ Тюмень.md",
-    "Веб-атаки.md",
+    "Windows/AD/Атаки/DCShadow.md",
+    "Windows/AD/Атаки/Coerce.md",
+    "Windows/AD/Атаки/ACL Abuze.md",
+    "Windows/AD/Атаки/Unconstrained Delegation​.md",
+    "Windows/AD/Атаки/Relay/Kerberos-Relay.md",
+    "Windows/AD/Атаки/Pass-the/Pass-the-Hash.md",
+    "Windows/AD/Атаки/Pass-the/Pass-the-Key (Overpass-the-hash).md",
+    "Windows/AD/Атаки/Pass-the/Pass-the-Ticket.md",
+    "Images/KRB_AS_REQ.png",
+    "Images/KRB_TGS_REQ.png",
+    "Windows/AD/3. Горизонтальное перемещение (Lat move).md",
+    "Windows/AD/Атаки/Relay/NTLM-Relay.md",
+    "Images/delegirovanie.png",
+    "Windows/AD/Механизмы аутентификации в Windows/Kerberos.md",
+    "Windows/Инструменты/Post-exploitation/Rubeus.md",
     "Атаки на сетевые сервисы.md",
-    "Без названия.canvas",
-    "Images/Alerts for nginx.png",
-    "Images/Pasted image 20251015002806.png",
-    "Images/LLMNR or NBT-NS Spoofing.png",
-    "Images/init auth.png",
+    "Windows/Бинарные атаки.md",
+    "Windows/AD/Commands.md",
+    "Windows/AD/Усиление безопасности AD.md",
+    "Windows/AD/Общие понятия.md",
+    "Windows/AD/Механизмы аутентификации в Windows.md",
+    "Windows/AD/Безопасность в Windows.md",
+    "Windows/AD/Анализ уязвимостей.md",
+    "Windows/AD/Атаки/Roasting/Kerberoasting.md",
+    "Windows/Roadmap AD/Roadmap AD.svg",
     "Images/HACKER_m25_u3_1.png",
-    "Best Practics/Anti DDoS",
-    "PowerShell",
-    "Pentest/Сетевые Атаки/DHCP",
-    "Pentest/Сетевые Атаки/DNS",
-    "Pentest/Атаки на VLAN",
-    "Pentest/Сетевые Атаки",
-    "Windows/AD/Работа с дампами памяти",
-    "Windows/AD/Известные уязвимости",
-    "Pentest"
+    "Images/HACKER_m25_u2_1.gif",
+    "Images/init auth.png",
+    "Images/VLAN Hopping.png",
+    "Images/WPA3 auth.png",
+    "Images/CheatSheet.png",
+    "Windows/Инструменты/Pivoting",
+    "Windows/AD/Атаки/Pass-the",
+    "Windows/AD/Атаки/Roasting",
+    "Windows/AD/Атаки/Relay",
+    "Windows/AD/Механизмы аутентификации в Windows",
+    "Pentest/Wireless/Bluetooth",
+    "Pentest/Wireless",
+    "EMAIL",
+    "Pentest/Сетевые Атаки/IP",
+    "Pentest/Инструменты",
+    "Без названия.canvas"
   ]
 }

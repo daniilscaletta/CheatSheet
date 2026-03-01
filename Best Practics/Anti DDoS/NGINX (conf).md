@@ -1,6 +1,38 @@
 #ddos #nginx 
+## Установка
 
-nginx.conf
+```shell
+apt install curl gnupg2 ca-certificates lsb-release debian-archive-keyring
+```
+
+```shell
+curl https://nginx.org/keys/nginx_signing.key | gpg --dearmor \    | tee /usr/share/keyrings/nginx-archive-keyring.gpg >/dev/null
+```
+
+```shell
+gpg --dry-run --quiet --import --import-options import-show /usr/share/keyrings/nginx-archive-keyring.gpg
+```
+
+```shell
+echo "deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] \http://nginx.org/packages/debian `lsb_release -cs` nginx" \    | tee /etc/apt/sources.list.d/nginx.list
+```
+
+```shell
+echo -e "Package: *\nPin: origin nginx.org\nPin: release o=nginx\nPin-Priority: 900\n" \    | tee /etc/apt/preferences.d/99nginx
+```
+
+```shell
+apt update
+apt install -y nginx
+```
+
+```shell
+nano /etc/hosts
+
+{IP} {server_name}
+```
+
+# nginx.conf
 ```yml
 user www-data;
 worker_processes auto;                # использует все ядра CPU
@@ -25,7 +57,7 @@ http {
     default_type application/octet-stream;
     
     keepalive_timeout 15s;  (15-30)         # время держать keepalive соединение
-	keepalive_requests 1000;
+	keepalive_requests 200;
 	reset_timedout_connection on; # разрешить серверу закрывать соединения с безответными соединениями
 
     # лимиты
@@ -41,7 +73,7 @@ http {
     open_file_cache_errors on;
 
     # proxy buffers — уменьшают лишние syscalls и помогают при больших заголовках
-    proxy_buffer_size 32k; # Не меньше самого большого htt[ response
+    proxy_buffer_size 32k; # Не меньше самого большого http response
     proxy_buffers 8 64k;
 
     # логирование понятное
@@ -49,11 +81,19 @@ http {
     access_log /var/log/nginx/access.log pretty;
 
     gzip on;                            # добавить сжатие (GZIP -> Brotli)
-	gzip_min_length 10240;
-	gzip_proxied expired no-cache no-store private auth;
-	gzip_types text/plain text/css text/xml text/javascript application/x-javascript application/xml;
-    gzip_disable "msie6";
-
+	gzip_min_length 1024;
+	gzip_proxied any;
+	gzip_vary on;
+	gzip_comp_level 5; # уровень сжатия
+	gzip_types
+	    text/plain
+	    text/css
+	    text/xml
+	    application/json
+	    application/javascript
+	    application/xml
+	    application/xml+rss
+	    image/svg+xml;
 
 	# запрет небезопасных/ненужных методов
     map $request_method $allowed_method {
@@ -90,11 +130,6 @@ http {
         if ($allowed_country = no) {          
             return 403;      
         }
-        
-        # Защита от долгих соединений
-	    proxy_connect_timeout 15s;
-	    proxy_send_timeout 15s;
-	    proxy_read_timeout 15s;
 	    
 	    # статические файлы — отдавать из nginx (уменьшает нагрузку на бэкенд)
         location /static/ {
@@ -107,11 +142,17 @@ http {
         location / {
 	
 			# минимальный rate limiting на location уровне
-	        limit_req zone=req_per_ip burst=5 nodelay;
+	        limit_req zone=req_per_ip burst=15 nodelay;
 	        limit_conn conn_per_ip 10;
 			
 	        ...
 	        proxy_pass http://backend_upstream;
+	        
+	                
+	        # Защита от долгих соединений
+		    proxy_connect_timeout 15s;
+		    proxy_send_timeout 15s;
+		    proxy_read_timeout 15s;
 	        ....
 	        
 	        
@@ -142,39 +183,6 @@ http {
     include /etc/nginx/sites-enabled/*;
 }
 
-```
-
-## Установка
-
-```shell
-apt install curl gnupg2 ca-certificates lsb-release debian-archive-keyring
-```
-
-```shell
-curl https://nginx.org/keys/nginx_signing.key | gpg --dearmor \    | tee /usr/share/keyrings/nginx-archive-keyring.gpg >/dev/null
-```
-
-```shell
-gpg --dry-run --quiet --import --import-options import-show /usr/share/keyrings/nginx-archive-keyring.gpg
-```
-
-```shell
-echo "deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] \http://nginx.org/packages/debian `lsb_release -cs` nginx" \    | tee /etc/apt/sources.list.d/nginx.list
-```
-
-```shell
-echo -e "Package: *\nPin: origin nginx.org\nPin: release o=nginx\nPin-Priority: 900\n" \    | tee /etc/apt/preferences.d/99nginx
-```
-
-```shell
-apt update
-apt install -y nginx
-```
-
-```shell
-nano /etc/hosts
-
-{IP} {server_name}
 ```
 
 ## DoS test
