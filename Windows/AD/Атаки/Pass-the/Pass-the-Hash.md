@@ -17,7 +17,26 @@ python3 wmiexec.py -hashes :<NTLM_hash> corp.local/Administrator@TARGET_IP
 evil-winrm -i <IP> -u <user> -H <NTLM hash>
 ```
 
-# Защита 
+# Защита
 
-1) Включить Credential Guard для изоляции процесса LSASS
-2) Мониторить события **Event ID 4624** с **LogonType = 3 (Network)**
+### 1) Если пользователь в группе Protected Users:
+
+Windows:
+- не хранит NT hash в памяти
+- требует AES Kerberos
+- запрещает NTLM
+Overpass‑the‑Hash становится невозможен.
+
+### 2) LSASS protection
+
+Включить RunAsPPL
+LSASS становится protected process.
+Mimikatz не сможет читать память.
+
+### 3) Credential Guard
+
+Функция Windows, которая защищает LSASS.
+Credential Guard:
+- изолирует NT hashes
+- использует virtualization‑based security
+attacker не может извлечь NT hash.

@@ -1,4 +1,5 @@
 #windows #AD #vulneralabylitiesities
+
 CVE-2020-0796
 
 #### Возникновения уязвимости

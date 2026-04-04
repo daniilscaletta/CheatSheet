@@ -1,4 +1,5 @@
-#windows #AD #vulneralabylitiesities
+#windows #AD #vulneralabylitiesities 
+
 CVE-2017-0144
 
 #### Возникновения уязвимости

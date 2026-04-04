@@ -73,6 +73,7 @@ logpath = /var/log/nginx/*error.log
 findetime = 600
 bantime = 600
 maxretry = 5
+# ignoreip - ip, которые не должны быть заблочены
 
 
 [http-get-dos]

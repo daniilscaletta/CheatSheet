@@ -8,24 +8,16 @@
 	- Hijacking HSRP (VRRP, CARP)
 	- ICMP Redirect
 
-- Interceptor-ng
-- mitmf
-- pretender
-- mitm6
-- [mitmproxy](https://github.com/mitmproxy/mitmproxy)
-- krbrelayx
-- ldap relay
-
 - [traitor](https://github.com/liamg/traitor)
 - [newtowner](https://github.com/assetnote/newtowner)
 - [WinPwn](https://github.com/S3cur3Th1sSh1t/WinPwn)
-- [Arachni](https://github.com/Arachni/arachni)
-- [Recon-ng](https://github.com/lanmaster53/recon-ng)
 - [Adalance](https://github.com/lkarlslund/Adalanche/)
 
+- какие команды есть, как работают exec
+- что такое пайпы, как их использовать
+- релэй
 
-K8s swarm nginx caddy podman uv taskfile podman postman
-
+K8s swarm nginx caddy podman uv taskfile postman
 
 - Snort/suricata/...
 - Nessus
@@ -33,7 +25,6 @@ K8s swarm nginx caddy podman uv taskfile podman postman
 
 - [pivoting Practic](https://hackware.ru/?p=9016#10)
 - DNS tunneling, практика, защита
-
 
 - Dynamic routing protocol spoofing (BGP)
 - RIPv2 Routing Table Poisoning
@@ -43,28 +34,19 @@ K8s swarm nginx caddy podman uv taskfile podman postman
 **Cobalt Strike**
 стейджер `windows/meterpreter_reverse_https` (нагрузка без стейджера)
 
-
 LINUX:
 lvm2
 chattr
 useradd/adduser
 lynis
 
-
-СВОЙ OpenVPN (https://habr.com/ru/articles/233971/, https://apps.skillfactory.ru/learning/course/course-v1:SKILLFACTORY+hack_pentest+2020/block-v1:SKILLFACTORY+hack_pentest+2020+type@sequential+block@99b059f96242484b869014a9c21cad6b/block-v1:SKILLFACTORY+hack_pentest+2020+type@vertical+block@93903eaba66b434099e7fe1158ea9bef)
-
+[СВОЙ OpenVPN](https://habr.com/ru/articles/233971/, https://apps.skillfactory.ru/learning/course/course-v1:SKILLFACTORY+hack_pentest+2020/block-v1:SKILLFACTORY+hack_pentest+2020+type@sequential+block@99b059f96242484b869014a9c21cad6b/block-v1:SKILLFACTORY+hack_pentest+2020+type@vertical+block@93903eaba66b434099e7fe1158ea9bef)
 
 ВСЕ ТЕМЫ ПО НОВОЙ В GPT
-
-
 
 «_Best Practies_», например, [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks/).
 nirSoft - сбор Windows Tools, trojan, ...
 Шифрование сообщений почты
-
-
-
-
 
 webAuthn
 	1) метод аутентификации service Worker / замыкания
@@ -73,7 +55,22 @@ webAuthn
 	4) back2back передача данных
 
 
-////////////////////TOR////////////////////////
+---
+BOOKS:
+
+1) Архитекрутра компьютера - Танненбаум
+2) Сети - Олифер | Танненбаум
+3) Операционные системы - Танненбаум | Unix и Linux Руководство Сис Админа
+
+4) Пенетест - 
+	1) Этичный хакинг
+	2) Хакинг на примерах
+	3) Хакинг на C++
+---
+
+
+--- 
+**TOR**
 Цепочка прокси прям из браузера
 https://проксиА: nopm/https://проксиБ:nopmlhttps:/lwww.xakep.ru
 
@@ -106,22 +103,4 @@ ExitPolicy rejectб *:* # no exits allowed
 6) Разные пароли
 7) Оплата только через Bitcoin
 
-////////////////////////////////////////////
-
-
-Proxychain
-
-
-
-
-BOOKS:
-
-1) Архитекрутра компьютера - Танненбаум
-2) Сети - Олифер | Танненбаум
-3) Операционные системы - Танненбаум | Unix и Linux Руководство Сис Админа
-
-4) Пенетест - 
-	1) Этичный хакинг
-	2) Хакинг на примерах
-	3) Хакинг на C++
- 
+---

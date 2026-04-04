@@ -1,18 +1,22 @@
 #windows #AD #attacks 
 
-> Позволяет использовать учетные записи, которые не являются администраторами, но имеют права, позволяющие ими стать
+> Позволяет использовать учетные записи, которые не являются администраторами, но имеют права, позволяющие фактически ими стать
 
 ## 1) PowerView
+
+### Использование PowerView для анализа путей атаки (BloodHound делает это нагляднее)
 ```
-# Использование PowerView для анализа путей атаки (BloodHound делает это нагляднее)
 Get-DomainObjectAcl -ResolveGUIDs | ? { $_.ActiveDirectoryRights -match "GenericAll|WriteDacl" }
 ```
 
 ## 2) BloodHound
 
+Вбивашь в поиск `Domain Admins` и выбираешь функцию 
+`Find Shortest Paths to Domain Admins`. BloodHound покажет цепочку: 
+`User X` -> `GenericWrite` -> `Group Y` -> `WriteDacl` -> `Domain Admin`
 
-# Protect
+Protect
 
 1) Мониторить изменения ACL (**Event ID 5136**) и членства в группах (**Event ID 4728/4729**)
-2) Сканировать AD через BodHound
+2) Сканировать AD через BloodHound
 

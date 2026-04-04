@@ -1,4 +1,5 @@
 #windows #AD #vulneralabylitiesities
+
 CVE-2020-1472
 #### Возникновения уязвимости
 Уязвимость заключается в реализации протокола шифрования AES-CFB8 при аутентификации по _Netlogon Remote Protocol_ (_MS-NRPC_). 

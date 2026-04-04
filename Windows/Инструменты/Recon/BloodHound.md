@@ -34,7 +34,7 @@ bloodhound-python -u 'amaslova' -H <domain> -ns 192.168.2.4 -d codeby.cdb -c all
 
 - ##### Sharphound.exe
 ```bash
-SharpHound.exe -d <domain> -dc <DC> -c All -o C:\Temp\BH
+SharpHound.exe -d <domain> -dc <DC> -c <All/DCOnly> -o C:\Temp\BH
 ```
 
 - ##### PowerShell
@@ -50,3 +50,11 @@ git clone https://github.com/SpecterOps/BloodHound.git
 cd BloodHound
 docker-compose up -d
 ```
+
+
+# Необходимые проверки
+
+1) **`Find Computers with Unsupported Operating Systems`**
+Показывает компьютеры с устаревшим ПО, следует сделать упоминание о них заказчику с целью замены или усиленной изоляции
+
+2) 

