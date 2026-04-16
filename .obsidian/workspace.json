@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2e46a3029037c4f4",
+        "id": "fe3f8bc813bff173",
         "type": "tabs",
         "children": [
           {
-            "id": "a8ea689ba2ff949f",
+            "id": "90172f33383147d9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows/AD/Атаки/DCSync.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "DCSync"
-            }
-          },
-          {
-            "id": "50b2328b0ad8900e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows/Привилегии и права в Windows/Права Группы/Backup Operators.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Backup Operators"
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -92,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.51103591918945
+    "width": 429.5
   },
   "right": {
     "id": "7057b8b67aa692c8",
@@ -196,54 +178,54 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a8ea689ba2ff949f",
+  "active": "90172f33383147d9",
   "lastOpenFiles": [
-    "Windows/Привилегии и права в Windows/Права Группы/Backup Operators.md",
-    "Windows/AD/Атаки/DCSync.md",
-    "Windows/Инструменты/Impacket/SecretsDump.md",
-    "Windows/Привилегии и права в Windows/Права Пользователя/Эксплуатация привилегий.md",
-    "[[DCSync.md",
-    "Windows/Привилегии и права в Windows/Права Группы/Важные группы.md",
-    "Windows/Привилегии и права в Windows.md",
-    "Windows/Привилегии и права в Windows/Права Пользователя/Важные привилегии.md",
-    "Windows/Привилегии и права в Windows/Права Пользователя/О правах и привилегиях.md",
-    "Без названия.md",
-    "Windows/Привилегии и права в Windows/Права Группы",
-    "Windows/Привилегии и права в Windows/Права Пользователя",
-    "Windows/Привилегии и права в Windows",
-    "Windows/Инструменты/Post-exploitation/Mimikatz.md",
-    "Windows/AD/Атаки/Misconfiguration.md",
-    "Windows/Инструменты/Post-exploitation/Rubeus.md",
-    "Windows/Инструменты/Lateral Movement/CrackMapExec.md",
-    "Windows/AD/Credentials/lsass.exe.md",
-    "Windows/AD/3. Повышение привилегий (LPE).md",
-    "Windows/AD/Атаки/Potato Attacks.md",
-    "Windows/AD/Атаки/PrintSpoofer.md",
-    "Windows/Инструменты/Impacket/MSSQLclient.md",
-    "Windows/AD/1. Разведка (Discovery) Enum.md",
-    "Windows/AD/Атаки/LLMNR , NBT-NS Poisoning.md",
-    "Windows/AD/Атаки/Golden (Silver) Ticket.md",
-    "Windows/AD/Атаки/Coerce.md",
-    "Windows/AD/Атаки/ACL Abuze.md",
-    "Windows/AD/Известные уязвимости/PrintNightmare.md",
-    "Windows/AD/Усиление безопасности AD.md",
-    "Pasted image 20260404100844.png",
+    "Templates/~MOC - Templates.md",
+    "50 - DevOps/~MOC - DevOps.md",
+    "80 - Resources/~MOC - Resources.md",
+    "70 - Web Security/~MOC - Web Security.md",
+    "60 - CTF/~MOC - CTF.md",
+    "50 - DevOps/~MOC - DevOps.md",
+    "40 - Blue Team/~MOC - Blue Team.md",
+    "30 - Network/~MOC - Network.md",
+    "20 - Windows & AD/~MOC - Windows & AD.md",
+    "10 - Red Team/~MOC - Red Team.md",
+    "00 - HUB/~MOC - HUB.md",
+    "40 - Blue Team/MOC.md",
+    "80 - Resources/MOC - Resources.md",
+    "70 - Web Security/MOC - Web Security.md",
+    "60 - CTF/MOC - CTF.md",
+    "40 - Blue Team/MOC - Blue Team.md",
+    "30 - Network/MOC - Network.md",
+    "20 - Windows & AD/MOC - Windows & AD.md",
+    "10 - Red Team/MOC - Red Team.md",
+    "00 - HUB/MOC - HUB.md",
+    "10 - Red Team/Цепочки атак/CKC в инфраструктуре компании.png",
+    "ВСЯ БАЗА ЗНАНИЙ.base",
+    "Templates/CTF Write-up.md",
+    "Templates/Техника — Атака.md",
+    "Templates/Протокол — Технология.md",
+    "Templates/Инструмент.md",
+    "Assets/Выход из DMZ.png",
+    "Assets/Захват управления инфраструктурой сети.png",
+    "Windows/AD/ADCS/Аутентификация (PKINIT & Smart Cards).md",
+    "80 - Resources/MOC.md",
+    "00 - HUB/Фреймворки/Тактики",
+    "30 - Network/Беспроводные сети/Wi-Fi/Безопасность/Протоколы",
+    "30 - Network/Беспроводные сети/Wi-Fi/Безопасность",
+    "30 - Network/Беспроводные сети/Wi-Fi/Атаки",
+    "30 - Network/Беспроводные сети/Wi-Fi/aircrack-ng suite",
+    "50 - DevOps/Мониторинг и логирование/Monitoring",
+    "90 - Inbox/Claude Code",
+    "40 - Blue Team/Resume_1.pdf",
+    "10 - Red Team/Exploitation/Сети",
+    "00 - HUB/Дорожные карты/Roadmap AD.svg",
+    "Assets/Оптимизация контекста.png",
+    "Assets/Проверка доступа субъекта к объекту.png",
     "Windows/Roadmap AD/Roadmap AD.svg",
-    "Pentest/Инструменты/Defense",
-    "IS/Honeypot",
-    "IS/СЗ",
-    "IS/Honeypot",
-    "IS/Sandbox",
-    "IS/EPP",
-    "Windows/AD/Hardening",
     "Pentest/Корпоративное проникновение/CKC в инфраструктуре компании.png",
-    "Images/Сопоставление эмоций с фразами.png",
-    "Images/Строение мозга.png",
-    "Снимок экрана 2026-03-12 в 9.57.34 AM.png",
-    "photo_2026-03-09 3.22.40 PM.jpeg",
-    "Images/AD thinking.png",
-    "Images/NTLM very micro.png",
-    "Images/Constrained deleg.png",
+    "Assets/Сопоставление эмоций с фразами.png",
+    "Assets/Строение мозга.png",
     "Без названия.canvas"
   ]
 }
