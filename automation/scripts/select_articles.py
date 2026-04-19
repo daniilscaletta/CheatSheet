@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Weekly OSCP-oriented security articles bot.
 
-Fetches articles from security blogs, uses Claude to select 3 best ones
+Fetches articles from security blogs, selects 3 best ones via keyword scoring
 aligned with OSCP preparation, matches practice machines, and sends to Telegram.
 Also handles spaced repetition reminders (2 weeks and 3 months).
 """
@@ -10,11 +10,10 @@ import json
 import logging
 import os
 import random
-from datetime import date, datetime, timedelta
+import re
+from datetime import date, timedelta
 from pathlib import Path
-from typing import Optional
 
-import anthropic
 import feedparser
 import requests
 from bs4 import BeautifulSoup
@@ -161,44 +160,65 @@ HEADERS = {
     )
 }
 
-SYSTEM_PROMPT = """You are a learning curator for a penetration tester preparing for the OSCP certification.
+# ---------------------------------------------------------------------------
+# Keyword scoring (no Claude API needed)
+# ---------------------------------------------------------------------------
 
-User profile:
-- Strong in: Active Directory attacks, Windows/Linux privilege escalation, network attacks, enumeration, password attacks
-- Currently learning: tunneling/pivoting
-- Weak in: buffer overflow (needs dedicated practice)
-- Goal: OSCP certification
+# Priority order: lower number = higher priority
+DOMAIN_PRIORITY = [
+    "buffer_overflow",
+    "tunneling_pivoting",
+    "active_directory",
+    "web_attacks",
+    "privesc_linux",
+    "privesc_windows",
+    "password_attacks",
+]
 
-OSCP domains priority order:
-1. buffer_overflow (weakest — prioritize if relevant articles exist)
-2. tunneling_pivoting (currently studying — high priority)
-3. active_directory
-4. web_attacks
-5. privesc_linux
-6. privesc_windows
-7. password_attacks
-
-Selection rules:
-- Select exactly 3 articles
-- NEVER select news articles, CVE announcements, product reviews, or marketing content
-- Prefer practical, hands-on technical content with commands and real examples
-- Prefer English articles over Russian when quality is equal
-- If a topic is deep/complex and needs focus → select all 3 on same topic (deep_dive)
-- If articles are introductory/broad → select 3 different topics (variety)
-
-Return ONLY valid JSON, no markdown, no explanation:
-{
-  "session_type": "deep_dive" or "variety",
-  "articles": [
-    {
-      "index": <int, 0-based index from input list>,
-      "oscp_domain": "<domain key from: active_directory, privesc_linux, privesc_windows, web_attacks, buffer_overflow, tunneling_pivoting, password_attacks>",
-      "reason": "<one sentence why selected>",
-      "summary": "<2-sentence technical summary of what the article covers>"
-    },
-    ...
-  ]
-}"""
+DOMAIN_KEYWORDS: dict[str, list[str]] = {
+    "buffer_overflow": [
+        "buffer overflow", "bof", "stack overflow", "ret2libc", "rop chain",
+        "shellcode", "exploit development", "eip", "esp", "immunity debugger",
+        "mona", "offset", "bad chars", "win32", "stack buffer",
+    ],
+    "tunneling_pivoting": [
+        "pivot", "tunnel", "chisel", "proxychains", "sshuttle", "port forward",
+        "lateral movement", "double pivot", "socks proxy", "dynamic port",
+        "ssh tunnel", "network pivoting", "internal network",
+    ],
+    "active_directory": [
+        "active directory", "kerberos", "kerberoasting", "as-rep", "asreproast",
+        "pass the hash", "pass-the-hash", "dcsync", "bloodhound", "ldap",
+        "domain controller", "spn", "golden ticket", "silver ticket",
+        "mimikatz", "rubeus", "impacket", "smb relay", "ntlm", "winrm",
+        "powerview", "sharphound", "delegation", "acl abuse",
+    ],
+    "web_attacks": [
+        "sql injection", "sqli", "lfi", "rfi", "local file inclusion",
+        "remote file inclusion", "file upload", "ssti", "server side template",
+        "command injection", "xss", "ssrf", "xxe", "rce", "web shell",
+        "directory traversal", "path traversal", "php", "burp suite",
+        "web application", "ffuf", "gobuster", "nikto",
+    ],
+    "privesc_linux": [
+        "linux privilege escalation", "linux privesc", "suid", "sudo",
+        "cron job", "capabilities", "writable", "setuid", "linpeas",
+        "linux enumeration", "sudo -l", "pspy", "/etc/passwd", "/etc/shadow",
+        "nfs", "docker escape", "lxd",
+    ],
+    "privesc_windows": [
+        "windows privilege escalation", "windows privesc", "seimpersonate",
+        "juicypotato", "printspoofer", "unquoted service", "always install",
+        "alwaysinstallelevated", "registry", "winpeas", "accesschk",
+        "weak service", "dll hijacking", "token impersonation",
+    ],
+    "password_attacks": [
+        "hashcat", "john the ripper", "password crack", "password spray",
+        "credential", "hash", "ntlm hash", "password reuse", "rockyou",
+        "wordlist", "brute force", "hydra", "medusa", "sam database",
+        "lsass", "secretsdump", "ntds",
+    ],
+}
 
 
 # ---------------------------------------------------------------------------
@@ -260,38 +280,92 @@ def filter_new(articles: list[dict], history: dict) -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
-# Claude selection
+# Keyword-based selection (no external API)
 # ---------------------------------------------------------------------------
 
-def select_articles(articles: list[dict]) -> Optional[dict]:
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        raise RuntimeError("ANTHROPIC_API_KEY not set")
+# Noise patterns — skip articles matching these
+NOISE_PATTERNS = re.compile(
+    r"\b(CVE-\d{4}|patch tuesday|vulnerability roundup|weekly news|"
+    r"cyber news|security news|breach|ransomware gang|data leak|"
+    r"arrested|indicted|фишинг|мошенник|утечка)\b",
+    re.IGNORECASE,
+)
 
-    client = anthropic.Anthropic(api_key=api_key)
 
-    articles_json = json.dumps(
-        [{"index": i, "title": a["title"], "url": a["url"], "source": a["source"]}
-         for i, a in enumerate(articles)],
-        ensure_ascii=False,
-        indent=2,
-    )
+def score_article(title: str) -> tuple[str, int]:
+    """Return (best_matching_domain, score). Score 0 = no match."""
+    text = title.lower()
+    best_domain = ""
+    best_score = 0
 
-    user_message = (
-        f"Here are the available articles:\n{articles_json}\n\n"
-        "Select 3 articles following the rules. Return JSON only."
-    )
+    for domain, keywords in DOMAIN_KEYWORDS.items():
+        score = sum(1 for kw in keywords if kw in text)
+        if score > best_score:
+            best_score = score
+            best_domain = domain
 
-    log.info("Calling Claude API to select articles...")
-    message = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=1024,
-        system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": user_message}],
-    )
+    return best_domain, best_score
 
-    raw = message.content[0].text.strip()
-    return json.loads(raw)
+
+def select_articles(articles: list[dict]) -> dict:
+    """Score and select 3 articles by OSCP domain priority. No external API."""
+    log.info("Scoring %d articles by keyword matching...", len(articles))
+
+    # Filter obvious noise
+    candidates = [a for a in articles if not NOISE_PATTERNS.search(a["title"])]
+    log.info("After noise filter: %d candidates", len(candidates))
+
+    # Score each article
+    scored: list[tuple[int, str, dict]] = []  # (priority, domain, article)
+    for article in candidates:
+        domain, score = score_article(article["title"])
+        if score == 0:
+            continue
+        priority = DOMAIN_PRIORITY.index(domain) if domain in DOMAIN_PRIORITY else 99
+        scored.append((priority, domain, article))
+
+    # Sort: lower priority index first, then higher score
+    scored.sort(key=lambda x: x[0])
+
+    # Pick 3 — one per domain when possible (variety), else same domain (deep_dive)
+    selected = []
+    used_domains: list[str] = []
+
+    # First pass: one article per domain in priority order
+    for priority, domain, article in scored:
+        if domain not in used_domains and len(selected) < 3:
+            selected.append((domain, article))
+            used_domains.append(domain)
+
+    # Second pass: fill remaining slots if needed
+    if len(selected) < 3:
+        for priority, domain, article in scored:
+            if article not in [s[1] for s in selected] and len(selected) < 3:
+                selected.append((domain, article))
+
+    # Fallback: just take first 3 unscored articles if still empty
+    if len(selected) < 3:
+        log.warning("Not enough scored articles, using unscored fallback")
+        for article in candidates:
+            if article not in [s[1] for s in selected] and len(selected) < 3:
+                domain, _ = score_article(article["title"])
+                selected.append((domain or "active_directory", article))
+
+    unique_domains = list(dict.fromkeys(d for d, _ in selected))
+    session_type = "deep_dive" if len(unique_domains) == 1 else "variety"
+
+    result_articles = []
+    for domain, article in selected:
+        label = DOMAIN_LABELS.get(domain, domain) if domain else "General"
+        result_articles.append({
+            **article,
+            "oscp_domain": domain or "active_directory",
+            "reason": f"Matches OSCP domain: {label}",
+            "summary": f"Article covers {label} techniques relevant to OSCP certification.",
+        })
+
+    log.info("Selected %d articles. Session type: %s", len(result_articles), session_type)
+    return {"session_type": session_type, "articles": result_articles}
 
 
 # ---------------------------------------------------------------------------
@@ -451,24 +525,19 @@ def main() -> None:
         tg_send(token, chat_id, "⚠️ Недостаточно новых статей на этой неделе. Подборка пропущена.")
         return
 
-    # Claude selection
+    # Keyword-based selection
     result = select_articles(new_articles)
     session_type = result["session_type"]
-    selected = result["articles"]
 
     today = date.today()
     remind_2w = (today + timedelta(weeks=2)).isoformat()
     remind_3m = (today + timedelta(days=91)).isoformat()
 
     enriched: list[dict] = []
-    for sel in selected:
-        article = new_articles[sel["index"]]
+    for sel in result["articles"]:
         htb, vulnhub = pick_machines(sel["oscp_domain"])
         enriched.append({
-            **article,
-            "oscp_domain": sel["oscp_domain"],
-            "reason": sel["reason"],
-            "summary": sel["summary"],
+            **sel,
             "htb": htb,
             "vulnhub": vulnhub,
         })
