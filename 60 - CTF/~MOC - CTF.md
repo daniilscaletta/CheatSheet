@@ -10,11 +10,11 @@
 ## Техники атак
 
 - [[Brute]] — брутфорс: инструменты, словари, подходы
-- [[CRLF]] — CRLF Injection
+- [[CRLF (Carriage Return + Line Feed)]] — CRLF Injection
 - [[Dir bypass]] — обход запретов на директории
 - [[Git]] — утечка исходников через .git
-- [[LFI]] — Local File Inclusion
+- [[LFI RFI]] — Local File Inclusion
 - [[Param pollution]] — HTTP Parameter Pollution
 - [[PrivEsc]] — повышение привилегий (Linux)
-- [[SQLi]] — SQL Injection: техники и инструменты
+- [[SQL injection]] — SQL Injection: техники и инструменты
 - [[Subdomain brute]] — перебор поддоменов

@@ -1,9 +1,4 @@
-
-
-
-
-
-
+#ssh #forwarding #port 
 ### **SSH Tunneling**
 
 **ДЛЯ A&D:**

