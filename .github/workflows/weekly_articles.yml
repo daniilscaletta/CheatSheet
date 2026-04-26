@@ -1,0 +1,42 @@
+name: Weekly Security Articles
+
+on:
+  schedule:
+    # Every Sunday at 06:00 UTC = 09:00 Moscow Time
+    - cron: "0 6 * * 0"
+  workflow_dispatch:  # Allow manual trigger for testing
+
+jobs:
+  send-articles:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r automation/requirements.txt
+
+      - name: Run articles bot
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python automation/scripts/select_articles.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add automation/data/sent_articles.json "100 - Inbox/reading_log.md"
+          git diff --cached --quiet || git commit -m "chore: weekly articles update $(date +%Y-%m-%d)"
+          git push

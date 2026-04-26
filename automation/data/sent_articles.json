@@ -1,0 +1,70 @@
+{
+  "sent": [
+    {
+      "url": "https://www.hackingarticles.in/lateral-movement-enabling-rdp-remotely/",
+      "title": "Lateral Movement: Enabling RDP Remotely",
+      "date_sent": "2026-04-19",
+      "oscp_domain": "tunneling_pivoting",
+      "summary": "Article covers Tunneling / Pivoting techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-05-03",
+      "remind_3m_date": "2026-07-19",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://en.hackndo.com/constrained-unconstrained-delegation/",
+      "title": "Kerberos Delegation",
+      "date_sent": "2026-04-19",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-05-03",
+      "remind_3m_date": "2026-07-19",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://timcore.ru/2026/02/19/file-upload-ot-avatarki-do-veb-shella-za-tri-shaga/",
+      "title": "File Upload: от аватарки до веб-шелла за три шага",
+      "date_sent": "2026-04-19",
+      "oscp_domain": "web_attacks",
+      "summary": "Article covers Web Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-05-03",
+      "remind_3m_date": "2026-07-19",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://www.hackingarticles.in/a-detailed-guide-on-ssh-port-forwarding-tunnelling/",
+      "title": "A Detailed Guide on SSH Port forwarding & Tunnelling",
+      "date_sent": "2026-04-19",
+      "oscp_domain": "tunneling_pivoting",
+      "summary": "Article covers Tunneling / Pivoting techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-05-03",
+      "remind_3m_date": "2026-07-19",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://en.hackndo.com/ntlm-relay/",
+      "title": "NTLM Relay",
+      "date_sent": "2026-04-19",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-05-03",
+      "remind_3m_date": "2026-07-19",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://www.hackingarticles.in/a-detailed-guide-on-local-port-forwarding/",
+      "title": "A Detailed Guide on Local Port Forwarding",
+      "date_sent": "2026-04-19",
+      "oscp_domain": "tunneling_pivoting",
+      "summary": "Article covers Tunneling / Pivoting techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-05-03",
+      "remind_3m_date": "2026-07-19",
+      "reminded_2w": false,
+      "reminded_3m": false
+    }
+  ]
+}
