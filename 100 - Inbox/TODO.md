@@ -20,7 +20,6 @@ K8s swarm nginx caddy podman uv taskfile postman
 - Nessus
 - Airflood
 
-- [pivoting Practic](https://hackware.ru/?p=9016#10)
 - DNS tunneling, практика, защита
 
 - AMSI Bypass

@@ -93,10 +93,6 @@ io.recvuntil("# ")
 io.recvline()
 ```
 
-# **Scout**
-
-
-
 
 # Backdoor
 

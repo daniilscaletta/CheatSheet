@@ -4,53 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "156afeee75878d33",
+        "id": "eb7d20fce9045a40",
         "type": "tabs",
         "children": [
           {
-            "id": "56054eef15173612",
+            "id": "17fa7c4026f3d068",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 - Inbox/В работе/Компании.md",
+                "file": "10 - Red Team/Exploitation/LPE/Basic enum.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Компании"
+              "title": "Basic enum"
             }
           },
           {
-            "id": "fb9b9277d6962a31",
+            "id": "ab1cba7f7ccc6fef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20 - Windows & AD/Инструменты/Post-exploitation/Mimikatz.md",
+                "file": "Capabilities.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mimikatz"
-            }
-          },
-          {
-            "id": "e975ca36985de6bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20 - Windows & AD/Active Directory/3. Повышение привилегий (LPE).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3. Повышение привилегий (LPE)"
+              "title": "Capabilities"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -211,47 +197,47 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e975ca36985de6bc",
+  "active": "ab1cba7f7ccc6fef",
   "lastOpenFiles": [
-    "20 - Windows & AD/Инструменты/LPE/Sherlock.md",
-    "100 - Inbox/В работе/Сопроводительное.md",
-    "conflict-files-obsidian-git.md",
+    "10 - Red Team/Exploitation/LPE/Basic enum.md",
+    "Capabilities.md",
+    "80 - Bug Bounty/Написание хорошего отчета.md",
+    "80 - Bug Bounty/BB Program.md",
+    "10 - Red Team/Exploitation/LPE/traitor.md",
+    "20 - Windows & AD/~MOC - Windows & AD.md",
+    "20 - Windows & AD/Active Directory/Атаки/Potato Attacks.md",
+    "20 - Windows & AD/Инструменты/Post-exploitation/Mimikatz.md",
+    "100 - Inbox/В работе/Компании.md",
+    "20 - Windows & AD/Active Directory/Атаки/ACL Abuze.md",
+    "20 - Windows & AD/Бинарные атаки.md",
+    "20 - Windows & AD/Windows OS/Классы уязвимостей/Weak Permissions.md",
+    "20 - Windows & AD/Windows OS/Классы уязвимостей/Vulnerable Services.md",
+    "20 - Windows & AD/Windows OS/Классы уязвимостей/Kernel Exploits.md",
+    "20 - Windows & AD/Windows OS/Классы уязвимостей/Взаимодействия с пользователями.md",
+    "20 - Windows & AD/Windows OS/Внутреннее устройство/LOLBAS/Scheduled Tasks.md",
+    "20 - Windows & AD/Windows OS/Внутреннее устройство/LOLBAS/Certutil.exe.md",
+    "20 - Windows & AD/Windows OS/Внутреннее устройство/LOLBAS/О LOLBAS.md",
+    "20 - Windows & AD/Windows OS/Внутреннее устройство/Сетевая подсистема/Важные подсистемы.md",
+    "20 - Windows & AD/Windows OS/Внутреннее устройство/Привилегии и права/UAC.md",
+    "20 - Windows & AD/PowerShell/Работа с оболочкой.md",
+    "20 - Windows & AD/PowerShell/Фреймворки для пентеста.md",
+    "20 - Windows & AD/Active Directory/Trusts.md",
+    "20 - Windows & AD/Active Directory/Commands.md",
+    "20 - Windows & AD/Active Directory/Усиление безопасности AD.md",
+    "20 - Windows & AD/Active Directory/Общие понятия.md",
+    "Assets/Resume_1.pdf",
+    "ВСЯ БАЗА ЗНАНИЙ.base",
     "automation/scripts/select_articles.py",
     "automation/data/sent_articles.json",
     "automation/scripts",
     "automation/requirements.txt",
     "automation/data",
     "automation",
-    "100 - Inbox/reading_log.md",
-    "100 - Inbox/В работе/Резюмэ.md",
-    "100 - Inbox/В работе/Компании.md",
-    "80 - Bug Bounty/Написание хорошего отчета.md",
-    "20 - Windows & AD/Инструменты/Post-exploitation/Mimikatz.md",
-    "30 - Network/Pivoting/Port Forwarding/Metasploit Pivoting.md",
-    "20 - Windows & AD/Инструменты/Pivoting/Ligolo-ng.md",
-    "20 - Windows & AD/Инструменты/Impacket/WmiExec.md",
     "80 - Bug Bounty",
-    "100 - Inbox/В работе/Агрегаторы.md",
-    "10 - Red Team/Документирование/1. ТЗ.md",
-    "20 - Windows & AD/Инструменты/Pivoting/Chisel.md",
-    "30 - Network/Pivoting/Tunneling/SOCKS over RDP/SOCKSoverRDP.md",
-    "30 - Network/Pivoting/Tunneling/SOCKS over RDP/SocksOverRDP.md",
-    "30 - Network/Pivoting/Tunneling/ICMP tunneling/ptunnel-ng.md",
-    "30 - Network/Pivoting/Tunneling/DNS tunneling/Dnscat2.md",
-    "60 - CTF/Web Exploitation/LFI RFI.md",
     "30 - Network/Pivoting/Tunneling/SOCKS over RDP",
-    "30 - Network/Pivoting/Tunneling/ICMP tunneling",
-    "10 - Red Team/Документирование/2. Работа.md",
-    "60 - CTF/Web Exploitation/File Upload Vulnerabilities.md",
-    "60 - CTF/Web Exploitation/XSS (Cross-Site Scripting).md",
-    "60 - CTF/Web Exploitation/SSRF (Server Side Request Forgery).md",
-    "60 - CTF/Web Exploitation/CRLF (Carriage Return + Line Feed).md",
-    "60 - CTF/Web Exploitation/Dir bypass.md",
-    "60 - CTF/Web Exploitation/CSRF (Cross Site Request Forgery).md",
     "Assets/ssh -D.png",
     "Assets/ssh -R.png",
     "Assets/ssh -L.png",
-    "30 - Network/Pivoting/Tunneling/DNS tunneling",
     "10 - Red Team/Цепочки атак/CKC в инфраструктуре компании.png",
     "Assets/Выход из DMZ.png",
     "Assets/Захват управления инфраструктурой сети.png",
