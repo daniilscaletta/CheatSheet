@@ -65,6 +65,39 @@
       "remind_3m_date": "2026-07-19",
       "reminded_2w": false,
       "reminded_3m": false
+    },
+    {
+      "url": "https://www.hackingarticles.in/network-pivoting-using-ligolo-mp-complete-guide/",
+      "title": "Network Pivoting using Ligolo-MP – Complete Guide",
+      "date_sent": "2026-04-26",
+      "oscp_domain": "tunneling_pivoting",
+      "summary": "Article covers Tunneling / Pivoting techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-05-10",
+      "remind_3m_date": "2026-07-26",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://en.hackndo.com/kerberoasting/",
+      "title": "Kerberoasting",
+      "date_sent": "2026-04-26",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-05-10",
+      "remind_3m_date": "2026-07-26",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://www.hackingarticles.in/aws-cloudgoat-ec2-ssrf-exploitation/",
+      "title": "AWS CloudGoat EC2 SSRF Exploitation",
+      "date_sent": "2026-04-26",
+      "oscp_domain": "web_attacks",
+      "summary": "Article covers Web Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-05-10",
+      "remind_3m_date": "2026-07-26",
+      "reminded_2w": false,
+      "reminded_3m": false
     }
   ]
 }

@@ -51,3 +51,29 @@
 - **VulnHub:** [VulnOS: 2](https://www.vulnhub.com/entry/vulnos-2,147/)
 - **Саммари:** Article covers Tunneling / Pivoting techniques relevant to OSCP certification.
 
+
+## 2026-04-26
+**Тип сессии:** Variety
+**OSCP домен(ы):** Web Attacks, Active Directory Attacks, Tunneling / Pivoting
+
+### Статья 1: Network Pivoting using Ligolo-MP – Complete Guide
+- **Ссылка:** https://www.hackingarticles.in/network-pivoting-using-ligolo-mp-complete-guide/
+- **Домен:** Tunneling / Pivoting
+- **HTB:** [Reddish](https://app.hackthebox.com/machines/Reddish) — [Writeup](https://0xdf.gitlab.io/2019/01/26/htb-reddish.html)
+- **VulnHub:** [Stapler: 1](https://www.vulnhub.com/entry/stapler-1,150/)
+- **Саммари:** Article covers Tunneling / Pivoting techniques relevant to OSCP certification.
+
+### Статья 2: Kerberoasting
+- **Ссылка:** https://en.hackndo.com/kerberoasting/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Cascade](https://app.hackthebox.com/machines/Cascade) — [Writeup](https://0xdf.gitlab.io/2020/07/25/htb-cascade.html)
+- **VulnHub:** [HackLAB: Vulnix](https://www.vulnhub.com/entry/hacklab-vulnix,48/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 3: AWS CloudGoat EC2 SSRF Exploitation
+- **Ссылка:** https://www.hackingarticles.in/aws-cloudgoat-ec2-ssrf-exploitation/
+- **Домен:** Web Attacks
+- **HTB:** [Networked](https://app.hackthebox.com/machines/Networked) — [Writeup](https://0xdf.gitlab.io/2019/11/16/htb-networked.html)
+- **VulnHub:** [pWnOS 2.0](https://www.vulnhub.com/entry/pwnos-20-pre-release,34/)
+- **Саммари:** Article covers Web Attacks techniques relevant to OSCP certification.
+
