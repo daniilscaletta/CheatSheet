@@ -77,3 +77,29 @@
 - **VulnHub:** [pWnOS 2.0](https://www.vulnhub.com/entry/pwnos-20-pre-release,34/)
 - **Саммари:** Article covers Web Attacks techniques relevant to OSCP certification.
 
+
+## 2026-05-03
+**Тип сессии:** Deep Dive
+**OSCP домен(ы):** Active Directory Attacks
+
+### Статья 1: Spray passwords, avoid lockouts
+- **Ссылка:** https://en.hackndo.com/password-spraying-lockout/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Cascade](https://app.hackthebox.com/machines/Cascade) — [Writeup](https://0xdf.gitlab.io/2020/07/25/htb-cascade.html)
+- **VulnHub:** [MicroVuln](https://www.vulnhub.com/entry/microvuln,816/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 2: Tokens ERC20 et ERC721
+- **Ссылка:** https://en.hackndo.com/tokens-standards/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Sauna](https://app.hackthebox.com/machines/Sauna) — [Writeup](https://0xdf.gitlab.io/2020/07/18/htb-sauna.html)
+- **VulnHub:** [Razorback: 1](https://www.vulnhub.com/entry/razorback-1,698/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 3: Sensitive Data in smart contracts
+- **Ссылка:** https://en.hackndo.com/sensitive-data/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Cascade](https://app.hackthebox.com/machines/Cascade) — [Writeup](https://0xdf.gitlab.io/2020/07/25/htb-cascade.html)
+- **VulnHub:** [HackLAB: Vulnix](https://www.vulnhub.com/entry/hacklab-vulnix,48/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+

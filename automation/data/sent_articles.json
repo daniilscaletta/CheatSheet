@@ -8,7 +8,7 @@
       "summary": "Article covers Tunneling / Pivoting techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-05-03",
       "remind_3m_date": "2026-07-19",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -19,7 +19,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-05-03",
       "remind_3m_date": "2026-07-19",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -30,7 +30,7 @@
       "summary": "Article covers Web Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-05-03",
       "remind_3m_date": "2026-07-19",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -41,7 +41,7 @@
       "summary": "Article covers Tunneling / Pivoting techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-05-03",
       "remind_3m_date": "2026-07-19",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -52,7 +52,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-05-03",
       "remind_3m_date": "2026-07-19",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -63,7 +63,7 @@
       "summary": "Article covers Tunneling / Pivoting techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-05-03",
       "remind_3m_date": "2026-07-19",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -96,6 +96,39 @@
       "summary": "Article covers Web Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-05-10",
       "remind_3m_date": "2026-07-26",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://en.hackndo.com/password-spraying-lockout/",
+      "title": "Spray passwords, avoid lockouts",
+      "date_sent": "2026-05-03",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-05-17",
+      "remind_3m_date": "2026-08-02",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://en.hackndo.com/tokens-standards/",
+      "title": "Tokens ERC20 et ERC721",
+      "date_sent": "2026-05-03",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-05-17",
+      "remind_3m_date": "2026-08-02",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://en.hackndo.com/sensitive-data/",
+      "title": "Sensitive Data in smart contracts",
+      "date_sent": "2026-05-03",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-05-17",
+      "remind_3m_date": "2026-08-02",
       "reminded_2w": false,
       "reminded_3m": false
     }
