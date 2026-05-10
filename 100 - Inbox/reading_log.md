@@ -103,3 +103,29 @@
 - **VulnHub:** [HackLAB: Vulnix](https://www.vulnhub.com/entry/hacklab-vulnix,48/)
 - **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
 
+
+## 2026-05-10
+**Тип сессии:** Deep Dive
+**OSCP домен(ы):** Active Directory Attacks
+
+### Статья 1: Active Directory Exploitation with Metasploit
+- **Ссылка:** https://www.hackingarticles.in/active-directory-exploitation-with-metasploit/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Sauna](https://app.hackthebox.com/machines/Sauna) — [Writeup](https://0xdf.gitlab.io/2020/07/18/htb-sauna.html)
+- **VulnHub:** [HackLAB: Vulnix](https://www.vulnhub.com/entry/hacklab-vulnix,48/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 2: Impacket for Pentester: Net
+- **Ссылка:** https://www.hackingarticles.in/impacket-for-pentester-net/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Active](https://app.hackthebox.com/machines/Active) — [Writeup](https://0xdf.gitlab.io/2018/12/08/htb-active.html)
+- **VulnHub:** [Razorback: 1](https://www.vulnhub.com/entry/razorback-1,698/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 3: Active Directory User Enumeration: A Comprehensive Guide
+- **Ссылка:** https://www.hackingarticles.in/active-directory-user-enumeration-a-comprehensive-guide/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Forest](https://app.hackthebox.com/machines/Forest) — [Writeup](https://0xdf.gitlab.io/2020/03/21/htb-forest.html)
+- **VulnHub:** [MicroVuln](https://www.vulnhub.com/entry/microvuln,816/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+

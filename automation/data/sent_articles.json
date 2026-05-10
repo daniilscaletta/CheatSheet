@@ -74,7 +74,7 @@
       "summary": "Article covers Tunneling / Pivoting techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-05-10",
       "remind_3m_date": "2026-07-26",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -85,7 +85,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-05-10",
       "remind_3m_date": "2026-07-26",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -96,7 +96,7 @@
       "summary": "Article covers Web Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-05-10",
       "remind_3m_date": "2026-07-26",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -129,6 +129,39 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-05-17",
       "remind_3m_date": "2026-08-02",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://www.hackingarticles.in/active-directory-exploitation-with-metasploit/",
+      "title": "Active Directory Exploitation with Metasploit",
+      "date_sent": "2026-05-10",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-05-24",
+      "remind_3m_date": "2026-08-09",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://www.hackingarticles.in/impacket-for-pentester-net/",
+      "title": "Impacket for Pentester: Net",
+      "date_sent": "2026-05-10",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-05-24",
+      "remind_3m_date": "2026-08-09",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://www.hackingarticles.in/active-directory-user-enumeration-a-comprehensive-guide/",
+      "title": "Active Directory User Enumeration: A Comprehensive Guide",
+      "date_sent": "2026-05-10",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-05-24",
+      "remind_3m_date": "2026-08-09",
       "reminded_2w": false,
       "reminded_3m": false
     }
