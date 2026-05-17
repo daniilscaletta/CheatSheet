@@ -129,3 +129,29 @@
 - **VulnHub:** [MicroVuln](https://www.vulnhub.com/entry/microvuln,816/)
 - **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
 
+
+## 2026-05-17
+**Тип сессии:** Deep Dive
+**OSCP домен(ы):** Active Directory Attacks
+
+### Статья 1: Blue Teaming Active Directory: EVENmonitor
+- **Ссылка:** https://www.hackingarticles.in/blue-teaming-active-directory-evenmonitor/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Active](https://app.hackthebox.com/machines/Active) — [Writeup](https://0xdf.gitlab.io/2018/12/08/htb-active.html)
+- **VulnHub:** [Razorback: 1](https://www.vulnhub.com/entry/razorback-1,698/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 2: Active Directory Lab Setup for Penetration Testing Using PowerShell
+- **Ссылка:** https://www.hackingarticles.in/active-directory-lab-setup-for-penetration-testing-using-powershell/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Resolute](https://app.hackthebox.com/machines/Resolute) — [Writeup](https://0xdf.gitlab.io/2020/05/30/htb-resolute.html)
+- **VulnHub:** [HackLAB: Vulnix](https://www.vulnhub.com/entry/hacklab-vulnix,48/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 3: Локальное распознавание речи на 30 языках (инструкция по использованию Qwen3-ASR-1.7B)
+- **Ссылка:** https://hackware.ru/?p=22022
+- **Домен:** Active Directory Attacks
+- **HTB:** [Resolute](https://app.hackthebox.com/machines/Resolute) — [Writeup](https://0xdf.gitlab.io/2020/05/30/htb-resolute.html)
+- **VulnHub:** [HackLAB: Vulnix](https://www.vulnhub.com/entry/hacklab-vulnix,48/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
