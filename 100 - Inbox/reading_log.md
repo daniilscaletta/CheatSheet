@@ -155,3 +155,29 @@
 - **VulnHub:** [HackLAB: Vulnix](https://www.vulnhub.com/entry/hacklab-vulnix,48/)
 - **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
 
+
+## 2026-05-24
+**Тип сессии:** Variety
+**OSCP домен(ы):** Windows Privilege Escalation, Active Directory Attacks
+
+### Статья 1: Windows Privilege Escalation: Bypass UAC
+- **Ссылка:** https://www.hackingarticles.in/windows-privilege-escalation-bypass-uac/
+- **Домен:** Windows Privilege Escalation
+- **HTB:** [SecNotes](https://app.hackthebox.com/machines/SecNotes) — [Writeup](https://0xdf.gitlab.io/2019/01/19/htb-secnotes.html)
+- **VulnHub:** [HackLAB: Vulnix](https://www.vulnhub.com/entry/hacklab-vulnix,48/)
+- **Саммари:** Article covers Windows Privilege Escalation techniques relevant to OSCP certification.
+
+### Статья 2: Как настроить Windows для запуска любых нейросетей (ИИ) на своём компьютере
+- **Ссылка:** https://hackware.ru/?p=21980
+- **Домен:** Active Directory Attacks
+- **HTB:** [Resolute](https://app.hackthebox.com/machines/Resolute) — [Writeup](https://0xdf.gitlab.io/2020/05/30/htb-resolute.html)
+- **VulnHub:** [Razorback: 1](https://www.vulnhub.com/entry/razorback-1,698/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 3: Локальный TTS на 30 языках с клонированием голоса (инструкция по использованию VoxCPM2)
+- **Ссылка:** https://hackware.ru/?p=21929
+- **Домен:** Active Directory Attacks
+- **HTB:** [Sauna](https://app.hackthebox.com/machines/Sauna) — [Writeup](https://0xdf.gitlab.io/2020/07/18/htb-sauna.html)
+- **VulnHub:** [HackLAB: Vulnix](https://www.vulnhub.com/entry/hacklab-vulnix,48/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
