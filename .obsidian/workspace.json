@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10 - Red Team/Корпоративный Пентест/01 — Recon.md",
+                "file": "10 - Red Team/Корпоративный Пентест/02 — Scanning & Enumeration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 — Recon"
+              "title": "02 — Scanning & Enumeration"
             }
           }
         ],
@@ -211,10 +211,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "01bce3d7d79b33c6",
+  "active": "7c7a2199aa7532c4",
   "lastOpenFiles": [
-    "20 - Windows & AD/Active Directory/Анализ уязвимостей.md",
+    "10 - Red Team/Корпоративный Пентест/07 — Privilege Escalation.md",
+    "10 - Red Team/Корпоративный Пентест/06 — Lateral Movement.md",
+    "10 - Red Team/Корпоративный Пентест/04 — Exploitation.md",
+    "10 - Red Team/Корпоративный Пентест/02 — Scanning & Enumeration.md",
     "10 - Red Team/Корпоративный Пентест/01 — Recon.md",
+    "20 - Windows & AD/Active Directory/Анализ уязвимостей.md",
     "10 - Red Team/Корпоративный Пентест",
     "60 - CTF/Web Exploitation/Subdomain brute.md",
     "20 - Windows & AD/Active Directory/Делегирование Kerberos.md",
@@ -236,10 +240,6 @@
     "10 - Red Team/Exploitation/LPE/Подмена динамической библиотеки.md",
     "10 - Red Team/Exploitation/Word macros.md",
     "10 - Red Team/Exploitation/Tunneling/iodine.md",
-    "10 - Red Team/Exploitation/Recon/Wapiti.md",
-    "10 - Red Team/Exploitation/Recon/nuclei.md",
-    "10 - Red Team/Exploitation/Recon/newtowner.md",
-    "10 - Red Team/Exploitation/Defense/PingCastle.md",
     "Assets/Resume_1.pdf",
     "ВСЯ БАЗА ЗНАНИЙ.base",
     "automation/scripts/select_articles.py",
