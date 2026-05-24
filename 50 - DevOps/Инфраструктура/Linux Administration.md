@@ -28,16 +28,6 @@
 
 ```shell
 # Какие capabilities у файла?
-
-## Оглавление
-- [[#Capabilities]]
-  - [[#Основные права]]
-- [[#Просмотр capabilities]]
-- [[#Установка capabilities]]
-- [[#Tools]]
-
----
-
 getcap /usr/bin/ping
 /usr/bin/ping = cap_net_raw+ep
 

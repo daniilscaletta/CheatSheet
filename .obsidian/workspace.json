@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "eb7d20fce9045a40",
+        "id": "9434f0dabcbecedc",
         "type": "tabs",
         "children": [
           {
-            "id": "17fa7c4026f3d068",
+            "id": "1cf563567b638878",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10 - Red Team/Exploitation/LPE/Подмена динамической библиотеки.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Подмена динамической библиотеки"
+            }
+          },
+          {
+            "id": "3c69564c5b83a5c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,21 +36,21 @@
             }
           },
           {
-            "id": "ab1cba7f7ccc6fef",
+            "id": "7c7a2199aa7532c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Capabilities.md",
+                "file": "10 - Red Team/Корпоративный Пентест/01 — Recon.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Capabilities"
+              "title": "01 — Recon"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -197,34 +211,35 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ab1cba7f7ccc6fef",
+  "active": "01bce3d7d79b33c6",
   "lastOpenFiles": [
-    "10 - Red Team/Exploitation/LPE/Basic enum.md",
-    "Capabilities.md",
-    "80 - Bug Bounty/Написание хорошего отчета.md",
-    "80 - Bug Bounty/BB Program.md",
-    "10 - Red Team/Exploitation/LPE/traitor.md",
-    "20 - Windows & AD/~MOC - Windows & AD.md",
-    "20 - Windows & AD/Active Directory/Атаки/Potato Attacks.md",
-    "20 - Windows & AD/Инструменты/Post-exploitation/Mimikatz.md",
-    "100 - Inbox/В работе/Компании.md",
-    "20 - Windows & AD/Active Directory/Атаки/ACL Abuze.md",
-    "20 - Windows & AD/Бинарные атаки.md",
-    "20 - Windows & AD/Windows OS/Классы уязвимостей/Weak Permissions.md",
-    "20 - Windows & AD/Windows OS/Классы уязвимостей/Vulnerable Services.md",
-    "20 - Windows & AD/Windows OS/Классы уязвимостей/Kernel Exploits.md",
-    "20 - Windows & AD/Windows OS/Классы уязвимостей/Взаимодействия с пользователями.md",
-    "20 - Windows & AD/Windows OS/Внутреннее устройство/LOLBAS/Scheduled Tasks.md",
-    "20 - Windows & AD/Windows OS/Внутреннее устройство/LOLBAS/Certutil.exe.md",
-    "20 - Windows & AD/Windows OS/Внутреннее устройство/LOLBAS/О LOLBAS.md",
-    "20 - Windows & AD/Windows OS/Внутреннее устройство/Сетевая подсистема/Важные подсистемы.md",
-    "20 - Windows & AD/Windows OS/Внутреннее устройство/Привилегии и права/UAC.md",
-    "20 - Windows & AD/PowerShell/Работа с оболочкой.md",
-    "20 - Windows & AD/PowerShell/Фреймворки для пентеста.md",
-    "20 - Windows & AD/Active Directory/Trusts.md",
-    "20 - Windows & AD/Active Directory/Commands.md",
-    "20 - Windows & AD/Active Directory/Усиление безопасности AD.md",
+    "20 - Windows & AD/Active Directory/Анализ уязвимостей.md",
+    "10 - Red Team/Корпоративный Пентест/01 — Recon.md",
+    "10 - Red Team/Корпоративный Пентест",
+    "60 - CTF/Web Exploitation/Subdomain brute.md",
+    "20 - Windows & AD/Active Directory/Делегирование Kerberos.md",
+    "20 - Windows & AD/Active Directory/Механизмы аутентификации в Windows.md",
     "20 - Windows & AD/Active Directory/Общие понятия.md",
+    "20 - Windows & AD/Active Directory/Усиление безопасности AD.md",
+    "20 - Windows & AD/Active Directory/Commands.md",
+    "20 - Windows & AD/Active Directory/Trusts.md",
+    "10 - Red Team/Exploitation/LPE/traitor.md",
+    "10 - Red Team/Exploitation/LPE/Python library hijacking.md",
+    "10 - Red Team/Exploitation/LPE/LXC (Linux Container).md",
+    "10 - Red Team/Exploitation/LPE/Linux LPE Hardening.md",
+    "10 - Red Team/Exploitation/LPE/LD_PRELOAD.md",
+    "10 - Red Team/Exploitation/LPE/Kernel Exploits.md",
+    "10 - Red Team/Exploitation/LPE/Docker Escape.md",
+    "10 - Red Team/Exploitation/LPE/Capabilities.md",
+    "50 - DevOps/Инфраструктура/Linux Administration.md",
+    "10 - Red Team/Exploitation/LPE/Basic enum.md",
+    "10 - Red Team/Exploitation/LPE/Подмена динамической библиотеки.md",
+    "10 - Red Team/Exploitation/Word macros.md",
+    "10 - Red Team/Exploitation/Tunneling/iodine.md",
+    "10 - Red Team/Exploitation/Recon/Wapiti.md",
+    "10 - Red Team/Exploitation/Recon/nuclei.md",
+    "10 - Red Team/Exploitation/Recon/newtowner.md",
+    "10 - Red Team/Exploitation/Defense/PingCastle.md",
     "Assets/Resume_1.pdf",
     "ВСЯ БАЗА ЗНАНИЙ.base",
     "automation/scripts/select_articles.py",
@@ -234,7 +249,6 @@
     "automation/data",
     "automation",
     "80 - Bug Bounty",
-    "30 - Network/Pivoting/Tunneling/SOCKS over RDP",
     "Assets/ssh -D.png",
     "Assets/ssh -R.png",
     "Assets/ssh -L.png",

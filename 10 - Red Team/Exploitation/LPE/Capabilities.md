@@ -1,4 +1,4 @@
-	#linux #capabilities #lpe 
+#linux #capabilities #lpe 
 
 [[Linux Administration#Capabilities]], Позволяющие повыситься до `root`
 
