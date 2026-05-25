@@ -13,44 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10 - Red Team/Exploitation/LPE/Подмена динамической библиотеки.md",
+                "file": "10 - Red Team/Corporate Pentest/01 — Recon/01.2 — Subdomains.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Подмена динамической библиотеки"
-            }
-          },
-          {
-            "id": "3c69564c5b83a5c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10 - Red Team/Exploitation/LPE/Basic enum.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Basic enum"
-            }
-          },
-          {
-            "id": "7c7a2199aa7532c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10 - Red Team/Корпоративный Пентест/02 — Scanning & Enumeration.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "02 — Scanning & Enumeration"
+              "title": "01.2 — Subdomains"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,54 +182,54 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7c7a2199aa7532c4",
+  "active": "01bce3d7d79b33c6",
   "lastOpenFiles": [
-    "10 - Red Team/Корпоративный Пентест/07 — Privilege Escalation.md",
-    "10 - Red Team/Корпоративный Пентест/06 — Lateral Movement.md",
-    "10 - Red Team/Корпоративный Пентест/04 — Exploitation.md",
-    "10 - Red Team/Корпоративный Пентест/02 — Scanning & Enumeration.md",
-    "10 - Red Team/Корпоративный Пентест/01 — Recon.md",
-    "20 - Windows & AD/Active Directory/Анализ уязвимостей.md",
-    "10 - Red Team/Корпоративный Пентест",
-    "60 - CTF/Web Exploitation/Subdomain brute.md",
-    "20 - Windows & AD/Active Directory/Делегирование Kerberos.md",
-    "20 - Windows & AD/Active Directory/Механизмы аутентификации в Windows.md",
-    "20 - Windows & AD/Active Directory/Общие понятия.md",
-    "20 - Windows & AD/Active Directory/Усиление безопасности AD.md",
-    "20 - Windows & AD/Active Directory/Commands.md",
-    "20 - Windows & AD/Active Directory/Trusts.md",
-    "10 - Red Team/Exploitation/LPE/traitor.md",
-    "10 - Red Team/Exploitation/LPE/Python library hijacking.md",
-    "10 - Red Team/Exploitation/LPE/LXC (Linux Container).md",
-    "10 - Red Team/Exploitation/LPE/Linux LPE Hardening.md",
-    "10 - Red Team/Exploitation/LPE/LD_PRELOAD.md",
-    "10 - Red Team/Exploitation/LPE/Kernel Exploits.md",
-    "10 - Red Team/Exploitation/LPE/Docker Escape.md",
-    "10 - Red Team/Exploitation/LPE/Capabilities.md",
-    "50 - DevOps/Инфраструктура/Linux Administration.md",
-    "10 - Red Team/Exploitation/LPE/Basic enum.md",
-    "10 - Red Team/Exploitation/LPE/Подмена динамической библиотеки.md",
-    "10 - Red Team/Exploitation/Word macros.md",
-    "10 - Red Team/Exploitation/Tunneling/iodine.md",
-    "Assets/Resume_1.pdf",
-    "ВСЯ БАЗА ЗНАНИЙ.base",
-    "automation/scripts/select_articles.py",
-    "automation/data/sent_articles.json",
-    "automation/scripts",
-    "automation/requirements.txt",
-    "automation/data",
-    "automation",
-    "80 - Bug Bounty",
-    "Assets/ssh -D.png",
-    "Assets/ssh -R.png",
-    "Assets/ssh -L.png",
-    "10 - Red Team/Цепочки атак/CKC в инфраструктуре компании.png",
-    "Assets/Выход из DMZ.png",
-    "Assets/Захват управления инфраструктурой сети.png",
-    "00 - HUB/Дорожные карты/Roadmap AD.svg",
-    "Assets/Оптимизация контекста.png",
-    "Assets/Проверка доступа субъекта к объекту.png",
-    "Windows/Roadmap AD/Roadmap AD.svg",
+    "ALL KNOWLEDGE BASE.base",
+    "Assets/Emotion Phrase Mapping.png",
+    "Assets/Network Traffic Forwarding.png",
+    "Assets/Brain Structure.png",
+    "Assets/WPA2 Interception.png",
+    "Assets/Initial Access.png",
+    "Assets/Network Infrastructure Takeover.png",
+    "Assets/Escape from DMZ.png",
+    "Assets/Context Optimization.png",
+    "Assets/Privilege Escalation.png",
+    "Assets/Recon and Compromise of Internal Network.png",
+    "10 - Red Team/Attack Chains/1. Recon/Shodan.io.md",
+    "10 - Red Team/Attack Chains/1. Recon/1.2 Active Recon.md",
+    "10 - Red Team/Attack Chains/1. Recon/1.1 Passive Recon.md",
+    "10 - Red Team/Attack Chains/1. Recon",
+    "30 - Network/Wireless Networks/Wi-Fi/Security/Protocols/WPA3.md",
+    "30 - Network/Wireless Networks/Wi-Fi/Security/Protocols/WPA2.md",
+    "30 - Network/Wireless Networks/Wi-Fi/Security/Wi-Fi 7.md",
+    "30 - Network/Wireless Networks/Wi-Fi/Security/Protocols",
+    "30 - Network/Wireless Networks/Wi-Fi/Security/PMF.md",
+    "30 - Network/Wireless Networks/Wi-Fi/Security",
+    "30 - Network/Wireless Networks/Wi-Fi/Attacks/Phishing Attacks.md",
+    "30 - Network/Wireless Networks/Wi-Fi/Attacks/Interception Attacks (WPA, WPA2).md",
+    "30 - Network/Wireless Networks/Wi-Fi/Attacks/Downgrade Attacks.md",
+    "30 - Network/Wireless Networks/Wi-Fi/Attacks/WPS Exploitation.md",
+    "20 - Windows & AD/Tools/Impacket/PSexec.md",
+    "20 - Windows & AD/Windows OS/Internals/LOLBAS/About LOLBAS.md",
+    "20 - Windows & AD/Windows OS/Internals/Network Subsystem/Important Subsystems.md",
+    "20 - Windows & AD/Windows OS/Internals/Privileges and Rights/User Rights/Privilege Exploitation.md",
+    "20 - Windows & AD/Windows OS/Internals/Privileges and Rights/User Rights/Important Privileges.md",
+    "20 - Windows & AD/Windows OS/Internals/Privileges and Rights/User Rights/About Rights and Privileges.md",
+    "20 - Windows & AD/Windows OS/Internals/Privileges and Rights/User Rights",
+    "20 - Windows & AD/Windows OS/Internals/Privileges and Rights/Group Rights/Server Operators.md",
+    "20 - Windows & AD/Windows OS/Internals/Privileges and Rights/Group Rights/Important Groups.md",
+    "20 - Windows & AD/Windows OS/Internals/Privileges and Rights/Group Rights/DNS Administrators.md",
+    "20 - Windows & AD/Windows OS/Internals/Privileges and Rights/Group Rights/Backup Operators.md",
+    "20 - Windows & AD/Windows OS/Internals/Privileges and Rights/Group Rights",
+    "10 - Red Team/Corporate Pentest/01 — Recon/01.0 — Overview.md",
+    "10 - Red Team/Corporate Pentest/01 — Recon/01 — Recon.md",
+    "10 - Red Team/Корпоративный Пентест/02 — Scanning & Enumeration/02.5 — Other Services.md",
+    "10 - Red Team/Corporate Pentest/04 — Exploitation/04.4 — Network Services.md",
+    "10 - Red Team/Corporate Pentest/04 — Exploitation",
+    "10 - Red Team/Corporate Pentest/07 — Privilege Escalation",
+    "10 - Red Team/Corporate Pentest/06 — Lateral Movement",
+    "10 - Red Team/Corporate Pentest/02 — Scanning & Enumeration",
+    "10 - Red Team/Corporate Pentest/01 — Recon",
     "Без названия.canvas"
   ]
 }
