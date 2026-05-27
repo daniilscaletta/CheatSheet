@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10 - Red Team/Corporate Pentest/01 — Recon/01.2 — Subdomains.md",
+                "file": "PENTEST_REPORT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01.2 — Subdomains"
+              "title": "PENTEST_REPORT"
             }
           }
         ]
@@ -182,8 +182,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "01bce3d7d79b33c6",
+  "active": "1cf563567b638878",
   "lastOpenFiles": [
+    "10 - Red Team/Corporate Pentest/01 — Recon/01.2 — Subdomains.md",
+    "PENTEST_REPORT.md",
     "ALL KNOWLEDGE BASE.base",
     "Assets/Emotion Phrase Mapping.png",
     "Assets/Network Traffic Forwarding.png",
@@ -224,12 +226,10 @@
     "10 - Red Team/Corporate Pentest/01 — Recon/01.0 — Overview.md",
     "10 - Red Team/Corporate Pentest/01 — Recon/01 — Recon.md",
     "10 - Red Team/Корпоративный Пентест/02 — Scanning & Enumeration/02.5 — Other Services.md",
-    "10 - Red Team/Corporate Pentest/04 — Exploitation/04.4 — Network Services.md",
     "10 - Red Team/Corporate Pentest/04 — Exploitation",
     "10 - Red Team/Corporate Pentest/07 — Privilege Escalation",
     "10 - Red Team/Corporate Pentest/06 — Lateral Movement",
     "10 - Red Team/Corporate Pentest/02 — Scanning & Enumeration",
-    "10 - Red Team/Corporate Pentest/01 — Recon",
     "Без названия.canvas"
   ]
 }
