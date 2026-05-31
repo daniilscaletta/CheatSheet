@@ -181,3 +181,29 @@
 - **VulnHub:** [HackLAB: Vulnix](https://www.vulnhub.com/entry/hacklab-vulnix,48/)
 - **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
 
+
+## 2026-05-31
+**Тип сессии:** Deep Dive
+**OSCP домен(ы):** Active Directory Attacks
+
+### Статья 1: 11. Превращение нефотографических изображений в фотографии (фотореалистичные изображения) с помощью ИИ
+- **Ссылка:** https://hackware.ru/?p=21541
+- **Домен:** Active Directory Attacks
+- **HTB:** [Resolute](https://app.hackthebox.com/machines/Resolute) — [Writeup](https://0xdf.gitlab.io/2020/05/30/htb-resolute.html)
+- **VulnHub:** [HackLAB: Vulnix](https://www.vulnhub.com/entry/hacklab-vulnix,48/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 2: 10. Междоменный перевод изображений (преобразование между различными типами изображений)
+- **Ссылка:** https://hackware.ru/?p=21017
+- **Домен:** Active Directory Attacks
+- **HTB:** [Forest](https://app.hackthebox.com/machines/Forest) — [Writeup](https://0xdf.gitlab.io/2020/03/21/htb-forest.html)
+- **VulnHub:** [Razorback: 1](https://www.vulnhub.com/entry/razorback-1,698/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 3: 9. Редактирование изображения с помощью нейросетей (I2I)
+- **Ссылка:** https://hackware.ru/?p=20791
+- **Домен:** Active Directory Attacks
+- **HTB:** [Resolute](https://app.hackthebox.com/machines/Resolute) — [Writeup](https://0xdf.gitlab.io/2020/05/30/htb-resolute.html)
+- **VulnHub:** [Razorback: 1](https://www.vulnhub.com/entry/razorback-1,698/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+

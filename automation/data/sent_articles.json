@@ -173,7 +173,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-05-31",
       "remind_3m_date": "2026-08-16",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -184,7 +184,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-05-31",
       "remind_3m_date": "2026-08-16",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -195,7 +195,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-05-31",
       "remind_3m_date": "2026-08-16",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -228,6 +228,39 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-06-07",
       "remind_3m_date": "2026-08-23",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://hackware.ru/?p=21541",
+      "title": "11. Превращение нефотографических изображений в фотографии (фотореалистичные изображения) с помощью ИИ",
+      "date_sent": "2026-05-31",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-06-14",
+      "remind_3m_date": "2026-08-30",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://hackware.ru/?p=21017",
+      "title": "10. Междоменный перевод изображений (преобразование между различными типами изображений)",
+      "date_sent": "2026-05-31",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-06-14",
+      "remind_3m_date": "2026-08-30",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://hackware.ru/?p=20791",
+      "title": "9. Редактирование изображения с помощью нейросетей (I2I)",
+      "date_sent": "2026-05-31",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-06-14",
+      "remind_3m_date": "2026-08-30",
       "reminded_2w": false,
       "reminded_3m": false
     }
