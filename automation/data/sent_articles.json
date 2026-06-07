@@ -206,7 +206,7 @@
       "summary": "Article covers Windows Privilege Escalation techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-06-07",
       "remind_3m_date": "2026-08-23",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -217,7 +217,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-06-07",
       "remind_3m_date": "2026-08-23",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -228,7 +228,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-06-07",
       "remind_3m_date": "2026-08-23",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -261,6 +261,39 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-06-14",
       "remind_3m_date": "2026-08-30",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://hackware.ru/?p=20417",
+      "title": "8. Замена, удаление и добавление объектов на изображение с помощью ИИ — редактирование по маске (inpainting)",
+      "date_sent": "2026-06-07",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-06-21",
+      "remind_3m_date": "2026-09-06",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://hackware.ru/?p=20163",
+      "title": "7. Расширение области видимости изображений с помощью нейросетей: расширение кадра, изменение соотношения сторон с добавлением новой информации (outpainting)",
+      "date_sent": "2026-06-07",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-06-21",
+      "remind_3m_date": "2026-09-06",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://hackware.ru/?p=19675",
+      "title": "6. Основы генерации изображений из текстовых запросов на своём компьютере",
+      "date_sent": "2026-06-07",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-06-21",
+      "remind_3m_date": "2026-09-06",
       "reminded_2w": false,
       "reminded_3m": false
     }
