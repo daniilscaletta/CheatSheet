@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PENTEST_REPORT.md",
+                "file": "KRBCOERCE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PENTEST_REPORT"
+              "title": "KRBCOERCE"
             }
           }
         ]
@@ -184,8 +184,9 @@
   },
   "active": "1cf563567b638878",
   "lastOpenFiles": [
-    "ALL KNOWLEDGE BASE.base",
     "PENTEST_REPORT.md",
+    "KRBCOERCE.md",
+    "ALL KNOWLEDGE BASE.base",
     "10 - Red Team/Corporate Pentest/01 — Recon/01.2 — Subdomains.md",
     "Assets/Emotion Phrase Mapping.png",
     "Assets/Network Traffic Forwarding.png",
