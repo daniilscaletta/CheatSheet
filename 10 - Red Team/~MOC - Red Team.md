@@ -24,7 +24,7 @@
 - [[PingCastle]] — аудит безопасности Active Directory
 - [[Portspoof]] — обман сканеров портов
 
-**Privesc:**
+**LPE:**
 - [[traitor]] — автоматическое повышение привилегий на Linux
 
 **Recon:**
