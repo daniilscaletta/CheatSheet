@@ -1,56 +1,41 @@
 {
   "main": {
-    "id": "1ad64d9c84c8634a",
+    "id": "8e7a6a96aee299cb",
     "type": "split",
     "children": [
       {
-        "id": "eb7d20fce9045a40",
+        "id": "69cc1caceda15aa0",
         "type": "tabs",
         "children": [
           {
-            "id": "17fa7c4026f3d068",
+            "id": "7fca7960f6089957",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "10 - Red Team/Exploitation/LPE/Basic enum.md",
-                "mode": "source",
-                "source": false
+                "aFile": "80 - Bug Bounty/BB Program.md",
+                "bFile": "80 - Bug Bounty/BB Program.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Basic enum"
-            }
-          },
-          {
-            "id": "ab1cba7f7ccc6fef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Capabilities.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Capabilities"
+              "icon": "diff",
+              "title": "Diff: BB Program"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "163585c01df73766",
+    "id": "6340563232bdea88",
     "type": "split",
     "children": [
       {
-        "id": "431e7134ea9ecec3",
+        "id": "1d34b4cc7313dcb1",
         "type": "tabs",
         "children": [
           {
-            "id": "01bce3d7d79b33c6",
+            "id": "0f3c900e33c35c57",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,7 +48,7 @@
             }
           },
           {
-            "id": "a2758c5d43b74718",
+            "id": "5eb6a89b13431ed9",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +65,7 @@
             }
           },
           {
-            "id": "4bee0aede4d65fd1",
+            "id": "3e84bcaa795d5982",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -93,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 394.5
+    "width": 300
   },
   "right": {
-    "id": "7057b8b67aa692c8",
+    "id": "6cae607bd26bc09a",
     "type": "split",
     "children": [
       {
-        "id": "05c513d8c3df664a",
+        "id": "4ef67761115fc8d8",
         "type": "tabs",
         "children": [
           {
-            "id": "ec0f5416e553bdea",
+            "id": "b27aa618191f00b2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/ХАКИНГ НА ПРИМЕРАХ. Уязвимости, взлом, защита.md",
+                "file": "80 - Bug Bounty/BB Program.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для ХАКИНГ НА ПРИМЕРАХ. Уязвимости, взлом, защита"
+              "title": "Обратные ссылки для BB Program"
             }
           },
           {
-            "id": "26b98dcc08588aaa",
+            "id": "54eb7c538b94fe3a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/ХАКИНГ НА ПРИМЕРАХ. Уязвимости, взлом, защита.md",
+                "file": "kujyhuikyg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из ХАКИНГ НА ПРИМЕРАХ. Уязвимости, взлом, защита"
+              "title": "Исходящие ссылки из kujyhuikyg"
             }
           },
           {
-            "id": "fe0976a476b7b70c",
+            "id": "0400167378a33fb5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -152,22 +137,36 @@
             }
           },
           {
-            "id": "8029b85969a5f51a",
+            "id": "933d8238007e7b11",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-ghost",
+              "title": "all-properties"
+            }
+          },
+          {
+            "id": "0b577e38b5f3c117",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/AD/Атаки/DCShadow.md",
+                "file": "kujyhuikyg.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура DCShadow"
+              "title": "Структура kujyhuikyg"
             }
           },
           {
-            "id": "bdce49fe320149d6",
+            "id": "fa7507cab2fbabb3",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -177,74 +176,73 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 393.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "dashboard-navigator:Open dashboard navigator": false,
-      "bases:Создать новую базу": false,
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
       "canvas:Создать новый холст": false,
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false,
       "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ab1cba7f7ccc6fef",
+  "active": "7fca7960f6089957",
   "lastOpenFiles": [
-    "10 - Red Team/Exploitation/LPE/Basic enum.md",
+    "00 - HUB/Дорожные карты/00. Противодействие обнаружению и реагированию.md",
+    "00 - HUB/Дорожные карты/1. Разведка во внешней сети (Recon).md",
+    "00 - HUB/Дорожные карты/2. Атаки первичного доступа (Initial access).md",
+    "00 - HUB/Дорожные карты/3. Закрепление доступа (Persistance).md",
+    "00 - HUB/Дорожные карты/3.1 Разветка системы.md",
+    "00 - HUB/Дорожные карты/4. Повышение привилегий (Privillage escalation).md",
+    "00 - HUB/Дорожные карты/4.1 Дополнительные способы повышения привилегий.md",
+    "00 - HUB/Дорожные карты/5. Выход за рамки DMZ и ограничений сети.md",
+    "00 - HUB/Дорожные карты/6. Проброс трафика в другие сегменты (Pivoting).md",
+    "00 - HUB/Дорожные карты/7. Разведка в локальной сети.md",
+    "00 - HUB/Дорожные карты/8. Повышение привилегий на узлах локальной сети.md",
+    "00 - HUB/Дорожные карты/9. Захват управления инфраструктурой сети (Атака на контроллер домена).md",
+    "00 - HUB/Дорожные карты/Roadmap AD.md",
+    "00 - HUB/Дорожные карты/Roadmap AD.svg",
+    "00_Finance/Fin_Dashboard.md",
+    "00_Finance/Debt_Tracker.md",
+    "00_Finance/Ledger.md",
+    "00_Finance/Budget_Calendar.md",
+    "00_Finance/Fin_Dashboard.md.tmp.600.1777811909169",
+    "00_Finance/Ledger.md.tmp.600.1777811880061",
     "Capabilities.md",
-    "80 - Bug Bounty/Написание хорошего отчета.md",
     "80 - Bug Bounty/BB Program.md",
-    "10 - Red Team/Exploitation/LPE/traitor.md",
-    "20 - Windows & AD/~MOC - Windows & AD.md",
-    "20 - Windows & AD/Active Directory/Атаки/Potato Attacks.md",
-    "20 - Windows & AD/Инструменты/Post-exploitation/Mimikatz.md",
-    "100 - Inbox/В работе/Компании.md",
-    "20 - Windows & AD/Active Directory/Атаки/ACL Abuze.md",
-    "20 - Windows & AD/Бинарные атаки.md",
-    "20 - Windows & AD/Windows OS/Классы уязвимостей/Weak Permissions.md",
-    "20 - Windows & AD/Windows OS/Классы уязвимостей/Vulnerable Services.md",
-    "20 - Windows & AD/Windows OS/Классы уязвимостей/Kernel Exploits.md",
-    "20 - Windows & AD/Windows OS/Классы уязвимостей/Взаимодействия с пользователями.md",
-    "20 - Windows & AD/Windows OS/Внутреннее устройство/LOLBAS/Scheduled Tasks.md",
-    "20 - Windows & AD/Windows OS/Внутреннее устройство/LOLBAS/Certutil.exe.md",
-    "20 - Windows & AD/Windows OS/Внутреннее устройство/LOLBAS/О LOLBAS.md",
-    "20 - Windows & AD/Windows OS/Внутреннее устройство/Сетевая подсистема/Важные подсистемы.md",
-    "20 - Windows & AD/Windows OS/Внутреннее устройство/Привилегии и права/UAC.md",
-    "20 - Windows & AD/PowerShell/Работа с оболочкой.md",
-    "20 - Windows & AD/PowerShell/Фреймворки для пентеста.md",
-    "20 - Windows & AD/Active Directory/Trusts.md",
-    "20 - Windows & AD/Active Directory/Commands.md",
-    "20 - Windows & AD/Active Directory/Усиление безопасности AD.md",
-    "20 - Windows & AD/Active Directory/Общие понятия.md",
-    "Assets/Resume_1.pdf",
-    "ВСЯ БАЗА ЗНАНИЙ.base",
+    "90 - Resources/Книги/Занимайся хакингом как НЕВИДИМКА. Искусство взлома облачных инфраструктур.md",
     "automation/scripts/select_articles.py",
     "automation/data/sent_articles.json",
     "automation/scripts",
-    "automation/requirements.txt",
     "automation/data",
+    "automation/requirements.txt",
     "automation",
-    "80 - Bug Bounty",
-    "30 - Network/Pivoting/Tunneling/SOCKS over RDP",
-    "Assets/ssh -D.png",
+    "Assets/Resume_1.pdf",
+    "60 - CTF/Web Exploitation/Subdomain brute.md",
+    "40 - Blue Team/Обнаружение и мониторинг/NGFW.md",
+    "100 - Inbox/reading_log.md",
+    "10 - Red Team/Exploitation/LPE/traitor.md",
+    "10 - Red Team/Exploitation/LPE/Basic enum.md",
+    "10 - Red Team/Exploitation/LPE",
+    "10 - Red Team/A&D.md",
     "Assets/ssh -R.png",
     "Assets/ssh -L.png",
-    "10 - Red Team/Цепочки атак/CKC в инфраструктуре компании.png",
-    "Assets/Выход из DMZ.png",
-    "Assets/Захват управления инфраструктурой сети.png",
-    "00 - HUB/Дорожные карты/Roadmap AD.svg",
-    "Assets/Оптимизация контекста.png",
+    "Assets/ssh -D.png",
+    "Assets/Строение мозга.png",
+    "Assets/Разветка и компрометация внутренней сети.png",
+    "Assets/Сопоставление эмоций с фразами.png",
+    "Assets/Проброс сетевого трафика.png",
     "Assets/Проверка доступа субъекта к объекту.png",
-    "Windows/Roadmap AD/Roadmap AD.svg",
-    "Без названия.canvas"
+    "Assets/Получение первичного доступа.png"
   ]
 }

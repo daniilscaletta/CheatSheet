@@ -3,5 +3,6 @@
   "omnisearch",
   "url-into-selection",
   "editing-toolbar",
-  "dashboard-navigator"
+  "dashboard-navigator",
+  "dataview"
 ]
