@@ -11,14 +11,14 @@
             "id": "7fca7960f6089957",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "80 - Bug Bounty/BB Program.md",
-                "bFile": "80 - Bug Bounty/BB Program.md",
-                "aRef": ""
+                "file": "00 - HUB/Дорожные карты/Roadmap AD.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: BB Program"
+              "icon": "lucide-file",
+              "title": "Roadmap AD"
             }
           }
         ]
@@ -196,8 +196,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7fca7960f6089957",
+  "active": "fa7507cab2fbabb3",
   "lastOpenFiles": [
+    "00 - HUB/Дорожные карты/Roadmap AD.svg",
+    "00 - HUB/Дорожные карты/9. Захват управления инфраструктурой сети (Атака на контроллер домена).md",
+    "00 - HUB/Дорожные карты/Roadmap AD.md",
     "00 - HUB/Дорожные карты/00. Противодействие обнаружению и реагированию.md",
     "00 - HUB/Дорожные карты/1. Разведка во внешней сети (Recon).md",
     "00 - HUB/Дорожные карты/2. Атаки первичного доступа (Initial access).md",
@@ -209,9 +212,6 @@
     "00 - HUB/Дорожные карты/6. Проброс трафика в другие сегменты (Pivoting).md",
     "00 - HUB/Дорожные карты/7. Разведка в локальной сети.md",
     "00 - HUB/Дорожные карты/8. Повышение привилегий на узлах локальной сети.md",
-    "00 - HUB/Дорожные карты/9. Захват управления инфраструктурой сети (Атака на контроллер домена).md",
-    "00 - HUB/Дорожные карты/Roadmap AD.md",
-    "00 - HUB/Дорожные карты/Roadmap AD.svg",
     "00_Finance/Fin_Dashboard.md",
     "00_Finance/Debt_Tracker.md",
     "00_Finance/Ledger.md",
@@ -234,7 +234,6 @@
     "10 - Red Team/Exploitation/LPE/traitor.md",
     "10 - Red Team/Exploitation/LPE/Basic enum.md",
     "10 - Red Team/Exploitation/LPE",
-    "10 - Red Team/A&D.md",
     "Assets/ssh -R.png",
     "Assets/ssh -L.png",
     "Assets/ssh -D.png",
