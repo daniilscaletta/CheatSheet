@@ -233,3 +233,29 @@
 - **VulnHub:** [HackLAB: Vulnix](https://www.vulnhub.com/entry/hacklab-vulnix,48/)
 - **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
 
+
+## 2026-06-14
+**Тип сессии:** Deep Dive
+**OSCP домен(ы):** Active Directory Attacks
+
+### Статья 1: 5. Знакомство с ComfyUI
+- **Ссылка:** https://hackware.ru/?p=19619
+- **Домен:** Active Directory Attacks
+- **HTB:** [Cascade](https://app.hackthebox.com/machines/Cascade) — [Writeup](https://0xdf.gitlab.io/2020/07/25/htb-cascade.html)
+- **VulnHub:** [Razorback: 1](https://www.vulnhub.com/entry/razorback-1,698/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 2: Ethereum Virtual Machine
+- **Ссылка:** https://en.hackndo.com/ethereum-virtual-machine/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Active](https://app.hackthebox.com/machines/Active) — [Writeup](https://0xdf.gitlab.io/2018/12/08/htb-active.html)
+- **VulnHub:** [Razorback: 1](https://www.vulnhub.com/entry/razorback-1,698/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 3: Ethereum
+- **Ссылка:** https://en.hackndo.com/ethereum/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Sauna](https://app.hackthebox.com/machines/Sauna) — [Writeup](https://0xdf.gitlab.io/2020/07/18/htb-sauna.html)
+- **VulnHub:** [Razorback: 1](https://www.vulnhub.com/entry/razorback-1,698/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+

@@ -239,7 +239,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-06-14",
       "remind_3m_date": "2026-08-30",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -250,7 +250,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-06-14",
       "remind_3m_date": "2026-08-30",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -261,7 +261,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-06-14",
       "remind_3m_date": "2026-08-30",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -294,6 +294,39 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-06-21",
       "remind_3m_date": "2026-09-06",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://hackware.ru/?p=19619",
+      "title": "5. Знакомство с ComfyUI",
+      "date_sent": "2026-06-14",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-06-28",
+      "remind_3m_date": "2026-09-13",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://en.hackndo.com/ethereum-virtual-machine/",
+      "title": "Ethereum Virtual Machine",
+      "date_sent": "2026-06-14",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-06-28",
+      "remind_3m_date": "2026-09-13",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://en.hackndo.com/ethereum/",
+      "title": "Ethereum",
+      "date_sent": "2026-06-14",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-06-28",
+      "remind_3m_date": "2026-09-13",
       "reminded_2w": false,
       "reminded_3m": false
     }
