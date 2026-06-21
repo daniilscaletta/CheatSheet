@@ -272,7 +272,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-06-21",
       "remind_3m_date": "2026-09-06",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -283,7 +283,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-06-21",
       "remind_3m_date": "2026-09-06",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -294,7 +294,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-06-21",
       "remind_3m_date": "2026-09-06",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -327,6 +327,39 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-06-28",
       "remind_3m_date": "2026-09-13",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://www.hackingarticles.in/bloodhound-mcp-automating-active-directory-analysis-with-ai/",
+      "title": "BloodHound MCP: Automating Active Directory Analysis with AI",
+      "date_sent": "2026-06-21",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-07-05",
+      "remind_3m_date": "2026-09-20",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://en.hackndo.com/blockchain/",
+      "title": "Blockchain 101",
+      "date_sent": "2026-06-21",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-07-05",
+      "remind_3m_date": "2026-09-20",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://en.hackndo.com/write-and-bypass-kernel-edr-part-1/",
+      "title": "Writing and bypassing a kernel-side EDR - Part 1: Kernel & Drivers",
+      "date_sent": "2026-06-21",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-07-05",
+      "remind_3m_date": "2026-09-20",
       "reminded_2w": false,
       "reminded_3m": false
     }
