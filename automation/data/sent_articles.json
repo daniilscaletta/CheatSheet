@@ -305,7 +305,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-06-28",
       "remind_3m_date": "2026-09-13",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -316,7 +316,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-06-28",
       "remind_3m_date": "2026-09-13",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -327,7 +327,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-06-28",
       "remind_3m_date": "2026-09-13",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -360,6 +360,39 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-07-05",
       "remind_3m_date": "2026-09-20",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://hackware.ru/?p=22049",
+      "title": "Как извлечь вокал, инструментальную минусовку и отдельные стемы из песен на своём компьютере (инструкция по использованию Audio Separator)",
+      "date_sent": "2026-06-28",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-07-12",
+      "remind_3m_date": "2026-09-27",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://timcore.ru/2026/05/12/webrtc-leaks-i-ataki-na-p2p-kak-deanonimizirovat-polzovatelja-cherez-brauzer/",
+      "title": "WebRTC Leaks и атаки на P2P: как деанонимизировать пользователя через браузер",
+      "date_sent": "2026-06-28",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-07-12",
+      "remind_3m_date": "2026-09-27",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://timcore.ru/2026/05/12/oauth-2-0-device-flow-kak-ugnat-token-cherez-televizor/",
+      "title": "OAuth 2.0 Device Flow: как угнать токен через телевизор",
+      "date_sent": "2026-06-28",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-07-12",
+      "remind_3m_date": "2026-09-27",
       "reminded_2w": false,
       "reminded_3m": false
     }

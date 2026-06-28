@@ -285,3 +285,29 @@
 - **VulnHub:** [Razorback: 1](https://www.vulnhub.com/entry/razorback-1,698/)
 - **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
 
+
+## 2026-06-28
+**Тип сессии:** Deep Dive
+**OSCP домен(ы):** Active Directory Attacks
+
+### Статья 1: Как извлечь вокал, инструментальную минусовку и отдельные стемы из песен на своём компьютере (инструкция по использованию Audio Separator)
+- **Ссылка:** https://hackware.ru/?p=22049
+- **Домен:** Active Directory Attacks
+- **HTB:** [Cascade](https://app.hackthebox.com/machines/Cascade) — [Writeup](https://0xdf.gitlab.io/2020/07/25/htb-cascade.html)
+- **VulnHub:** [Razorback: 1](https://www.vulnhub.com/entry/razorback-1,698/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 2: WebRTC Leaks и атаки на P2P: как деанонимизировать пользователя через браузер
+- **Ссылка:** https://timcore.ru/2026/05/12/webrtc-leaks-i-ataki-na-p2p-kak-deanonimizirovat-polzovatelja-cherez-brauzer/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Resolute](https://app.hackthebox.com/machines/Resolute) — [Writeup](https://0xdf.gitlab.io/2020/05/30/htb-resolute.html)
+- **VulnHub:** [MicroVuln](https://www.vulnhub.com/entry/microvuln,816/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 3: OAuth 2.0 Device Flow: как угнать токен через телевизор
+- **Ссылка:** https://timcore.ru/2026/05/12/oauth-2-0-device-flow-kak-ugnat-token-cherez-televizor/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Active](https://app.hackthebox.com/machines/Active) — [Writeup](https://0xdf.gitlab.io/2018/12/08/htb-active.html)
+- **VulnHub:** [Razorback: 1](https://www.vulnhub.com/entry/razorback-1,698/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
