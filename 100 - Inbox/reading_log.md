@@ -311,3 +311,29 @@
 - **VulnHub:** [Razorback: 1](https://www.vulnhub.com/entry/razorback-1,698/)
 - **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
 
+
+## 2026-07-05
+**Тип сессии:** Deep Dive
+**OSCP домен(ы):** Active Directory Attacks
+
+### Статья 1: Атаки на прошивку UEFI/BIOS: как выжить после переустановки системы
+- **Ссылка:** https://timcore.ru/2026/07/03/ataki-na-proshivku-uefi-bios-kak-vyzhit-posle-pereustanovki-sistemy/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Forest](https://app.hackthebox.com/machines/Forest) — [Writeup](https://0xdf.gitlab.io/2020/03/21/htb-forest.html)
+- **VulnHub:** [Razorback: 1](https://www.vulnhub.com/entry/razorback-1,698/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 2: SMTP Smuggling и Email Spoofing в 2026: как обойти SPF, DKIM и DMARC
+- **Ссылка:** https://timcore.ru/2026/07/03/smtp-smuggling-i-email-spoofing-v-2026-kak-obojti-spf-dkim-i-dmarc/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Forest](https://app.hackthebox.com/machines/Forest) — [Writeup](https://0xdf.gitlab.io/2020/03/21/htb-forest.html)
+- **VulnHub:** [HackLAB: Vulnix](https://www.vulnhub.com/entry/hacklab-vulnix,48/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 3: eBPF: двойной агент в ядре — и руткит, и детектор
+- **Ссылка:** https://timcore.ru/2026/04/13/ebpf-dvojnoj-agent-v-jadre-i-rutkit-i-detektor/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Forest](https://app.hackthebox.com/machines/Forest) — [Writeup](https://0xdf.gitlab.io/2020/03/21/htb-forest.html)
+- **VulnHub:** [MicroVuln](https://www.vulnhub.com/entry/microvuln,816/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+

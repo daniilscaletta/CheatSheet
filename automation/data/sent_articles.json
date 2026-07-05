@@ -338,7 +338,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-07-05",
       "remind_3m_date": "2026-09-20",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -349,7 +349,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-07-05",
       "remind_3m_date": "2026-09-20",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -360,7 +360,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-07-05",
       "remind_3m_date": "2026-09-20",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -393,6 +393,39 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-07-12",
       "remind_3m_date": "2026-09-27",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://timcore.ru/2026/07/03/ataki-na-proshivku-uefi-bios-kak-vyzhit-posle-pereustanovki-sistemy/",
+      "title": "Атаки на прошивку UEFI/BIOS: как выжить после переустановки системы",
+      "date_sent": "2026-07-05",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-07-19",
+      "remind_3m_date": "2026-10-04",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://timcore.ru/2026/07/03/smtp-smuggling-i-email-spoofing-v-2026-kak-obojti-spf-dkim-i-dmarc/",
+      "title": "SMTP Smuggling и Email Spoofing в 2026: как обойти SPF, DKIM и DMARC",
+      "date_sent": "2026-07-05",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-07-19",
+      "remind_3m_date": "2026-10-04",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://timcore.ru/2026/04/13/ebpf-dvojnoj-agent-v-jadre-i-rutkit-i-detektor/",
+      "title": "eBPF: двойной агент в ядре — и руткит, и детектор",
+      "date_sent": "2026-07-05",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-07-19",
+      "remind_3m_date": "2026-10-04",
       "reminded_2w": false,
       "reminded_3m": false
     }
