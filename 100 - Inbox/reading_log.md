@@ -337,3 +337,29 @@
 - **VulnHub:** [MicroVuln](https://www.vulnhub.com/entry/microvuln,816/)
 - **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
 
+
+## 2026-07-12
+**Тип сессии:** Variety
+**OSCP домен(ы):** Windows Privilege Escalation, Active Directory Attacks
+
+### Статья 1: Active Directory Forest Trust Abuse: Child-to-Root Domain Escalation
+- **Ссылка:** https://www.hackingarticles.in/active-directory-forest-trust-abuse-child-to-root-domain-escalation/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Sauna](https://app.hackthebox.com/machines/Sauna) — [Writeup](https://0xdf.gitlab.io/2020/07/18/htb-sauna.html)
+- **VulnHub:** [MicroVuln](https://www.vulnhub.com/entry/microvuln,816/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 2: Windows Privilege Escalation: SeDebugPrivilege
+- **Ссылка:** https://www.hackingarticles.in/windows-privilege-escalation-sedebugprivilege/
+- **Домен:** Windows Privilege Escalation
+- **HTB:** [Bastion](https://app.hackthebox.com/machines/Bastion) — [Writeup](https://0xdf.gitlab.io/2019/09/07/htb-bastion.html)
+- **VulnHub:** [Healthcare: 1](https://www.vulnhub.com/entry/healthcare-1,522/)
+- **Саммари:** Article covers Windows Privilege Escalation techniques relevant to OSCP certification.
+
+### Статья 3: AI-Powered Active Directory Pentesting with Claude, HexStrike AI & NetExec
+- **Ссылка:** https://www.hackingarticles.in/ai-powered-active-directory-pentesting-with-claude-hexstrike-ai-netexec/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Sauna](https://app.hackthebox.com/machines/Sauna) — [Writeup](https://0xdf.gitlab.io/2020/07/18/htb-sauna.html)
+- **VulnHub:** [MicroVuln](https://www.vulnhub.com/entry/microvuln,816/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+

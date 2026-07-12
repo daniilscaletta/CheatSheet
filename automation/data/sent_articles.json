@@ -371,7 +371,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-07-12",
       "remind_3m_date": "2026-09-27",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -382,7 +382,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-07-12",
       "remind_3m_date": "2026-09-27",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -393,7 +393,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-07-12",
       "remind_3m_date": "2026-09-27",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -426,6 +426,39 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-07-19",
       "remind_3m_date": "2026-10-04",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://www.hackingarticles.in/active-directory-forest-trust-abuse-child-to-root-domain-escalation/",
+      "title": "Active Directory Forest Trust Abuse: Child-to-Root Domain Escalation",
+      "date_sent": "2026-07-12",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-07-26",
+      "remind_3m_date": "2026-10-11",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://www.hackingarticles.in/windows-privilege-escalation-sedebugprivilege/",
+      "title": "Windows Privilege Escalation: SeDebugPrivilege",
+      "date_sent": "2026-07-12",
+      "oscp_domain": "privesc_windows",
+      "summary": "Article covers Windows Privilege Escalation techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-07-26",
+      "remind_3m_date": "2026-10-11",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://www.hackingarticles.in/ai-powered-active-directory-pentesting-with-claude-hexstrike-ai-netexec/",
+      "title": "AI-Powered Active Directory Pentesting with Claude, HexStrike AI & NetExec",
+      "date_sent": "2026-07-12",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-07-26",
+      "remind_3m_date": "2026-10-11",
       "reminded_2w": false,
       "reminded_3m": false
     }
