@@ -9,7 +9,7 @@
       "remind_2w_date": "2026-05-03",
       "remind_3m_date": "2026-07-19",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://en.hackndo.com/constrained-unconstrained-delegation/",
@@ -20,7 +20,7 @@
       "remind_2w_date": "2026-05-03",
       "remind_3m_date": "2026-07-19",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://timcore.ru/2026/02/19/file-upload-ot-avatarki-do-veb-shella-za-tri-shaga/",
@@ -31,7 +31,7 @@
       "remind_2w_date": "2026-05-03",
       "remind_3m_date": "2026-07-19",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://www.hackingarticles.in/a-detailed-guide-on-ssh-port-forwarding-tunnelling/",
@@ -42,7 +42,7 @@
       "remind_2w_date": "2026-05-03",
       "remind_3m_date": "2026-07-19",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://en.hackndo.com/ntlm-relay/",
@@ -53,7 +53,7 @@
       "remind_2w_date": "2026-05-03",
       "remind_3m_date": "2026-07-19",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://www.hackingarticles.in/a-detailed-guide-on-local-port-forwarding/",
@@ -64,7 +64,7 @@
       "remind_2w_date": "2026-05-03",
       "remind_3m_date": "2026-07-19",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://www.hackingarticles.in/network-pivoting-using-ligolo-mp-complete-guide/",
@@ -404,7 +404,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-07-19",
       "remind_3m_date": "2026-10-04",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -415,7 +415,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-07-19",
       "remind_3m_date": "2026-10-04",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -426,7 +426,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-07-19",
       "remind_3m_date": "2026-10-04",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -459,6 +459,39 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-07-26",
       "remind_3m_date": "2026-10-11",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://www.hackingarticles.in/windows-privilege-escalation-setcbprivilege/",
+      "title": "Windows Privilege Escalation: SeTcbPrivilege",
+      "date_sent": "2026-07-19",
+      "oscp_domain": "privesc_windows",
+      "summary": "Article covers Windows Privilege Escalation techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-08-02",
+      "remind_3m_date": "2026-10-18",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://www.hackingarticles.in/windows-privilege-escalation-setakeownershipprivilege/",
+      "title": "Windows Privilege Escalation: SeTakeOwnershipPrivilege",
+      "date_sent": "2026-07-19",
+      "oscp_domain": "privesc_windows",
+      "summary": "Article covers Windows Privilege Escalation techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-08-02",
+      "remind_3m_date": "2026-10-18",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://hackware.ru/?p=22109",
+      "title": "Локальный ИИ переводчик высочайшего качества: 33 языка (инструкция по нейросетям Hy-MT2)",
+      "date_sent": "2026-07-19",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-08-02",
+      "remind_3m_date": "2026-10-18",
       "reminded_2w": false,
       "reminded_3m": false
     }

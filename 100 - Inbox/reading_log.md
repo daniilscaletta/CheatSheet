@@ -363,3 +363,29 @@
 - **VulnHub:** [MicroVuln](https://www.vulnhub.com/entry/microvuln,816/)
 - **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
 
+
+## 2026-07-19
+**Тип сессии:** Variety
+**OSCP домен(ы):** Windows Privilege Escalation, Active Directory Attacks
+
+### Статья 1: Windows Privilege Escalation: SeTcbPrivilege
+- **Ссылка:** https://www.hackingarticles.in/windows-privilege-escalation-setcbprivilege/
+- **Домен:** Windows Privilege Escalation
+- **HTB:** [SecNotes](https://app.hackthebox.com/machines/SecNotes) — [Writeup](https://0xdf.gitlab.io/2019/01/19/htb-secnotes.html)
+- **VulnHub:** [HackLAB: Vulnix](https://www.vulnhub.com/entry/hacklab-vulnix,48/)
+- **Саммари:** Article covers Windows Privilege Escalation techniques relevant to OSCP certification.
+
+### Статья 2: Windows Privilege Escalation: SeTakeOwnershipPrivilege
+- **Ссылка:** https://www.hackingarticles.in/windows-privilege-escalation-setakeownershipprivilege/
+- **Домен:** Windows Privilege Escalation
+- **HTB:** [Bastion](https://app.hackthebox.com/machines/Bastion) — [Writeup](https://0xdf.gitlab.io/2019/09/07/htb-bastion.html)
+- **VulnHub:** [pWnOS 2.0](https://www.vulnhub.com/entry/pwnos-20-pre-release,34/)
+- **Саммари:** Article covers Windows Privilege Escalation techniques relevant to OSCP certification.
+
+### Статья 3: Локальный ИИ переводчик высочайшего качества: 33 языка (инструкция по нейросетям Hy-MT2)
+- **Ссылка:** https://hackware.ru/?p=22109
+- **Домен:** Active Directory Attacks
+- **HTB:** [Sauna](https://app.hackthebox.com/machines/Sauna) — [Writeup](https://0xdf.gitlab.io/2020/07/18/htb-sauna.html)
+- **VulnHub:** [MicroVuln](https://www.vulnhub.com/entry/microvuln,816/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
