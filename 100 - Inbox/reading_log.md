@@ -389,3 +389,29 @@
 - **VulnHub:** [MicroVuln](https://www.vulnhub.com/entry/microvuln,816/)
 - **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
 
+
+## 2026-07-26
+**Тип сессии:** Variety
+**OSCP домен(ы):** Active Directory Attacks, Windows Privilege Escalation
+
+### Статья 1: Windows Privilege Escalation: SeRestorePrivilege
+- **Ссылка:** https://www.hackingarticles.in/windows-privilege-escalation-serestoreprivilege/
+- **Домен:** Windows Privilege Escalation
+- **HTB:** [Conceal](https://app.hackthebox.com/machines/Conceal) — [Writeup](https://0xdf.gitlab.io/2019/05/18/htb-conceal.html)
+- **VulnHub:** [Healthcare: 1](https://www.vulnhub.com/entry/healthcare-1,522/)
+- **Саммари:** Article covers Windows Privilege Escalation techniques relevant to OSCP certification.
+
+### Статья 2: Terraform и IaC: как читать чужую инфраструктуру как открытую книгу
+- **Ссылка:** https://timcore.ru/2026/04/13/terraform-i-iac-kak-chitat-chuzhuju-infrastrukturu-kak-otkrytuju-knigu/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Cascade](https://app.hackthebox.com/machines/Cascade) — [Writeup](https://0xdf.gitlab.io/2020/07/25/htb-cascade.html)
+- **VulnHub:** [Razorback: 1](https://www.vulnhub.com/entry/razorback-1,698/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 3: Kubernetes Jailbreak: от пода до cluster-admin за 5 шагов
+- **Ссылка:** https://timcore.ru/2026/03/23/kubernetes-jailbreak-ot-poda-do-cluster-admin-za-5-shagov/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Resolute](https://app.hackthebox.com/machines/Resolute) — [Writeup](https://0xdf.gitlab.io/2020/05/30/htb-resolute.html)
+- **VulnHub:** [MicroVuln](https://www.vulnhub.com/entry/microvuln,816/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
