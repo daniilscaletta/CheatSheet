@@ -415,3 +415,29 @@
 - **VulnHub:** [MicroVuln](https://www.vulnhub.com/entry/microvuln,816/)
 - **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
 
+
+## 2026-08-02
+**Тип сессии:** Deep Dive
+**OSCP домен(ы):** Active Directory Attacks
+
+### Статья 1: Impacket for Pentester: atexec
+- **Ссылка:** https://www.hackingarticles.in/impacket-for-pentester-atexec/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Cascade](https://app.hackthebox.com/machines/Cascade) — [Writeup](https://0xdf.gitlab.io/2020/07/25/htb-cascade.html)
+- **VulnHub:** [MicroVuln](https://www.vulnhub.com/entry/microvuln,816/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 2: Active Directory Enumeration with BloodHound-Python
+- **Ссылка:** https://www.hackingarticles.in/active-directory-enumeration-with-bloodhound-python/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Forest](https://app.hackthebox.com/machines/Forest) — [Writeup](https://0xdf.gitlab.io/2020/03/21/htb-forest.html)
+- **VulnHub:** [Razorback: 1](https://www.vulnhub.com/entry/razorback-1,698/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 3: AI-Powered Fuzzing: как нейросетка находит 0-day быстрее тебя
+- **Ссылка:** https://timcore.ru/2026/03/23/ai-powered-fuzzing-kak-nejrosetka-nahodit-0-day-bystree-tebja/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Forest](https://app.hackthebox.com/machines/Forest) — [Writeup](https://0xdf.gitlab.io/2020/03/21/htb-forest.html)
+- **VulnHub:** [Razorback: 1](https://www.vulnhub.com/entry/razorback-1,698/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
