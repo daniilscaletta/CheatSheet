@@ -441,3 +441,29 @@
 - **VulnHub:** [Razorback: 1](https://www.vulnhub.com/entry/razorback-1,698/)
 - **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
 
+
+## 2026-08-09
+**Тип сессии:** Deep Dive
+**OSCP домен(ы):** Active Directory Attacks
+
+### Статья 1: Impacket for Pentester: reg
+- **Ссылка:** https://www.hackingarticles.in/impacket-for-pentester-reg/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Resolute](https://app.hackthebox.com/machines/Resolute) — [Writeup](https://0xdf.gitlab.io/2020/05/30/htb-resolute.html)
+- **VulnHub:** [MicroVuln](https://www.vulnhub.com/entry/microvuln,816/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 2: Атаки по сторонним каналам без осциллографа: Power Analysis в браузере
+- **Ссылка:** https://timcore.ru/2026/08/04/ataki-po-storonnim-kanalam-bez-oscillografa-power-analysis-v-brauzere/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Forest](https://app.hackthebox.com/machines/Forest) — [Writeup](https://0xdf.gitlab.io/2020/03/21/htb-forest.html)
+- **VulnHub:** [MicroVuln](https://www.vulnhub.com/entry/microvuln,816/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 3: Arsenal-NG: A Terminal Cheat-Sheet Launcher for Faster Penetration Testing
+- **Ссылка:** https://www.hackingarticles.in/arsenal-ng-pentest-cheat-sheet/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Cascade](https://app.hackthebox.com/machines/Cascade) — [Writeup](https://0xdf.gitlab.io/2020/07/25/htb-cascade.html)
+- **VulnHub:** [MicroVuln](https://www.vulnhub.com/entry/microvuln,816/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
