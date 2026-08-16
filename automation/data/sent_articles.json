@@ -174,7 +174,7 @@
       "remind_2w_date": "2026-05-31",
       "remind_3m_date": "2026-08-16",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://www.hackingarticles.in/active-directory-lab-setup-for-penetration-testing-using-powershell/",
@@ -185,7 +185,7 @@
       "remind_2w_date": "2026-05-31",
       "remind_3m_date": "2026-08-16",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://hackware.ru/?p=22022",
@@ -196,7 +196,7 @@
       "remind_2w_date": "2026-05-31",
       "remind_3m_date": "2026-08-16",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://www.hackingarticles.in/windows-privilege-escalation-bypass-uac/",
@@ -536,7 +536,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-08-16",
       "remind_3m_date": "2026-11-01",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -547,7 +547,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-08-16",
       "remind_3m_date": "2026-11-01",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -558,7 +558,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-08-16",
       "remind_3m_date": "2026-11-01",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
