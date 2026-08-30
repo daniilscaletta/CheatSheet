@@ -240,7 +240,7 @@
       "remind_2w_date": "2026-06-14",
       "remind_3m_date": "2026-08-30",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://hackware.ru/?p=21017",
@@ -251,7 +251,7 @@
       "remind_2w_date": "2026-06-14",
       "remind_3m_date": "2026-08-30",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://hackware.ru/?p=20791",
@@ -262,7 +262,7 @@
       "remind_2w_date": "2026-06-14",
       "remind_3m_date": "2026-08-30",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://hackware.ru/?p=20417",
