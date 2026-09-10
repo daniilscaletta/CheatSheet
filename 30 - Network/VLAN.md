@@ -40,6 +40,7 @@ interface GigabitEthernet0/1
  switchport trunk allowed vlan 10,20,30
  ```
 
+
 **Поведение:**
 - Принимает трафик БЕЗ тега → помещает в VLAN 20 (Native)
 - Принимает трафик С тегами 10,20,30 → обрабатывает по тегам

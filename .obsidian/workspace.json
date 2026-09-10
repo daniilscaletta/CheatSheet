@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "69cc1caceda15aa0",
+        "id": "1dc020f0ed38e0c6",
         "type": "tabs",
         "children": [
           {
-            "id": "7fca7960f6089957",
+            "id": "0848120a6dacf790",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "00 - HUB/Roadmaps/00. Detection Evasion and Response.md",
-                "mode": "source",
-                "source": false
+                "aFile": "00 - HUB/Roadmaps/Roadmap AD.md",
+                "bFile": "00 - HUB/Roadmaps/Roadmap AD.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "00. Detection Evasion and Response"
+              "icon": "diff",
+              "title": "Diff: Roadmap AD"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Файловый менеджер"
@@ -196,53 +198,53 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7fca7960f6089957",
+  "active": "0848120a6dacf790",
   "lastOpenFiles": [
-    "00 - HUB/Roadmaps/00. Противодействие обнаружению и реагированию.md",
-    "00 - HUB/Roadmaps/00. Detection Evasion and Response.md",
-    "00 - HUB/Дорожные карты/Roadmap AD.md",
-    "Templates/Tool.md",
-    "Templates/Technique — Attack.md",
-    "Templates/Protocol — Technology.md",
-    "Templates/CVE — Vulnerability.md",
-    "PENTEST_REPORT.md",
-    "KRBCOERCE.md",
-    "Assets/WPA2 Interception.png",
+    "20 - Windows & AD/Active Directory/ADCS/ADCS Report.md",
+    "20 - Windows & AD/Active Directory/ADCS/Tools/certipy (certifi.exe).md",
+    "10 - Red Team/Recon & OSINT/SOCIAL ENGENEERING.md",
+    "10 - Red Team/Recon & OSINT/General.md",
+    "10 - Red Team/Recon & OSINT/Email Search.md",
+    "10 - Red Team/Recon & OSINT/Methods.md",
+    "10 - Red Team/Recon & OSINT/OSINT.md",
+    "20 - Windows & AD/Active Directory/Smart Cards & PKI/Smart Card Authentication.md",
+    "20 - Windows & AD/Active Directory/Smart Cards & PKI/Mitigations.md",
+    "20 - Windows & AD/Active Directory/ADCS/Mitigations.md",
+    "20 - Windows & AD/Active Directory/Smart Cards & PKI/Windows Hello (WHfB).md",
+    "20 - Windows & AD/Active Directory/ADCS/Authentication (PKINIT & Smart Cards).md",
+    "20 - Windows & AD/Active Directory/ADCS/Certificate Revocation (CRL & OCSP).md",
+    "20 - Windows & AD/Active Directory/ADCS/Certificate Issuance (Enrollment).md",
+    "20 - Windows & AD/Active Directory/ADCS/Certificate Templates.md",
+    "20 - Windows & AD/Active Directory/ADCS/Architecture and Components.md",
+    "20 - Windows & AD/Active Directory/ADCS/Overview.md",
+    "20 - Windows & AD/Active Directory/Attacks/ACL Abuze.md",
+    "20 - Windows & AD/PowerShell/Shell Usage.md",
+    "20 - Windows & AD/PowerShell/Pentest Frameworks.md",
+    "20 - Windows & AD/Tools/Post-exploitation/Rubeus.md",
+    "TODO.md",
+    "20 - Windows & AD/Tools/Post-exploitation/WinPwn.md",
+    "20 - Windows & AD/Tools/Post-exploitation/smbclient.md",
+    "20 - Windows & AD/Tools/Post-exploitation/rpcclient.md",
+    "20 - Windows & AD/Tools/Post-exploitation/pyLAPS.md",
     "Assets/Subject Access Check to Object.png",
-    "Assets/Recon and Compromise of Internal Network.png",
-    "Assets/Privilege Escalation.png",
-    "Assets/Privilege Escalation in Local Network.png",
-    "Assets/Network Traffic Forwarding.png",
-    "Assets/Network Infrastructure Takeover.png",
+    "github.com/microsoftarchive",
+    "github.com",
     "Assets/Kerb Resp Components.png",
-    "Assets/Initial Access.png",
-    "Assets/Escape from DMZ.png",
+    "20 - Windows & AD.zip",
+    "10 - Red Team/Attack Chains/CKC in Company Infrastructure.png",
+    "Assets/Emotion Phrase Mapping.png",
+    "Assets/Brain Structure.png",
+    "Assets/Network Infrastructure Takeover.png",
+    "Assets/Recon and Compromise of Internal Network.png",
+    "Assets/ssh -R.png",
+    "Assets/ssh -L.png",
+    "Assets/ssh -D.png",
     "ALL KNOWLEDGE BASE.base",
-    "90 - Resources/Cheatsheets/CheetSheet.md",
     "90 - Resources/Cheatsheets",
-    "90 - Resources/Books/Hacking Like Invisible. Cloud Infrastructure Exploitation.md",
-    "90 - Resources/Books/Hacking by Example. Vulnerabilities, Exploitation, Defense.md",
-    "90 - Resources/Books/Ethical Hacking. Practical Guide.md",
     "90 - Resources/Books",
-    "80 - Bug Bounty/Writing a Good Report.md",
     "80 - Bug Bounty",
-    "70 - Web Security/Web Attacks.md",
-    "70 - Web Security/Secure Development/CSRF Protection Implementation.md",
-    "70 - Web Security/Secure Development/Cloud Platform Security.md",
-    "70 - Web Security/Secure Development/Authentication (Separate Microservice).md",
     "70 - Web Security/Secure Development",
-    "50 - DevOps/Monitoring and Logging/Monitoring/Zabbix.md",
-    "50 - DevOps/Monitoring and Logging/Monitoring/PLG.md",
     "50 - DevOps/Monitoring and Logging/Monitoring",
-    "50 - DevOps/Monitoring and Logging",
-    "50 - DevOps/Infrastructure/Terraform.md",
-    "50 - DevOps/Infrastructure/Linux Administration.md",
-    "50 - DevOps/Infrastructure/Ansible.md",
-    "50 - DevOps/Infrastructure",
-    "50 - DevOps/DDoS Protection/NGINX (doing).md",
-    "50 - DevOps/DDoS Protection/TODO under attack.md",
-    "50 - DevOps/DDoS Protection/NGINX (conf).md",
-    "50 - DevOps/DDoS Protection",
-    "50 - DevOps/Containerization"
+    "50 - DevOps/Monitoring and Logging"
   ]
 }

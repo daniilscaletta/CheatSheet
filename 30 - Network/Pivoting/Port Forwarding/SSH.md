@@ -1,10 +1,10 @@
 #ssh #forwarding #port 
-
-
 # Оглавление
-
-
-
+- [[#Port Forwarding]]
+- [[#SSH Tunneling]]
+- [[#ProxyJump]]
+- [[#Tunneling]]
+- [[#SSH Multyplexing]]
 
 # Port Forwarding
 ## 1) -L 
@@ -83,12 +83,6 @@ proxychains nmap -Pn -p3389 172.16.5.19
 ```powershell
 proxychains xfreerdp3 /v:172.16.5.19  /u:victor /p:pass@123 
 ```
-
-
-
-
-
-
 
 
 ### **SSH Tunneling**

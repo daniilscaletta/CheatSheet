@@ -11,9 +11,9 @@
 Используем инстурмент *akagi.exe*
 
 ## Оглавление
-- [[#1) [UACME](https://github.com/hfiref0x/UACME)]]
+- #1) [UACME](https://github.com/hfiref0x/UACME)
   - [[#Как работать]]
-- [[#2) [Bypass-UAC](https://github.com/FuzzySecurity/PowerShell-Suite/tree/master/Bypass-UAC)]]
+- #2) [Bypass-UAC](https://github.com/FuzzySecurity/PowerShell-Suite/tree/master/Bypass-UAC)
 
 ---
 

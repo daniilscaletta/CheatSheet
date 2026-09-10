@@ -104,3 +104,18 @@ ExitPolicy rejectб *:* # no exits allowed
 7) Оплата только через Bitcoin
 
 ---
+
+
+
+СЕТИ
+1) Про mTLS подробнее и этапы TLS
+2) RPC and gRPC как сеансовый уровень
+3) Собрать виртуальный стенд и протестировать DNS и обход captive portal
+4) Что такое Round Robin alg
+5) Просмотреть Roadmap AD  и выделить дальнейшие шаги для изучения
+6) TruffleHog, foca - Посмотреть конкретнее
+7) ТАКЖЕ ПОСМОТРЕТЬ ПРО ДЕЛЕГАЦИИ и релею кербероса и Windows PrivEsc
+8) Повторить эти уязы DirtyCow PwnKit (pkexec) Dirty Pipe eBPF
+Сделать шаги по MOney
+
+ПРотестить WinPwn

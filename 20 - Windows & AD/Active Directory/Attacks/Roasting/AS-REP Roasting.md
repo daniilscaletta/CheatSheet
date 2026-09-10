@@ -27,10 +27,10 @@ Get-ADUser -Filter {DoesNotRequirePreAuth -eq $true} -Properties DoesNotRequireP
 ```
 ### Инструменты:
 
-1)  [[[Rubeus]]](https://github.com/SkillfactoryCoding/HACKER-OS-Rubeus) (модуль [asreproast](https://github.com/SkillfactoryCoding/HACKER-OS-Rubeus/blob/master/Rubeus/Commands/Asreproast.cs)) — получение хеша пользователя.
+1)  [Rubeus](https://github.com/SkillfactoryCoding/HACKER-OS-Rubeus) (модуль [asreproast](https://github.com/SkillfactoryCoding/HACKER-OS-Rubeus/blob/master/Rubeus/Commands/Asreproast.cs)) — получение хеша пользователя.
 ```powershell
 .\Rubeus.exe asreproast /outfile:hashes.txt
 ```
-2)  [[[Impacket]]](https://github.com/SkillfactoryCoding/HACKER-OS-impacket) ([GetNPUsers.py](https://github.com/SkillfactoryCoding/HACKER-OS-getnpusers.py/blob/main/getnpusers.py)) — поиск пользователей без предварительной аутентификации.
+2)  [Impacket](https://github.com/SkillfactoryCoding/HACKER-OS-impacket)  [GetNPUsers.py](https://github.com/SkillfactoryCoding/HACKER-OS-getnpusers.py/blob/main/getnpusers.py) — поиск пользователей без предварительной аутентификации.
 3)  [Hashcat](https://hashcat.net/hashcat/) — поможет сбрутить хеш.
 4)  [John The Ripper](https://hackware.ru/?p=13396) — поможет сбрутить хеш (устаревший инструмент, сейчас чаще используют _hashcat_).
