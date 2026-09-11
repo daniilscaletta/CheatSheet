@@ -64,6 +64,10 @@ Get-NetUser | Where-Object {$_.useraccountcontrol -like "*PASSWD_NOTREQD*"} | Se
 Get-NetUser | Where-Object {$_.useraccountcontrol -like "*DONT_REQ_PREAUTH*"} | Select-Object samaccountname, useraccountcontrol
 ```
 
+```powershell
+Get-DomainUser -UACFilter DONT_REQ_PREAUTH
+```
+
 - Unconstrained delegation (`TRUSTED_FOR_DELEGATION`)
 ```powershell
 Get-NetUser | Where-Object {$_.useraccountcontrol -like "*TRUSTED_FOR_DELEGATION*"} | Select-Object samaccountname, useraccountcontrol

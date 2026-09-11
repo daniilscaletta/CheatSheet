@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1dc020f0ed38e0c6",
+        "id": "4dac52d5a8f344de",
         "type": "tabs",
         "children": [
           {
-            "id": "0848120a6dacf790",
+            "id": "012044a42a07673c",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "00 - HUB/Roadmaps/Roadmap AD.md",
-                "bFile": "00 - HUB/Roadmaps/Roadmap AD.md",
-                "aRef": ""
+                "file": "20 - Windows & AD/Tools/Recon/PowerView.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Roadmap AD"
+              "icon": "lucide-file",
+              "title": "PowerView"
             }
           }
         ]
@@ -198,8 +198,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0848120a6dacf790",
+  "active": "012044a42a07673c",
   "lastOpenFiles": [
+    "20 - Windows & AD/Active Directory/Attacks/Roasting/AS-REP Roasting.md",
+    "20 - Windows & AD/Tools/Recon/PowerView.md",
+    "30 - Network/Pivoting/Port Forwarding/Metasploit Pivoting.md",
+    "20 - Windows & AD/Active Directory/Authentication Mechanisms/Kerberos.md",
+    "20 - Windows & AD/Active Directory/Attacks/Pass-the/Pass-the-Ticket.md",
     "20 - Windows & AD/Active Directory/ADCS/ADCS Report.md",
     "20 - Windows & AD/Active Directory/ADCS/Tools/certipy (certifi.exe).md",
     "10 - Red Team/Recon & OSINT/SOCIAL ENGENEERING.md",
@@ -221,11 +226,6 @@
     "20 - Windows & AD/PowerShell/Shell Usage.md",
     "20 - Windows & AD/PowerShell/Pentest Frameworks.md",
     "20 - Windows & AD/Tools/Post-exploitation/Rubeus.md",
-    "TODO.md",
-    "20 - Windows & AD/Tools/Post-exploitation/WinPwn.md",
-    "20 - Windows & AD/Tools/Post-exploitation/smbclient.md",
-    "20 - Windows & AD/Tools/Post-exploitation/rpcclient.md",
-    "20 - Windows & AD/Tools/Post-exploitation/pyLAPS.md",
     "Assets/Subject Access Check to Object.png",
     "github.com/microsoftarchive",
     "github.com",
