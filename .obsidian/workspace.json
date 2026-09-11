@@ -1,50 +1,70 @@
 {
   "main": {
-    "id": "8e7a6a96aee299cb",
+    "id": "5f3ddd53dd18cd44",
     "type": "split",
     "children": [
       {
-        "id": "4dac52d5a8f344de",
+        "id": "3b7bebd86502de25",
         "type": "tabs",
         "children": [
           {
-            "id": "012044a42a07673c",
+            "id": "871b33f8e8c0288c",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "20 - Windows & AD/Tools/Recon/PowerView.md",
+                "file": "20 - Windows & AD/Tools/Impacket/GetNPUsers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PowerView"
-=======
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+              "title": "GetNPUsers"
+            }
+          },
+          {
+            "id": "e77ead6186573c2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CVE-2025-33073 (Reflective Kerberos Relay).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
->>>>>>> 8231a68 (vault backup: 2026-09-11 21:40:29)
+              "icon": "lucide-file",
+              "title": "CVE-2025-33073 (Reflective Kerberos Relay)"
+            }
+          },
+          {
+            "id": "389bdcc4ab4938c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TODO"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "6340563232bdea88",
+    "id": "0b8385945a13f7aa",
     "type": "split",
     "children": [
       {
-        "id": "1d34b4cc7313dcb1",
+        "id": "26ffaf80bbf8afcd",
         "type": "tabs",
         "children": [
           {
-            "id": "0f3c900e33c35c57",
+            "id": "d4eee1e57abfdc64",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -59,7 +79,7 @@
             }
           },
           {
-            "id": "5eb6a89b13431ed9",
+            "id": "b1377adadc0a8d1b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -76,11 +96,14 @@
             }
           },
           {
-            "id": "3e84bcaa795d5982",
+            "id": "f8105c8de9c80166",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Закладки"
             }
@@ -92,21 +115,21 @@
     "width": 300
   },
   "right": {
-    "id": "6cae607bd26bc09a",
+    "id": "9e628b4161e72ba5",
     "type": "split",
     "children": [
       {
-        "id": "4ef67761115fc8d8",
+        "id": "7017e64a29aef8e5",
         "type": "tabs",
         "children": [
           {
-            "id": "b27aa618191f00b2",
+            "id": "c888ad295bf25ed0",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "80 - Bug Bounty/BB Program.md",
-                "collapseAll": false,
+                "file": "TODO.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -115,25 +138,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для BB Program"
+              "title": "Обратные ссылки"
             }
           },
           {
-            "id": "54eb7c538b94fe3a",
+            "id": "3f41a2d6acf1f592",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kujyhuikyg.md",
+                "file": "TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из kujyhuikyg"
+              "title": "Исходящие ссылки"
             }
           },
           {
-            "id": "0400167378a33fb5",
+            "id": "3bbf1ed3cdd0900c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -148,54 +171,30 @@
             }
           },
           {
-            "id": "933d8238007e7b11",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-ghost",
-              "title": "all-properties"
-            }
-          },
-          {
-            "id": "0b577e38b5f3c117",
+            "id": "f53ef981249ea437",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "kujyhuikyg.md",
-                "followCursor": false,
+                "file": "TODO.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура kujyhuikyg"
-            }
-          },
-          {
-            "id": "fa7507cab2fbabb3",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Структура"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "dashboard-navigator:Open dashboard navigator": false,
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
       "canvas:Создать новый холст": false,
@@ -203,61 +202,24 @@
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
       "bases:Создать новую базу": false,
+      "dashboard-navigator:Open dashboard navigator": false,
       "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "012044a42a07673c",
+  "active": "389bdcc4ab4938c7",
   "lastOpenFiles": [
-<<<<<<< HEAD
-=======
-    "TODO.md",
-    "20 - Windows & AD/Tools/Recon/PowerView.md",
-    "github.com/microsoftarchive/New-KrbtgtKeys.ps1.md",
-    "github.com/microsoftarchive",
-    "github.com",
-    "60 - CTF/A&D.md",
-    "30 - Network/Wireless Networks/Wi-Fi/Attacks/5. Phishing Attacks.md",
-    "30 - Network/Wireless Networks/Wi-Fi/Attacks/4. Downgrade Attacks (WPA3).md",
-    "30 - Network/Wireless Networks/Wi-Fi/Attacks/3. Interception Attacks (WPA, WPA2).md",
-    "30 - Network/Wireless Networks/Wi-Fi/Attacks/2. WEP.md",
-    "30 - Network/Wireless Networks/Wi-Fi/Attacks/1. WPS Exploitation.md",
-    "20 - Windows & AD/Active Directory/Attacks/Relay/Kerberos-Relay (ПЕРЕПИСАТЬ).md",
-    "20 - Windows & AD/Active Directory/ADCS/ADCS Report.md",
-    "100 - Inbox/TODO.md",
-    "10 - Red Team/Corporate Pentest/07 — Privilege Escalation/07 — Privilege Escalation.md",
-    "10 - Red Team/Corporate Pentest/06 — Lateral Movement/06.6 — Kerberos Relay.md",
->>>>>>> 8231a68 (vault backup: 2026-09-11 21:40:29)
-    "20 - Windows & AD/Active Directory/Attacks/Roasting/AS-REP Roasting.md",
-    "20 - Windows & AD/Tools/Recon/PowerView.md",
-    "30 - Network/Pivoting/Port Forwarding/Metasploit Pivoting.md",
-    "20 - Windows & AD/Active Directory/Authentication Mechanisms/Kerberos.md",
-    "20 - Windows & AD/Active Directory/Attacks/Pass-the/Pass-the-Ticket.md",
-    "20 - Windows & AD/Active Directory/ADCS/Tools/certipy (certifi.exe).md",
-    "10 - Red Team/Recon & OSINT/SOCIAL ENGENEERING.md",
-    "10 - Red Team/Recon & OSINT/General.md",
-    "10 - Red Team/Recon & OSINT/Email Search.md",
-    "10 - Red Team/Recon & OSINT/Methods.md",
-    "10 - Red Team/Recon & OSINT/OSINT.md",
-    "20 - Windows & AD/Active Directory/Smart Cards & PKI/Smart Card Authentication.md",
-    "20 - Windows & AD/Active Directory/Smart Cards & PKI/Mitigations.md",
-    "Assets/Subject Access Check to Object.png",
-    "Assets/Kerb Resp Components.png",
-    "20 - Windows & AD.zip",
-    "10 - Red Team/Attack Chains/CKC in Company Infrastructure.png",
-    "Assets/Emotion Phrase Mapping.png",
-    "Assets/Brain Structure.png",
-    "Assets/Network Infrastructure Takeover.png",
-    "Assets/Recon and Compromise of Internal Network.png",
-    "Assets/ssh -R.png",
-    "Assets/ssh -L.png",
-    "Assets/ssh -D.png",
-    "ALL KNOWLEDGE BASE.base",
-    "90 - Resources/Cheatsheets",
-    "90 - Resources/Books",
-    "80 - Bug Bounty",
-    "70 - Web Security/Secure Development",
-    "50 - DevOps/Monitoring and Logging/Monitoring",
-    "50 - DevOps/Monitoring and Logging"
+    "20 - Windows & AD/Active Directory/Attacks/Unconstrained Delegation​.md",
+    "20 - Windows & AD/Active Directory/1. Discovery and Enum.md",
+    "30 - Network/Pivoting/Port Forwarding/SSH.md",
+    "20 - Windows & AD/Active Directory/Attacks/Roasting/Kerberoasting.md",
+    "40 - Blue Team/Honeypot/Kerberosting Honeypot.md",
+    "20 - Windows & AD/Tools/Post-exploitation/Rubeus.md",
+    "20 - Windows & AD/Tools/Impacket/Reg.md",
+    "20 - Windows & AD/Tools/Impacket/PSexec.md",
+    "CVE-2025-33073 (Reflective Kerberos Relay).md",
+    "20 - Windows & AD/Active Directory/Attacks/DLL Hijacking.md",
+    "20 - Windows & AD/Active Directory/Attacks/LLMNR , NBT-NS Poisoning.md",
+    "20 - Windows & AD/Tools/Impacket/GetNPUsers.md"
   ]
 }
