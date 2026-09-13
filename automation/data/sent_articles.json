@@ -306,7 +306,7 @@
       "remind_2w_date": "2026-06-28",
       "remind_3m_date": "2026-09-13",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://en.hackndo.com/ethereum-virtual-machine/",
@@ -317,7 +317,7 @@
       "remind_2w_date": "2026-06-28",
       "remind_3m_date": "2026-09-13",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://en.hackndo.com/ethereum/",
@@ -328,7 +328,7 @@
       "remind_2w_date": "2026-06-28",
       "remind_3m_date": "2026-09-13",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://www.hackingarticles.in/bloodhound-mcp-automating-active-directory-analysis-with-ai/",
@@ -614,6 +614,28 @@
       "remind_2w_date": "2026-09-06",
       "remind_3m_date": "2026-11-22",
       "reminded_2w": true,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://hackware.ru/?p=22260",
+      "title": "Запуск ИИ на мобильных телефонах локально. Подготовка Android для запуска нейросетей [ЧЕРНОВИК]",
+      "date_sent": "2026-09-13",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-09-27",
+      "remind_3m_date": "2026-12-13",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://hackware.ru/?p=22202",
+      "title": "Подготовка Linux для локального запуска нейросетей (ИИ)",
+      "date_sent": "2026-09-13",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-09-27",
+      "remind_3m_date": "2026-12-13",
+      "reminded_2w": false,
       "reminded_3m": false
     }
   ]

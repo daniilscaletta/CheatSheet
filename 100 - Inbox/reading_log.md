@@ -486,3 +486,22 @@
 - **VulnHub:** [Razorback: 1](https://www.vulnhub.com/entry/razorback-1,698/)
 - **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
 
+
+## 2026-09-13
+**Тип сессии:** Deep Dive
+**OSCP домен(ы):** Active Directory Attacks
+
+### Статья 1: Запуск ИИ на мобильных телефонах локально. Подготовка Android для запуска нейросетей [ЧЕРНОВИК]
+- **Ссылка:** https://hackware.ru/?p=22260
+- **Домен:** Active Directory Attacks
+- **HTB:** [Cascade](https://app.hackthebox.com/machines/Cascade) — [Writeup](https://0xdf.gitlab.io/2020/07/25/htb-cascade.html)
+- **VulnHub:** [HackLAB: Vulnix](https://www.vulnhub.com/entry/hacklab-vulnix,48/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 2: Подготовка Linux для локального запуска нейросетей (ИИ)
+- **Ссылка:** https://hackware.ru/?p=22202
+- **Домен:** Active Directory Attacks
+- **HTB:** [Forest](https://app.hackthebox.com/machines/Forest) — [Writeup](https://0xdf.gitlab.io/2020/03/21/htb-forest.html)
+- **VulnHub:** [MicroVuln](https://www.vulnhub.com/entry/microvuln,816/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
