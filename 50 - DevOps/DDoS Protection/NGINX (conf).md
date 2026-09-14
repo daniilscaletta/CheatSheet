@@ -1,4 +1,8 @@
 #ddos #nginx 
+## Оглавление
+- [[#Установка]]
+- [[#nginx.conf]]
+- [[#DoS test]]
 ## Установка
 
 ```shell
@@ -33,10 +37,6 @@ nano /etc/hosts
 ```
 
 # nginx.conf
-
-## Оглавление
-- [[#Установка]]
-- [[#DoS test]]
 
 ---
 

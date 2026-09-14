@@ -1,6 +1,6 @@
 #hardening #windows #AD 
 
-- Периодически запускайте такие инструменты, как <font color="#00b050">[[BloodHound]], PingCastle и Grouper, </font>для выявления ошибок в конфигурации Active Directory.
+- Периодически запускайте такие инструменты, как <font color="#00b050">PingCastle и Grouper, </font>для выявления ошибок в конфигурации Active Directory.
 
 - Убедитесь, что администраторы не сохраняют пароли в поле описания учетной записи Active Directory.
 

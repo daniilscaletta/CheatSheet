@@ -3,7 +3,7 @@
 # Меры
 
 ## Оглавление
-- [[#1) **Local Administrator Password Solution** (LAPS)]]
+- [[#1) Local Administrator Password Solution (LAPS)]]
   - [[#Обход защиты LAPS]]
 - [[#2) Ведение журналов и мониторинга]]
 - [[#3) Тщательная настройка групповых политик (GPO)]]

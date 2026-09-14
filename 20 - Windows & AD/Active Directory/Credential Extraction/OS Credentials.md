@@ -1,4 +1,4 @@
-#creds #windows #AD #privillage #lpe #latmove
+	#creds #windows #AD #privillage #lpe #latmove
 
 ## Оглавление
 - [[#1) Поиск в файлах]]

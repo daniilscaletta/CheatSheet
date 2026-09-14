@@ -1,5 +1,14 @@
 #nginx #ddos 
-
+## Оглавление
+- [[#Анализ / Просмотр]]
+- [[#Подключение WAF ModSecurity]]
+- [[#Fail2ban]]
+- [[#geoIP]]
+- [[#Защита от SYN-flood]]
+- [[#Защита от TCP-connection exhaustion]]
+- [[#Защита от HTTP flood]]
+- [[#Metrics]]
+- [[#Alerts]]
 ## Анализ / Просмотр
 
 Сопоставление IP и кол-во запросов
@@ -74,17 +83,7 @@ findetime = 600
 bantime = 600
 maxretry = 5
 # ignoreip - ip, которые не должны быть заблочены
-
-## Оглавление
-- [[#Анализ / Просмотр]]
-- [[#Подключение WAF ModSecurity]]
-- [[#Fail2ban]]
-- [[#geoIP]]
-- [[#Защита от SYN-flood]]
-- [[#Защита от TCP-connection exhaustion]]
-- [[#Защита от HTTP flood]]
-- [[#Metrics]]
-- [[#Alerts]]
+```
 
 ---
 
@@ -179,7 +178,7 @@ echo 2 > /proc/sys/net/ipv4/tcp_synack_retries
 ```shell
 net.ipv4.tcp_syn_retries = 2
 net.ipv4.tcp_tw_reuse = 1
-``
+```
 
 1. Режем keepalive:
 ```shell

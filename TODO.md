@@ -106,6 +106,7 @@ ExitPolicy rejectб *:* # no exits allowed
 ---
 
 
+<<<<<<< HEAD
 
 СЕТИ
 1) Про mTLS подробнее и этапы TLS
@@ -119,3 +120,9 @@ ExitPolicy rejectб *:* # no exits allowed
 Сделать шаги по MOney
 
 ПРотестить WinPwn
+=======
+1) Посмотреть и законспектировать полное отличие symlink от hardlink
+2) Дополнить путь прохождения запроса
+3) TLS handshake
+4) Посмотреть CSPT path + snadlalone standoff
+>>>>>>> 1cb3fdb (Auto-commit: 2026-09-14 18:34:08)
