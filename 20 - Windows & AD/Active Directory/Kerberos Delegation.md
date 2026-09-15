@@ -73,8 +73,25 @@ Cписок служб, разрешенных для делегирования
 
 [S4U2Proxy](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-sfu/bde93b0e-f3c9-4ddf-9f44-e1453be7af5a) позволяет учётной записи службы использовать перенаправляемый тикет, полученный в процессе _S4U2proxy_, для запроса _TGS_-тикета для доступа к разрешенным сервисам (_msds-allowtodelegateto_). _KDC_ проверяет, указан ли запрашиваемый сервис в поле `msds-allowtodelegateto` запрашивающего пользователя, и выдаёт билет, если проверка прошла успешно. Таким образом, делегирование «ограничено» конкретными целевыми сервисами.
 
+### Почему УЗ Сервера может запросить TGS на Administrator?
+
+**Потому что это и есть суть расширения S4U2Self (Protocol Transition).**
+
+Обычный Kerberos требует, чтобы пользователь сам аутентифицировался и получил билет. Но Microsoft добавила расширение `S4U2Self` для сценариев, когда сервис хочет действовать от имени пользователя, который **не аутентифицировался через Kerberos** (например, зашёл через веб-форму или другой протокол)[](https://learn.microsoft.com/zh-tw/openspecs/windows_protocols/ms-sfu/1fb9caca-449f-4183-8f7a-1a5fc7e7290a#Appendix_A_Target_1#1)[](https://krbdev.mit.edu/rt/Ticket/Attachment/54888/22769#1).
+
+Чтобы это работало, у учётной записи сервиса (в нашем случае `DMZ01$`) должен быть установлен флаг **`TRUSTED_TO_AUTH_FOR_DELEGATION`** (в свойствах учётной записи это называется «Trust this user for delegation to any service» или «Protocol Transition»)[](https://github.com/AndrewAltimit/exploits/blob/main/tools/kerberos/s4u/README.md#1)[](https://github.com/transilienceai/communitytools/blob/main/skills/system/reference/scenarios/ad/constrained-delegation.md#1)[](https://raw.githubusercontent.com/AndrewAltimit/exploits/refs/heads/main/tools/kerberos/s4u/README.md#1).
+
+Логика KDC в этот момент:
+
+1. Сервис `DMZ01$` говорит: «Я аутентифицировал пользователя `Administrator` (например, через свой веб-интерфейс), и теперь хочу действовать от его имени».
+2. KDC **верит на слово** сервису `DMZ01$` (потому что у него есть этот флаг).
+3. KDC выдаёт forwardable-билет, где `cname` (имя клиента) = `Administrator`, а `sname` (имя сервиса) = `DMZ01$`.
+
+**Почему не нужен пароль Administrator?** Потому что KDC в этом сценарии не проверяет пароль. Он доверяет утверждению сервиса. Это и есть «Protocol Transition» — переход от не-Kerberos аутентификации к Kerberos без знания учётных данных пользователя[](https://github.com/AndrewAltimit/exploits/blob/main/tools/kerberos/s4u/README.md#1)
+
 ### S4U2Self — "дай мне тикет к самому себе, но от имени User"
 
+> Был добавлен, для сценариев, когда сервис хочет действовать от имени пользователя, который **не аутентифицировался через Kerberos** (например, зашёл через веб-форму или другой протокол)
 #### Кто отправляет запрос
 Сам **WebServer**. У него уже есть собственный TGT (получен обычным AS-REQ/AS-REP по его сервисному аккаунту/keytab).
 

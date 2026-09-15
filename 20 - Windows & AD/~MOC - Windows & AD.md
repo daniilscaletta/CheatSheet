@@ -83,7 +83,7 @@
 - [[Potato Attacks]] — атаки типа Potato (Juicy, Sweet, Hot)
 - [[PrintSpoofer]] — эксплуатация PrintSpoofer
 - [[Shadow Admins]] — скрытые администраторские аккаунты
-- [[Unconstrained Delegation​]] — атака через неограниченное делегирование
+- [[Unconstrained​ - Computers]] — атака через неограниченное делегирование
 <<<<<<< HEAD
 - [[DCShadow]] — подмена контроллера домена
 - [[DLL Hijacking]] — перехват загрузки DLL
