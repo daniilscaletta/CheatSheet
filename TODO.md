@@ -125,4 +125,4 @@ ExitPolicy rejectб *:* # no exits allowed
 2) Дополнить путь прохождения запроса
 3) TLS handshake
 4) Посмотреть CSPT path + snadlalone standoff
->>>>>>> 1cb3fdb (Auto-commit: 2026-09-14 18:34:08)
+5) Роадмапы/методологии из интервью
