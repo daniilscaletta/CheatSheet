@@ -61,10 +61,10 @@
 - [[Pass-the-Key (Overpass-the-hash)]] — overpass-the-hash техника
 
 **Relay-атаки:**
-- [[NTLM-Relay]] — ретрансляция NTLM-аутентификации
-- [[SMB relay]] — relay через SMB
+- [[NTLM Relay]] — ретрансляция NTLM-аутентификации
+- [[SMB Relay]] — relay через SMB
 - [[LDAP Relay]] — relay через LDAP
-- [[Kerberos-Relay (ПЕРЕПИСАТЬ)]] — ретрансляция Kerberos
+- [[Kerberos Relay (ПЕРЕПИСАТЬ)]] — ретрансляция Kerberos
 
 
 
@@ -74,7 +74,7 @@
 
 
 **Другие атаки:**
-- [[Coerce]] — принудительная аутентификация (PrinterBug, PetitPotam)
+- [[Authentication coercion]] — принудительная аутентификация (PrinterBug, PetitPotam)
 - [[DCSync]] — репликация хэшей с DC
 - [[Golden (Silver) Ticket]] — атаки на Kerberos с поддельными билетами
 - [[LLMNR , NBT-NS Poisoning]] — отравление LLMNR/NBT-NS
