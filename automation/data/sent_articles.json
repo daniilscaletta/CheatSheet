@@ -339,7 +339,7 @@
       "remind_2w_date": "2026-07-05",
       "remind_3m_date": "2026-09-20",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://en.hackndo.com/blockchain/",
@@ -350,7 +350,7 @@
       "remind_2w_date": "2026-07-05",
       "remind_3m_date": "2026-09-20",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://en.hackndo.com/write-and-bypass-kernel-edr-part-1/",
@@ -361,7 +361,7 @@
       "remind_2w_date": "2026-07-05",
       "remind_3m_date": "2026-09-20",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://hackware.ru/?p=22049",
