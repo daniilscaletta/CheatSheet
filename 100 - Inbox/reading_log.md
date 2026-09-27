@@ -505,3 +505,29 @@
 - **VulnHub:** [MicroVuln](https://www.vulnhub.com/entry/microvuln,816/)
 - **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
 
+
+## 2026-09-27
+**Тип сессии:** Variety
+**OSCP домен(ы):** Buffer Overflow, Windows Privilege Escalation, Active Directory Attacks
+
+### Статья 1: Pwn как в старые добрые: buffer overflow, ROP-цепочки и обход ASLR/NX
+- **Ссылка:** https://timcore.ru/2026/09/23/pwn-kak-v-starye-dobrye-buffer-overflow-rop-cepochki-i-obhod-aslr-nx/
+- **Домен:** Buffer Overflow
+- **HTB:** [Safe](https://app.hackthebox.com/machines/Safe) — [Writeup](https://0xdf.gitlab.io/2019/10/26/htb-safe.html)
+- **VulnHub:** [Kioptrix: 2014](https://www.vulnhub.com/entry/kioptrix-2014-5,62/)
+- **Саммари:** Article covers Buffer Overflow techniques relevant to OSCP certification.
+
+### Статья 2: Impacket for Pentester: tstool
+- **Ссылка:** https://www.hackingarticles.in/impacket-for-pentester-tstool/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Active](https://app.hackthebox.com/machines/Active) — [Writeup](https://0xdf.gitlab.io/2018/12/08/htb-active.html)
+- **VulnHub:** [MicroVuln](https://www.vulnhub.com/entry/microvuln,816/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 3: Windows Privilege Escalation: SeManageVolumePrivilege
+- **Ссылка:** https://www.hackingarticles.in/windows-privilege-escalation-semanagevolumeprivilege/
+- **Домен:** Windows Privilege Escalation
+- **HTB:** [Conceal](https://app.hackthebox.com/machines/Conceal) — [Writeup](https://0xdf.gitlab.io/2019/05/18/htb-conceal.html)
+- **VulnHub:** [Healthcare: 1](https://www.vulnhub.com/entry/healthcare-1,522/)
+- **Саммари:** Article covers Windows Privilege Escalation techniques relevant to OSCP certification.
+
