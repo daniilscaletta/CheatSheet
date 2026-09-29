@@ -123,3 +123,10 @@ ExitPolicy rejectб *:* # no exits allowed
 11) [ ] useradd/adduser
 12) [ ] Атака ICMP Redirect
 
+
+
+
+13) PKINIT
+14) Pass the hash в kerberos
+15) CSR
+16) что происходит при коерции (printerbug)
