@@ -1,15 +1,13 @@
 - **Что изучать?**
-	- Широковещательные и мультикаст-пакеты протоколов: mDNS, DHCP, LLMNR, NBT-NS, NDP for IPv6, RTP
 	- Протоколы, которые впоследствии могут быть использованы для атак: DTP,STP,CDP, и пр.
 - атаки для изучения
 	- STP (RSTP, PVSTP, MSTP) spoofing
 	- NDP spoofing
 	- SLAAC Attack
 	- Hijacking HSRP (VRRP, CARP)
-	- ICMP Redirect
 
 - какие команды есть, как работают exec
-- что такое пайпы, как их использовать
+
 
 Атаки на почту
 
@@ -24,7 +22,7 @@ K8s swarm nginx caddy podman uv taskfile postman
 - AMSI Bypass
 - Fireless detect/bypass execution
 
-WES, Whatson, WinPease, winPWN
+
 
 - Dynamic routing protocol spoofing (BGP)
 - RIPv2 Routing Table Poisoning
@@ -37,7 +35,7 @@ WES, Whatson, WinPease, winPWN
 LINUX:
 lvm2
 chattr
-useradd/adduser
+
 
 [СВОЙ OpenVPN](https://habr.com/ru/articles/233971/, https://apps.skillfactory.ru/learning/course/course-v1:SKILLFACTORY+hack_pentest+2020/block-v1:SKILLFACTORY+hack_pentest+2020+type@sequential+block@99b059f96242484b869014a9c21cad6b/block-v1:SKILLFACTORY+hack_pentest+2020+type@vertical+block@93903eaba66b434099e7fe1158ea9bef)
 
@@ -92,25 +90,36 @@ ExitPolicy rejectб *:* # no exits allowed
 ---
 
 СЕТИ
-1) Про mTLS подробнее и этапы TLS
-2) RPC and gRPC как сеансовый уровень
-3) Собрать виртуальный стенд и протестировать DNS и обход captive portal
-4) Просмотреть Roadmap AD  и выделить дальнейшие шаги для изучения
 
-5) ТАКЖЕ ПОСМОТРЕТЬ ПРО ДЕЛЕГАЦИИ и релею кербероса и Windows PrivEsc
-6) Повторить эти уязы DirtyCow PwnKit (pkexec) Dirty Pipe eBPF
+1) RPC and gRPC как сеансовый уровень
+2) Собрать виртуальный стенд и протестировать DNS и обход captive portal
+
+3) ТАКЖЕ ПОСМОТРЕТЬ ПРО ДЕЛЕГАЦИИ и релею кербероса и Windows PrivEsc
+
 Сделать шаги по MOney
 
 ПРотестить WinPwn
 
 1) Посмотреть и законспектировать полное отличие symlink от hardlink
-2) TLS handshake
-3) Посмотреть CSPT path + snadlalone standoff
-4) Роадмапы/методологии из интервью
+2) Посмотреть CSPT path + snadlalone standoff
+
+3) Посмотреть Kuber LPE (HTB)
 
 
 ---
 1) [x] Дополнить путь прохождения запроса
 2) [x] Что такое Round Robin alg
 3) [x] TruffleHog - Поиск утечек в репозиториях, foca - поиск метаданных в файлах, ZoomEye - Shodan
+
+4) [x] про mTLS подробнее и этапы TLS
+5) [x] WES, Whatson, WinPease, winPWN
+6) [x] что такое пайпы, как их использовать
+
+7) [x] Роадмапы/методологии из интервью
+8) [x] Повторить эти уязы DirtyCow PwnKit (pkexec) Dirty Pipe eBPF
+9) [x] 3) Просмотреть Roadmap AD  и выделить дальнейшие шаги для изучения
+
+10) [ ] Широковещательные и мультикаст-пакеты протоколов: mDNS, DHCP, LLMNR, NBT-NS, NDP for IPv6, RTP
+11) [ ] useradd/adduser
+12) [ ] Атака ICMP Redirect
 

