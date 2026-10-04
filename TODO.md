@@ -130,3 +130,4 @@ ExitPolicy rejectб *:* # no exits allowed
 14) Pass the hash в kerberos
 15) CSR
 16) что происходит при коерции (printerbug)
+17) WMIC WMI
