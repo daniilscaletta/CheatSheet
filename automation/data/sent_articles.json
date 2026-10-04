@@ -405,7 +405,7 @@
       "remind_2w_date": "2026-07-19",
       "remind_3m_date": "2026-10-04",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://timcore.ru/2026/07/03/smtp-smuggling-i-email-spoofing-v-2026-kak-obojti-spf-dkim-i-dmarc/",
@@ -416,7 +416,7 @@
       "remind_2w_date": "2026-07-19",
       "remind_3m_date": "2026-10-04",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://timcore.ru/2026/04/13/ebpf-dvojnoj-agent-v-jadre-i-rutkit-i-detektor/",
@@ -427,7 +427,7 @@
       "remind_2w_date": "2026-07-19",
       "remind_3m_date": "2026-10-04",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://www.hackingarticles.in/active-directory-forest-trust-abuse-child-to-root-domain-escalation/",
