@@ -1,4 +1,4 @@
-#windows #AD #attacks 
+
 
 > Нужен только NTLM хэш пользователя
 ## Mimikatz

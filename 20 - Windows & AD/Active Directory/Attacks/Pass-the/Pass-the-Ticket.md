@@ -39,6 +39,8 @@ whoami
 .\Rubeus.exe createnetonly /program:"C:\Windows\System32\cmd.exe" /show
 ```
 
+> Createnetonly нужен, чтобы заново не вводить в сессию билеты TGT
+
 2) Просмотр всех тикетов, которые можно извлечь
 ```powershell
 .\Rubeus.exe triage
