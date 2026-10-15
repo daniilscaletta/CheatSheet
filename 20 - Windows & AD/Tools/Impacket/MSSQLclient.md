@@ -3,13 +3,11 @@
 Удобный клиент для MS SQL БД
 
 ### Использование
-
 ```bash
 impacket-mssqlclient user:pass@ip
 ```
 
 Если ошибка, попробовать для Windows
-
 ```bash
 impacket-mssqlclient user:pass@ip -windows-auth
 ```

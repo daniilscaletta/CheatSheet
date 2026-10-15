@@ -206,6 +206,6 @@ python3 goldeneye.py http://{domain}/test.png -w 50 -s 1500 -m random -d
 ```shell
 git clone https://github.com/hatoo/oha
 cd oha
-
+cargo install oha
 <запуск>
 ```

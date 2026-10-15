@@ -290,7 +290,7 @@ rdesktop 10.10.10.132 -d HTB -u administrator -p 'Password0@' -r disk:linux='/ho
 ```
 
 ```bash
-xfreerdp /v:10.10.10.132 /d:HTB /u:administrator /p:'Password0@' /drive:linux,/home/plaintext/htb/academy/filetransfer
+xfreerdp /v:10.10.10.132 /d:HTB /u:administrator /p:'Password0@' /drive:share,/home/scaletta/folder
 ```
 
 ---

