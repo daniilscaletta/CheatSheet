@@ -531,3 +531,29 @@
 - **VulnHub:** [Healthcare: 1](https://www.vulnhub.com/entry/healthcare-1,522/)
 - **Саммари:** Article covers Windows Privilege Escalation techniques relevant to OSCP certification.
 
+
+## 2026-10-11
+**Тип сессии:** Deep Dive
+**OSCP домен(ы):** Active Directory Attacks
+
+### Статья 1: HackWare.ru 11 лет
+- **Ссылка:** https://hackware.ru/?p=22609
+- **Домен:** Active Directory Attacks
+- **HTB:** [Forest](https://app.hackthebox.com/machines/Forest) — [Writeup](https://0xdf.gitlab.io/2020/03/21/htb-forest.html)
+- **VulnHub:** [HackLAB: Vulnix](https://www.vulnhub.com/entry/hacklab-vulnix,48/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 2: Распознавание рукописного и печатного текста, формул и таблиц локальным ИИ: OCR нейросетью на своём компьютере (инструкция по использованию HunyuanOCR-1.5)
+- **Ссылка:** https://hackware.ru/?p=22546
+- **Домен:** Active Directory Attacks
+- **HTB:** [Resolute](https://app.hackthebox.com/machines/Resolute) — [Writeup](https://0xdf.gitlab.io/2020/05/30/htb-resolute.html)
+- **VulnHub:** [HackLAB: Vulnix](https://www.vulnhub.com/entry/hacklab-vulnix,48/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 3: Как запустить ComfyUI на Android: подробная инструкция и подбор моделей ИИ для генерации изображений на мобильном телефоне
+- **Ссылка:** https://hackware.ru/?p=22394
+- **Домен:** Active Directory Attacks
+- **HTB:** [Forest](https://app.hackthebox.com/machines/Forest) — [Writeup](https://0xdf.gitlab.io/2020/03/21/htb-forest.html)
+- **VulnHub:** [HackLAB: Vulnix](https://www.vulnhub.com/entry/hacklab-vulnix,48/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+

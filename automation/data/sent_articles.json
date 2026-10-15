@@ -438,7 +438,7 @@
       "remind_2w_date": "2026-07-26",
       "remind_3m_date": "2026-10-11",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://www.hackingarticles.in/windows-privilege-escalation-sedebugprivilege/",
@@ -449,7 +449,7 @@
       "remind_2w_date": "2026-07-26",
       "remind_3m_date": "2026-10-11",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://www.hackingarticles.in/ai-powered-active-directory-pentesting-with-claude-hexstrike-ai-netexec/",
@@ -460,7 +460,7 @@
       "remind_2w_date": "2026-07-26",
       "remind_3m_date": "2026-10-11",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://www.hackingarticles.in/windows-privilege-escalation-setcbprivilege/",
@@ -646,7 +646,7 @@
       "summary": "Article covers Buffer Overflow techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-10-11",
       "remind_3m_date": "2026-12-27",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -657,7 +657,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-10-11",
       "remind_3m_date": "2026-12-27",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -668,6 +668,39 @@
       "summary": "Article covers Windows Privilege Escalation techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-10-11",
       "remind_3m_date": "2026-12-27",
+      "reminded_2w": true,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://hackware.ru/?p=22609",
+      "title": "HackWare.ru 11 лет",
+      "date_sent": "2026-10-11",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-10-25",
+      "remind_3m_date": "2027-01-10",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://hackware.ru/?p=22546",
+      "title": "Распознавание рукописного и печатного текста, формул и таблиц локальным ИИ: OCR нейросетью на своём компьютере (инструкция по использованию HunyuanOCR-1.5)",
+      "date_sent": "2026-10-11",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-10-25",
+      "remind_3m_date": "2027-01-10",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://hackware.ru/?p=22394",
+      "title": "Как запустить ComfyUI на Android: подробная инструкция и подбор моделей ИИ для генерации изображений на мобильном телефоне",
+      "date_sent": "2026-10-11",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-10-25",
+      "remind_3m_date": "2027-01-10",
       "reminded_2w": false,
       "reminded_3m": false
     }
