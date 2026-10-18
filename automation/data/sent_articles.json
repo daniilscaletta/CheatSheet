@@ -471,7 +471,7 @@
       "remind_2w_date": "2026-08-02",
       "remind_3m_date": "2026-10-18",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://www.hackingarticles.in/windows-privilege-escalation-setakeownershipprivilege/",
@@ -482,7 +482,7 @@
       "remind_2w_date": "2026-08-02",
       "remind_3m_date": "2026-10-18",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://hackware.ru/?p=22109",
@@ -493,7 +493,7 @@
       "remind_2w_date": "2026-08-02",
       "remind_3m_date": "2026-10-18",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://www.hackingarticles.in/windows-privilege-escalation-serestoreprivilege/",
