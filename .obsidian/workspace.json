@@ -13,30 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20 - Windows & AD/Windows OS/Vulnerability Classes/Weak Permissions.md",
+                "file": "10 - Red Team/Corporate Pentest/04 — Exploitation/04.5 — Common Applications.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Weak Permissions"
+              "title": "04.5 — Common Applications"
             }
           },
           {
             "id": "64e5aa27cfbde50f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10 - Red Team/Corporate Pentest/02 — Scanning & Enumeration/02.5 — Other Services.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "02.5 — Other Services"
-            }
-          },
-          {
-            "id": "e619e19fc744b0f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,9 +34,32 @@
               "icon": "lucide-file",
               "title": "MSSQL"
             }
+          },
+          {
+            "id": "a2e62843bdd5f407",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10 - Red Team/Corporate Pentest/04 — Exploitation/04.4 — Network Services.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "04.4 — Network Services"
+            }
+          },
+          {
+            "id": "2f507d87a59f5482",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,8 +208,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,39 +224,43 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d4eee1e57abfdc64",
+  "active": "d8ca5e93dc58828a",
   "lastOpenFiles": [
-    "10 - Red Team/Corporate Pentest/02 — Scanning & Enumeration/02.5 — Other Services.md",
-    "10 - Red Team/Corporate Pentest/04 — Exploitation/MSSQL.md",
-    "20 - Windows & AD/Tools/Impacket/MSSQLclient.md",
-    "00 - HUB/Roadmaps/3.1 System Recon.md",
-    "30 - Network/Protocols and Services/DNS/DNS.md",
-    "30 - Network/Protocols and Services/Email.md",
-    "Pasted image 20261015185523.png",
     "20 - Windows & AD/Windows OS/Vulnerability Classes/Weak Permissions.md",
-    "Без названия",
-    "20 - Windows & AD/Windows OS/Internals/Privileges and Rights/Group Rights/Server Operators.md",
-    "10 - Red Team/Corporate Pentest/07 — Privilege Escalation/07.2 — Windows PrivEsc.md",
-    "20 - Windows & AD/Active Directory/Attacks/Coerce/Farm hashes.md",
-    "20 - Windows & AD/Active Directory/Known Vulnerabilities/SMBGhost.md",
-    "20 - Windows & AD/PowerShell/Shell Usage.md",
-    "10 - Red Team/Web Exploitation/XSS (Cross-Site Scripting).md",
-    "20 - Windows & AD/Active Directory/Flow/3. Privilege Escalation (LPE).md",
-    "00 - HUB/Roadmaps/8. PrivEsc on Internal Hosts.md",
-    "10 - Red Team/Web Exploitation/SQL injection.md",
-    "10 - Red Team/Web Exploitation/Brute.md",
-    "10 - Red Team/Corporate Pentest/06 — Lateral Movement/06.5 — Credential Reuse.md",
+    "10 - Red Team/Corporate Pentest/04 — Exploitation/04.5 — Common Applications.md",
+    "10 - Red Team/Corporate Pentest/04 — Exploitation/MSSQL.md",
+    "10 - Red Team/Corporate Pentest/04 — Exploitation/04.4 — Network Services.md",
     "10 - Red Team/Corporate Pentest/04 — Exploitation/04.3 — Credential Attacks.md",
-    "30 - Network/MITM/LLMNR ; NBT-NS ; mDNS Spoofing.md",
-    "30 - Network/MITM/DHCPv6 Spoofing ; Rogue RA.md",
-    "30 - Network/Network Exploitation/Network Service Attacks.md",
-    "10 - Red Team/Corporate Pentest/01 — Recon/01.1 — DNS.md",
-    "20 - Windows & AD/Tools/Recon/WMIC.md",
-    "20 - Windows & AD/Tools/Impacket/WmiExec.md",
+    "20 - Windows & AD/Active Directory/Credential Extraction/OS Credentials.md",
+    "20 - Windows & AD/Tools/Lateral Movement/RunasCs.exe.md",
+    "10 - Red Team/Corporate Pentest/04 — Exploitation/04.1 — Web Exploitation.md",
+    "10 - Red Team/Corporate Pentest/04 — Exploitation/04.0 — Tools and Resources.md",
+    "00 - HUB/Roadmaps/6. Pivoting.md",
+    "20 - Windows & AD/Active Directory/Attacks/Misconfiguration.md",
+    "10 - Red Team/Corporate Pentest/04 — Exploitation/04.2 — Service Exploitation.md",
+    "10 - Red Team/Corporate Pentest/04 — Exploitation/04.5 — Common Application.md",
+    "10 - Red Team/Corporate Pentest/07 — Privilege Escalation/07.1 — Linux PrivEsc.md",
+    "10 - Red Team/Corporate Pentest/07 — Privilege Escalation/07.2 — Windows PrivEsc.md",
+    "10 - Red Team/Corporate Pentest/07 — Privilege Escalation/07.0 — Tools and Resources.md",
+    "10 - Red Team/Corporate Pentest/06 — Lateral Movement/06a.3 — RBCD.md",
+    "10 - Red Team/Corporate Pentest/02 — Scanning & Enumeration/02.2 — Web Enumeration.md",
+    "90 - Resources/Books/Hacking by Example. Vulnerabilities, Exploitation, Defense.md",
+    "10 - Red Team/Corporate Pentest/01 — Recon/01.0 — Overview.md",
+    "10 - Red Team/Corporate Pentest/01 — Recon/01.4 — Live Web Hosts.md",
+    "10 - Red Team/Recon & OSINT/General.md",
     "30 - Network/Recon Tools/NMAP.md",
-    "Pasted image 20261011151553.png",
-    "10 - Red Team/Attack Chains/CKC in Company Infrastructure.png",
     "Pasted image 20261011101154.png",
+    "Pasted image 20261011151553.png",
+    "Pasted image 20261015185523.png",
+    "Pasted image 20261018145226.png",
+    "Pasted image 20261018145244.png",
+    "20 - Windows & AD/Tools/Support Tools/ADGenerator.py.md",
+    "10 - Red Team/Attack Chains/1. Recon/1.1 Passive Recon.md",
+    "10 - Red Team/Corporate Pentest/01 — Recon/01.8 — OSINT Frameworks.md",
+    "ALL KNOWLEDGE BASE.base",
+    "20 - Windows & AD/Windows OS/Классы уязвимостей",
+    "Без названия",
+    "10 - Red Team/Attack Chains/CKC in Company Infrastructure.png",
     "10 - Red Team/Exploitation/LPE/Perm Abuze",
     "10 - Red Team/Exploitation/LPE/DLL Hijacking",
     "20 - Windows & AD/Active Directory/Attacks/Coerce",
@@ -256,13 +268,9 @@
     "Assets/Use Coercion and Relay.png",
     "Assets/NTLM auth with DC.png",
     "Assets/NTLM relay.png",
-    "Assets/Use Poisonig and Relay.png",
-    "Assets/Cross Ptrotocol Relay.png",
-    "ALL KNOWLEDGE BASE.base",
     "30 - Network/VLAN/VLAN Attacks",
     "30 - Network/VLAN",
     "20 - Windows & AD/Active Directory/Flow",
-    "20 - Windows & AD/Active Directory/Attacks/Delegations",
-    "110 - MyHealth"
+    "20 - Windows & AD/Active Directory/Attacks/Delegations"
   ]
 }
