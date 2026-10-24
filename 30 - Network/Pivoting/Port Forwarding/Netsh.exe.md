@@ -14,4 +14,9 @@ netsh.exe interface portproxy add v4tov4 listenport=8080 listenaddress=10.129.15
 netsh.exe interface portproxy show v4tov4
 ```
 
+Проброс порта из Windows в WSL
+```powershell
+netsh.exe interface portproxy add v4tov4 listenport=443 listenaddress=192.168.200.1 connectport=443 connectaddress=172.22.70.196
+```
+
 Далее при необходимости подключиться на `172.16.5.25:3389` (Который нам не доступен), мы можем подключиться на `10.129.15.150:8080` 

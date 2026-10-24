@@ -1,15 +1,9 @@
-- **Что изучать?**
-	- Протоколы, которые впоследствии могут быть использованы для атак: DTP,STP,CDP, и пр.
+
 - атаки для изучения
 	- STP (RSTP, PVSTP, MSTP) spoofing
 	- NDP spoofing
 	- SLAAC Attack
 	- Hijacking HSRP (VRRP, CARP)
-
-- какие команды есть, как работают exec
-
-
-Атаки на почту
 
 K8s swarm nginx caddy podman uv taskfile postman
 
@@ -91,21 +85,14 @@ ExitPolicy rejectб *:* # no exits allowed
 
 СЕТИ
 
-1) RPC and gRPC как сеансовый уровень
-2) Собрать виртуальный стенд и протестировать DNS и обход captive portal
-
-3) ТАКЖЕ ПОСМОТРЕТЬ ПРО ДЕЛЕГАЦИИ и релею кербероса и Windows PrivEsc
+1) Собрать виртуальный стенд и протестировать DNS и обход captive portal
+2) ТАКЖЕ ПОСМОТРЕТЬ ПРО ДЕЛЕГАЦИИ и релею кербероса и Windows PrivEsc
 
 Сделать шаги по MOney
 
-ПРотестить WinPwn
+Протестить WinPwn
 
 1) Посмотреть и законспектировать полное отличие symlink от hardlink
-2) Посмотреть CSPT path + snadlalone standoff
-
-3) Посмотреть Kuber LPE (HTB)
-
-
 ---
 1) [x] Дополнить путь прохождения запроса
 2) [x] Что такое Round Robin alg
