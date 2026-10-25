@@ -557,3 +557,22 @@
 - **VulnHub:** [HackLAB: Vulnix](https://www.vulnhub.com/entry/hacklab-vulnix,48/)
 - **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
 
+
+## 2026-10-25
+**Тип сессии:** Deep Dive
+**OSCP домен(ы):** Active Directory Attacks
+
+### Статья 1: HTTP Request Smuggling: десинк-атаки CL.TE/TE.CL, которые ломают весь reverse-proxy стек
+- **Ссылка:** https://timcore.ru/2026/10/19/http-request-smuggling-desink-ataki-cl-te-te-cl-kotorye-lomajut-ves-reverse-proxy-stek/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Resolute](https://app.hackthebox.com/machines/Resolute) — [Writeup](https://0xdf.gitlab.io/2020/05/30/htb-resolute.html)
+- **VulnHub:** [MicroVuln](https://www.vulnhub.com/entry/microvuln,816/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
+### Статья 2: Honeytoken на каждый угол: как поймать атакующего за руку
+- **Ссылка:** https://timcore.ru/2026/09/23/honeytoken-na-kazhdyj-ugol-kak-pojmat-atakujushhego-za-ruku/
+- **Домен:** Active Directory Attacks
+- **HTB:** [Cascade](https://app.hackthebox.com/machines/Cascade) — [Writeup](https://0xdf.gitlab.io/2020/07/25/htb-cascade.html)
+- **VulnHub:** [Razorback: 1](https://www.vulnhub.com/entry/razorback-1,698/)
+- **Саммари:** Article covers Active Directory Attacks techniques relevant to OSCP certification.
+
