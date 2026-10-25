@@ -109,12 +109,13 @@ ExitPolicy rejectб *:* # no exits allowed
 10) [ ] Широковещательные и мультикаст-пакеты протоколов: mDNS, DHCP, LLMNR, NBT-NS, NDP for IPv6, RTP
 11) [ ] useradd/adduser
 12) [ ] Атака ICMP Redirect
+13) [ ] Tmux/аналоги
 
 
 
 
-13) PKINIT
-14) Pass the hash в kerberos
-15) CSR
-16) что происходит при коерции (printerbug)
-17) WMIC WMI
+14) PKINIT
+15) Pass the hash в kerberos
+16) CSR
+17) что происходит при коерции (printerbug)
+18) WMIC WMI
