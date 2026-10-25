@@ -504,7 +504,7 @@
       "remind_2w_date": "2026-08-09",
       "remind_3m_date": "2026-10-25",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://timcore.ru/2026/04/13/terraform-i-iac-kak-chitat-chuzhuju-infrastrukturu-kak-otkrytuju-knigu/",
@@ -515,7 +515,7 @@
       "remind_2w_date": "2026-08-09",
       "remind_3m_date": "2026-10-25",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://timcore.ru/2026/03/23/kubernetes-jailbreak-ot-poda-do-cluster-admin-za-5-shagov/",
@@ -526,7 +526,7 @@
       "remind_2w_date": "2026-08-09",
       "remind_3m_date": "2026-10-25",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://www.hackingarticles.in/impacket-for-pentester-atexec/",
@@ -679,7 +679,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-10-25",
       "remind_3m_date": "2027-01-10",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -690,7 +690,7 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-10-25",
       "remind_3m_date": "2027-01-10",
-      "reminded_2w": false,
+      "reminded_2w": true,
       "reminded_3m": false
     },
     {
@@ -701,6 +701,28 @@
       "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
       "remind_2w_date": "2026-10-25",
       "remind_3m_date": "2027-01-10",
+      "reminded_2w": true,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://timcore.ru/2026/10/19/http-request-smuggling-desink-ataki-cl-te-te-cl-kotorye-lomajut-ves-reverse-proxy-stek/",
+      "title": "HTTP Request Smuggling: десинк-атаки CL.TE/TE.CL, которые ломают весь reverse-proxy стек",
+      "date_sent": "2026-10-25",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-11-08",
+      "remind_3m_date": "2027-01-24",
+      "reminded_2w": false,
+      "reminded_3m": false
+    },
+    {
+      "url": "https://timcore.ru/2026/09/23/honeytoken-na-kazhdyj-ugol-kak-pojmat-atakujushhego-za-ruku/",
+      "title": "Honeytoken на каждый угол: как поймать атакующего за руку",
+      "date_sent": "2026-10-25",
+      "oscp_domain": "active_directory",
+      "summary": "Article covers Active Directory Attacks techniques relevant to OSCP certification.",
+      "remind_2w_date": "2026-11-08",
+      "remind_3m_date": "2027-01-24",
       "reminded_2w": false,
       "reminded_3m": false
     }
