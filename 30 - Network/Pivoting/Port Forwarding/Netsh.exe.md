@@ -1,6 +1,7 @@
 #tunneling #forwarding #windows 
 
 > Netsh.exe - это инструмент командной строки Windows, который может помочь в настройке сети в конкретной системе Windows
+> Инструмент обеспечивает перенаправление портов 
 
 Он также обеспечивает удобное соединение между хостами
 
@@ -8,6 +9,11 @@
 ```powershell
 netsh.exe interface portproxy add v4tov4 listenport=8080 listenaddress=10.129.15.150 connectport=3389 connectaddress=172.16.5.25
 ```
+Далее подключаемся уже к этому сокету
+```bash
+xfreerdp3 /v:10.129.15.150:8080 /u:victor /p:pass@123
+```
+
 
 Просмотр установленного соединения
 ```powershell

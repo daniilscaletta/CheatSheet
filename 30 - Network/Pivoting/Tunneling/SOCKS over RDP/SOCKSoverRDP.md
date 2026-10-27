@@ -37,6 +37,8 @@
 
 # Установка и использование
 
+[ПОДРОБНАЯ ИНСТРУКЦИЯ ](https://kabaneridev.gitbook.io/pentesting-notes/certification-preparation/cpts-prep/pivoting-tunneling-and-port-forwarding/socksoverrdp-windows-pivoting)
+
 ### 1. На машине атакующего (Windows)
 
 Регистрируем DLL-плагин:

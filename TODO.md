@@ -110,12 +110,17 @@ ExitPolicy rejectб *:* # no exits allowed
 11) [ ] useradd/adduser
 12) [ ] Атака ICMP Redirect
 13) [ ] Tmux/аналоги
+14) [ ] Forest IppSec Youtube NSLOOKUP
+15) [ ] VRSH C2
+16) [ ] Уровни UAC / UAC
+17) [ ] WriteHat to WRITE report 
+18) [ ] SSH hijacking
 
 
 
 
-14) PKINIT
-15) Pass the hash в kerberos
-16) CSR
-17) что происходит при коерции (printerbug)
-18) WMIC WMI
+19) PKINIT
+20) Pass the hash в kerberos
+21) CSR
+22) что происходит при коерции (printerbug)
+23) WMIC WMI
