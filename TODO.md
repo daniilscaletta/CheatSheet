@@ -115,12 +115,14 @@ ExitPolicy rejectб *:* # no exits allowed
 16) [ ] Уровни UAC / UAC
 17) [ ] WriteHat to WRITE report 
 18) [ ] SSH hijacking
+19) [ ] GPO Abuze
+20) [ ] 
 
 
 
 
-19) PKINIT
-20) Pass the hash в kerberos
-21) CSR
-22) что происходит при коерции (printerbug)
-23) WMIC WMI
+20) PKINIT
+21) Pass the hash в kerberos
+22) CSR
+23) что происходит при коерции (printerbug)
+24) WMIC WMI
