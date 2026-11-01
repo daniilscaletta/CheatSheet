@@ -537,7 +537,7 @@
       "remind_2w_date": "2026-08-16",
       "remind_3m_date": "2026-11-01",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://www.hackingarticles.in/active-directory-enumeration-with-bloodhound-python/",
@@ -548,7 +548,7 @@
       "remind_2w_date": "2026-08-16",
       "remind_3m_date": "2026-11-01",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://timcore.ru/2026/03/23/ai-powered-fuzzing-kak-nejrosetka-nahodit-0-day-bystree-tebja/",
@@ -559,7 +559,7 @@
       "remind_2w_date": "2026-08-16",
       "remind_3m_date": "2026-11-01",
       "reminded_2w": true,
-      "reminded_3m": false
+      "reminded_3m": true
     },
     {
       "url": "https://www.hackingarticles.in/impacket-for-pentester-reg/",
