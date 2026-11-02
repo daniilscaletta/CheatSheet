@@ -27,13 +27,13 @@
 - [[Nginx]] — конфигурация Nginx в контейнере
 - [[Postgres]] — PostgreSQL в Docker
 - [[Redis]] — Redis в Docker
-- [[PLG]] — стек Promtail + Loki + Grafana
-- [[Zabbix]] — мониторинг в Docker
+- [[CheatSheet/50 - DevOps/Containerization/PLG]] — стек Promtail + Loki + Grafana
+- [[CheatSheet/50 - DevOps/Containerization/Zabbix]] — мониторинг в Docker
 
 ## Мониторинг и логирование
 
-- [[PLG]] — Promtail + Loki + Grafana стек
-- [[Zabbix]] — система мониторинга Zabbix
+- [[CheatSheet/50 - DevOps/Containerization/PLG]] — Promtail + Loki + Grafana стек
+- [[CheatSheet/50 - DevOps/Containerization/Zabbix]] — система мониторинга Zabbix
 
 ## Защита от DDoS
 

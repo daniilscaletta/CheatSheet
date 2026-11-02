@@ -1,6 +1,6 @@
 #smtp #pop3 #imap #mail #email 
 
-![[Pasted image 20261015185523.png]]
+![[Nove emails with protocols.png]]
 
 >`SMTP` Simple Mail Transfer Protocol (простой протокол передачи почты) и представляет собой протокол для доставки электронных писем от клиентов к серверам и от серверов к другим серверам
 
