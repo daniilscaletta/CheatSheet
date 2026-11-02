@@ -14,11 +14,13 @@
 ###  Через CMD
 Вывод с содержимыс
 ```powershell
-findstr /si /C:"password" *.xml *.ini *.txt *.config
+indstr /S /I /C:"Password" C:\*.xml C:\*.txt C:\*.ini C:\*  
+.config
 ```
 
 ```powershell
-findstr /SIM /C:"pass" *.txt *.ini *.cfg *.config *.xml
+indstr /S /I /M /C:"Password" C:\*.xml C:\*.txt C:\*.ini C:\*  
+.config
 ```
 - **`/S`**: Рекурсивный поиск
 - **`/I`**: Игнорировать регистр 

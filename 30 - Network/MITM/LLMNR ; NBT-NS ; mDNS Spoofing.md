@@ -53,7 +53,7 @@ Inveigh (Windows)
 ```powershell
 Import-Module .\Inveigh.ps1
 
-Invoke-Inveigh Y -LLMNR Y -MDNS Y -NBNS Y <...> -ConsoleOutput Y -FileOutput Y
+Invoke-Inveigh -LLMNR Y -MDNS Y -NBNS Y <...> -ConsoleOutput Y -FileOutput Y
 
 Stop-Inveight
 ```

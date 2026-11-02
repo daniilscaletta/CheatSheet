@@ -3,7 +3,7 @@
 ![[HACKER_m25_u2_1.gif]]
 
 
-![[Pasted image 20261008162453.png]]
+![[Windows Auth Process.png]]
 ## Оглавление
 - [[#**WSK**]]
 - [[#**LLMNR**]]
