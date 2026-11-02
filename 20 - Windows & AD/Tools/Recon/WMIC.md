@@ -35,6 +35,11 @@ wmic qfe get caption, description, hotfixid, installedon
 wmic logicaldisk get deviceid, freespace, size, description
 ```
 
+- Установленные программы для анализа
+```powershell
+wmic product get name,version,vendor
+```
+
 ### 2. Управление процессами и софтом
 
 _Позволяет понять, что запущено и что можно атаковать._

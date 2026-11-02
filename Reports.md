@@ -180,6 +180,9 @@ ACME-IPT/
 
 ![В таблице подробно описана проблема высокого риска, связанная с Kerberoasting, с оценкой CVSS 9,5, затрагивающая INLANEFREIGHT.LOCAL, а также шаги по ее устранению, такие как удаление учетных записей SPN и использование gMSA.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/162/kbroast_weak.png)
 
+# Примеры готовых отчетов
+[Здесь](https://github.com/juliocesarfort/public-pentesting-reports)
+
 # Тулзы
 
 | **Free**                                                                      | **Paid**                                                        |
@@ -189,6 +192,3 @@ ACME-IPT/
 | [Security Risk Advisors VECTR](https://github.com/SecurityRiskAdvisors/VECTR) | [Rootshell Prism](https://www.rootshellsecurity.net/why-prism/) |
 | [WriteHat](https://github.com/blacklanternsecurity/writehat)                  |                                                                 |
 | [Pwndoc](https://github.com/pwndoc/pwndoc)                                    |                                                                 |
-
-# Фундаментальные прииципы
-

